@@ -1,13 +1,13 @@
 # Introducing the Insider Trading Webhook on Aletheia API
 
-This past week I brought [Aletheia's new Insider Trading Webhook service](https://aletheiaapi.com/docs/#insider-trading-webhook) to general availability. This webhook provides any developer of any technology the ability to register their unique URL endpoint. The service is free to use! In this article I will be covering this new webhook and it's abilities.
+This past week I brought [Aletheia's new Insider Trading Webhook service](https://aletheiaapi.com/docs/#insider-trading-webhook) to general availability. This webhook provides any developer of any technology the ability to register their unique URL endpoint and receive notifications of new insider trading as soon as they are reported to the Securities Exchange Commission. The service is free to use! In this article I will be covering this new webhook and it's abilities.
 
 ## Specific Subscription Registration
-The new Insider Trading webhook provides you the ability to be specific with what types of insider trading activity you would like to be notified of. 
+The new Insider Trading webhook provides you the ability to specify what types of insider trading activity you would like to be notified of. 
 
-Insider trades only within Facebook ($FB)? Buys only? Publicly traded common stock or derivative contracts? Stock grants? Or a combination of all criteria? All of this is possible with Aletheia's flexible registration process. You can be as specific as you want, or simply ask to be notified of **all** insider trades at **any** company.
+Insider trades only within Facebook ($FB)? Buys only? Publicly traded common stock or derivative contracts? Stock grants? Or a combination of all criteria? All of this is possible with Aletheia's flexible webhook subscription process. You can be as specific as you want, or simply ask to be notified of **all** insider trades at **any** company.
 
-As a developer, you probably know that the first step in subscribing to webhook is to provide your URL endpoint to the service.  You will specify these details during the **webhook registration** step.
+As a developer, you probably know that the first step in subscribing to a webhook is to provide your URL endpoint to the service.  You will specify these details during the **webhook registration** step.
 
 ```
 POST https://api.aletheiaapi.com/SubscribeToInsiderTradingWebhook
@@ -19,7 +19,7 @@ POST https://api.aletheiaapi.com/SubscribeToInsiderTradingWebhook
     "securityType": 0
 }
 ```
-The code snipped above depicts the webhook registration POST call to the Aletheia API service. As seen above, you can easily specify what trades you would like to be notified of. The above body is asking for trades of **Microsoft ($MSFT)** stock by **Satya Nadella**, the company's CEO, (SEC-assigned CIK ID 1513142), and only **sales** of **equity-based** securities.
+The code snippet above depicts the POST call you will make to the Aletheia API to subscribe to the webhook. The *endpoint* property is your unique endpoint that will be called when new trades arrive. As seen above, you can easily specify what trades you would like to be notified of. The above body is asking for trades of **Microsoft ($MSFT)** stock by **Satya Nadella**, the company's CEO, (SEC-assigned CIK ID 1513142), and only **sales** of **equity-based** securities.
 
 If you don't want to be as narrow as any of these specifications, simply set the property values as **null** or just **omit them entirely**. For example, if you omit the *issuer* property, you will get insider transaction notifications for any transaction, regardless of what company it is for.
 
