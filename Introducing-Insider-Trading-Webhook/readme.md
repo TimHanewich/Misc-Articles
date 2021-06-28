@@ -94,7 +94,7 @@ Following registration, you will start receiving calls from the Aletheia webhook
 
 The ID properties provides you the ability to trace back an associate between a transaction and an SEC filing, an owner and a position title, a relationship between SEC filing and a person/company, etc.
 
-## Easy Unsubscribe Process
+## Easily Unsubscribe
 It is extremely easy to formerly unsubscribe your endpoint from the webhook! When you subscribed to the webhook, a URL that is specific to your endpoint will be provided in the headers. This property is labeled "Location" and will look like this:
 ```
 https://api.aletheiaapi.com/UnsubscribeWebhook?id=dd150c44-c42a-4cdd-92f5-b78a23b36c72
@@ -104,3 +104,9 @@ Lost that request? No problem! Make a call to the same endpoint but instead prov
 ```
 https://api.aletheiaapi.com/UnsubscribeWebhook?endpoint=https://www.myservice.net/myendpoint
 ```
+
+## Instantanous Notifications
+This service is guarenteed to give you an edge when it comes to being in the know about insider trades. Notification is near-instanteneous. You will be notified of new insider trades within seconds of the trades being reported to the Securities Exchange Commission.
+
+## The service is **FREE**
+You can use this webhook service at no cost. You can register for a developer account [here](https://aletheiaapi.com/login/) and start consuming [Aletheia's API service](https://aletheiaapi.com/docs/) for free within minutes.
