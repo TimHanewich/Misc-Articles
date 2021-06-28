@@ -91,7 +91,7 @@ Following registration, you will start receiving calls from the Aletheia webhook
 ```
 - The SecEntities property lists the entities related in these transactions. This will contain the company (with a trading symbol) and insider that made this transaction.
 - The SecFilings property lists the SEC filings that these insider transactions originated from. This way you can go back to the SEC filing yourself!
-- The HeldOfficerPositions property will list the titles (if any) that are carried by the insider. For example, if the insider was titled "CEO" in the filing document, you would see that held title here.
+- The HeldOfficerPositions property will list the titles (if any) that are carried by the insider. For example, if the insider were titled "CEO" in the filing document, you would see that held title here.
 - The SecurityTransactionHoldings lists the insider trades (or reported transactions) that that were reported in the filing and therefore triggered your webhook subscription.
 
 The ID properties provides you the ability to trace back an associate between a transaction and an SEC filing, an owner and a position title, a relationship between SEC filing and a person/company, etc.
@@ -107,8 +107,8 @@ Lost that request? No problem! Make a call to the same endpoint but instead prov
 https://api.aletheiaapi.com/UnsubscribeWebhook?endpoint=https://www.myservice.net/myendpoint
 ```
 
-## Instantanous Notifications
-This service is guarenteed to give you an edge when it comes to being in the know about insider trading activity. Our notifications of insider trading is near-instanteneous. You will be notified of new insider trades within seconds of the trades being reported to the Securities Exchange Commission.
+## Instantaneous Notifications
+This service is guaranteed to give you an edge when it comes to being in the know about insider trading activity. Our notifications of insider trading is near-instantaneous. You will be notified of new insider trades within seconds of the trades being reported to the Securities Exchange Commission.
 
 ## The service is **FREE**
 You can use this webhook service at no cost. You can register for a developer account [here](https://aletheiaapi.com/login/) and start consuming [Aletheia's API service](https://aletheiaapi.com/docs/) for free within minutes.
