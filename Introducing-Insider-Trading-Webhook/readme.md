@@ -21,6 +21,8 @@ POST https://api.aletheiaapi.com/SubscribeToInsiderTradingWebhook
 ```
 The code snipped above depicts the webhook registration POST call to the Aletheia API service. As seen above, you can easily specify what trades you would like to be notified of. The above body is asking for trades of **Microsoft ($MSFT)** stock by **Satya Nadella**, the company's CEO, (SEC-assigned CIK ID 1513142), and only **sales** of **equity-based** securities.
 
+If you don't want to be as narrow as any of these specifications, simply set the property values as **null** or just **omit them entirely**. For example, if you omit the *issuer* property, you will get insider transaction notifications for any transaction, regardless of what company it is for.
+
 The available *transactionType* and *securityType* values can be found [here](https://aletheiaapi.com/docs/#latest-transactions).
 
 ## Detailed Insider Trading Data Payload
@@ -106,7 +108,7 @@ https://api.aletheiaapi.com/UnsubscribeWebhook?endpoint=https://www.myservice.ne
 ```
 
 ## Instantanous Notifications
-This service is guarenteed to give you an edge when it comes to being in the know about insider trades. Notification is near-instanteneous. You will be notified of new insider trades within seconds of the trades being reported to the Securities Exchange Commission.
+This service is guarenteed to give you an edge when it comes to being in the know about insider trading activity. Our notifications of insider trading is near-instanteneous. You will be notified of new insider trades within seconds of the trades being reported to the Securities Exchange Commission.
 
 ## The service is **FREE**
 You can use this webhook service at no cost. You can register for a developer account [here](https://aletheiaapi.com/login/) and start consuming [Aletheia's API service](https://aletheiaapi.com/docs/) for free within minutes.
