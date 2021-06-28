@@ -112,3 +112,6 @@ This service is guarenteed to give you an edge when it comes to being in the kno
 
 ## The service is **FREE**
 You can use this webhook service at no cost. You can register for a developer account [here](https://aletheiaapi.com/login/) and start consuming [Aletheia's API service](https://aletheiaapi.com/docs/) for free within minutes.
+
+## Air-Tight Documentation
+Aletheia also provides descriptive documentation for each endpoint service, and that includes the Insider Trading Webhook. You can find the documentation for the insider trading webhook [here](https://aletheiaapi.com/docs/#insider-trading-webhook). The documentation describes the three steps to using the service and provides sample payloads.
