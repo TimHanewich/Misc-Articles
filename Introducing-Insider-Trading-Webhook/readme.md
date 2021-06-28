@@ -1,6 +1,6 @@
 # Introducing the Insider Trading Webhook on Aletheia API
 
-This past week I brought [Aletheia's new Insider Trading Webhook service](https://aletheiaapi.com/docs/#insider-trading-webhook) to general availability. This webhook provides any developer of any technology the ability to register their unique URL endpoint and receive notifications of new insider trading as soon as they are reported to the Securities Exchange Commission. The service is free to use! In this article I will be covering this new webhook and it's abilities.
+This past week I brought [Aletheia's new Insider Trading Webhook service](https://aletheiaapi.com/docs/#insider-trading-webhook) to general availability. This webhook provides any developer of any technology the ability to register their unique URL endpoint and receive notifications of new insider trades as soon as they are reported to the Securities Exchange Commission. The service is free to use! In this article I will be covering this new webhook and it's abilities.
 
 ## Specific Subscription Registration
 The new Insider Trading webhook provides you the ability to specify what types of insider trading activity you would like to be notified of. 
