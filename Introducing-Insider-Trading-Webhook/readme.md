@@ -1,4 +1,4 @@
-# Introducing Insider Trading Webhooks on Aletheia API
+# Introducing the Insider Trading Webhook on Aletheia API
 
 This past week I brought [Aletheia's new Insider Trading Webhook service](https://aletheiaapi.com/docs/#insider-trading-webhook) to general availability. This webhook provides any developer of any technology the ability to register their unique URL endpoint. The service is free to use! In this article I will be covering this new webhook and it's abilities.
 
