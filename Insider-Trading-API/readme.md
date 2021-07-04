@@ -19,6 +19,69 @@ I will be highlighting the primary features of Aletheia's [*Latest Transactions*
 ## JSON Format
 All of Aletheia's endpoints provides data in JSON (Javascript Object Notation) format, including the Insider Trading endpoint "*Latest Transactions"*. This commonly-used format makes it very easy for developers to manipulate data and use it in their application.
 
+The following is an example response:
+```
+[
+    {
+        "Id":"e3fd7062-5190-43a5-9aa0-26ce8ce2ddea",    // The unique ID of this transaction in the Aletheia database
+        "FromFiling":"c42b0232-45d3-48e6-8f27-b97621947d3b",    // The unique ID of the SEC filing in the Aletheia database which this transaction stemmed from
+        "EntryType":0,  // 0 = Transaction, 1 = Holding (no changes, just reporting a held asset)
+        "QuantityOwnedFollowingTransaction":0.0,    // The quantity of securities the owner owns following this transaction
+        "DirectIndirect":1,     // 0 = Direct ownership, 1 = Indirect ownership
+        "SecurityTitle":"Common Stock",
+        "SecurityType":0,   // 0 = non-derivative (equity based), 1 = derivative (i.e. options contract)
+        "AcquiredDisposed":1,   // 0 = acquired, 1 = disposed
+        "Quantity":50.0,    // The quantity of securities acquired/disposed of
+        "PricePerSecurity":null,    // if applicable, the average acquisition or disposition price of the security
+        "TransactionDate":"2021-02-17T00:00:00",    // recorded transaction date
+        "TransactionCode":1,    // (see the "transactiontype" parameter above)
+        "ConversionOrExercisePrice":null,   // if a derivative security, the exercise price of this contract
+        "ExercisableDate":null,     // if a derivative security, the exercisable date of this contract
+        "ExpirationDate":null,     // if a derivative security, the expiration date of this contract
+        "UnderlyingSecurityTitle":null,     // if a derivative security, the title of the contract's underlying security
+        "UnderlyingSecurityQuantity":null   // if a derivative security, the quantity of the contract's underlying security
+    },
+    {
+        "Id":"bf6b3afc-2591-48e6-8dda-0b62903fd38d",
+        "FromFiling":"01bf4617-5f19-4319-b378-c16a9d12190a",
+        "EntryType":0,
+        "QuantityOwnedFollowingTransaction":1508.4543,
+        "DirectIndirect":0,
+        "SecurityTitle":"Common Stock",
+        "SecurityType":0,
+        "AcquiredDisposed":0,
+        "Quantity":289.0,
+        "PricePerSecurity":null,
+        "TransactionDate":"2021-02-05T00:00:00",
+        "TransactionCode":7,
+        "ConversionOrExercisePrice":null,
+        "ExercisableDate":null,
+        "ExpirationDate":null,
+        "UnderlyingSecurityTitle":null,
+        "UnderlyingSecurityQuantity":null
+    },
+    {
+        "Id":"d24bc278-dbc6-4d7f-a144-69bdcd81ad38",
+        "FromFiling":"d5ba901e-5002-413c-9358-b3445b66ccae",
+        "EntryType":0,
+        "QuantityOwnedFollowingTransaction":252.47,
+        "DirectIndirect":0,
+        "SecurityTitle":"Common Stock",
+        "SecurityType":0,
+        "AcquiredDisposed":0,
+        "Quantity":252.47,
+        "PricePerSecurity":null,
+        "TransactionDate":"2021-02-05T00:00:00",
+        "TransactionCode":3,
+        "ConversionOrExercisePrice":null,
+        "ExercisableDate":null,
+        "ExpirationDate":null,
+        "UnderlyingSecurityTitle":null,
+        "UnderlyingSecurityQuantity":null
+    },
+]
+```
+
 ## Scope to a Company or Insider
 You can request insider trades for any company or any individual. This means that you can request data that meets the following scenarios, for example:
 - **All insider trades of Microsoft ($MSFT) common stock** - This will return trades of Microsoft stock by *any* insider.
