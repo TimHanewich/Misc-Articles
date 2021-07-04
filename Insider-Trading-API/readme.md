@@ -8,3 +8,19 @@ Tens of thousands of insider transactions are reported each day and flow through
 ## Programmatic Access to Insider Trading Data
 I created [Aletheia](https://aletheiaapi.com/) to collect these SEC filings, extract the transaction data, organize it into a meaningful structure, and provide access through a universally accessible web API ("Application Programming Interface").
 
+*(diagram showing insider trading process flow)*
+
+Full documentation for Aletheia's Insider Trading endpoints can be found [on the documentation page](https://aletheiaapi.com/docs). 
+
+I will be highlighting the primary features of Aletheia's [*Latest Transactions*](https://aletheiaapi.com/docs/#latest-transactions) endpoint, which is the service that provides on-demand insider trading data.
+
+## JSON Format
+All of Aletheia's endpoints provides data in JSON (Javascript Object Notation) format, including the Insider Trading endpoint "*Latest Transactions"*. This commonly-used format makes it very easy for developers to manipulate data.
+
+## Scope to a Company or Insider
+You can request insider trades for any company or any individual. This means that you can request data that meets the following scenarios, for example:
+- **All insider trades of Microsoft ($MSFT) common stock** - This will return trades of Microsoft stock by *any* insider.
+- **All insider trades of Microsoft ($MSFT) common stock by CEO Satya Nadella**
+- **All insider trades of Elon Musk (CIK 1494730)** - This will result in Elon Musk's trades of any company he is considered an insider of.
+
+As you can see from the examples above, you can make your request company-centric, insider-centric, or a combination of both!
