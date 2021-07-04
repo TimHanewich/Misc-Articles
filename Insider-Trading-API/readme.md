@@ -32,3 +32,21 @@ Since it became mandatory to report insider trading to the SEC, each company has
 
 Use the *before* parameter of the *Latest Transactions* endpoint to filter to transactions only occuring before a certain date.
 
+## Filter to a Security Type
+Insiders are required to report transactions of both equity-based and derivative-based securities. Aletheia provides the ability to filter to only one type of security. This is convenient as investors are more commonly interested in the equity-based securities (common stock).
+
+Use the *securitytype* parameter of the *Latest Transactions* endpoint to filter to a particular security type.
+
+## Filter to a Transaction Type
+There are twenty different transaction types that insiders can report. Ranging from an open market purchase to a exercise of out-of-the-money derivative, there seems to be no shortage of ways an insider can acquire or dispose of securities.
+
+You can filter the returned response to transactions of only a certain type - for example, only purchases on the public market. Or perhaps you have interest in stock sales. Or perhaps a stock grant or award that was given to the insider by the company? You can easily narrow down the results to specifically what you are interested in seeing.
+
+Use the *transactiontype* parameter of the *Latest Transactions* endpoint to filter to a specific transaction type.
+
+## Receive All Contextual Data in One Request
+There is no shortage of peripheral data related to each transaction - the full name of the insider making the trade, name of the company, company's trading symbol, any associated title that the insider holds at the company, etc. 
+
+You can request all of this information from Aletheia and have this returned to you *in the same call*.
+
+Use the *cascade* paramter of the *Latest Transactions* endpoint to return all contextual data in the same response.
