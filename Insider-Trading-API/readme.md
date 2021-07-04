@@ -17,7 +17,7 @@ Full documentation for Aletheia's Insider Trading endpoints can be found [on the
 I will be highlighting the primary features of Aletheia's [*Latest Transactions*](https://aletheiaapi.com/docs/#latest-transactions) endpoint, which is the service that provides on-demand insider trading data.
 
 ## JSON Format
-All of Aletheia's endpoints provides data in JSON (Javascript Object Notation) format, including the Insider Trading endpoint "*Latest Transactions"*. This commonly-used format makes it very easy for developers to manipulate data.
+All of Aletheia's endpoints provides data in JSON (Javascript Object Notation) format, including the Insider Trading endpoint "*Latest Transactions"*. This commonly-used format makes it very easy for developers to manipulate data and use it in their application.
 
 ## Scope to a Company or Insider
 You can request insider trades for any company or any individual. This means that you can request data that meets the following scenarios, for example:
