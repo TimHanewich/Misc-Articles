@@ -52,3 +52,7 @@ There is no shortage of peripheral data related to each transaction - the full n
 You can request all of this information from Aletheia and have this returned to you *in the same call*.
 
 Use the *cascade* paramter of the *Latest Transactions* endpoint to return all contextual data in the same response.
+
+## It is FREE!
+You can use all of Aletheia's API services for absolutely no cost. 
+Set up a [free developer account] to begin using the service today. Visit Aletheia's [API documentation page](https://aletheiaapi.com/docs/) to quickly get up and running with the service.
