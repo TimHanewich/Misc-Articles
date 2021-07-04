@@ -114,6 +114,52 @@ There is no shortage of peripheral data related to each transaction - the full n
 
 You can request all of this information from Aletheia and have this returned to you *in the same call*.
 
+Example response with all contextual data included (Elon Musk purchasing $TSLA stock):
+```
+[
+    {
+        "Id": "54fc3cf0-edf2-44a1-8cca-7fdeab9fbebb",
+        "FromFiling": "19025d3c-0858-400a-bfad-675f759e1ce1",
+        "_FromFiling": {
+            "Id": "19025d3c-0858-400a-bfad-675f759e1ce1",
+            "FilingUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000149473020000001/0001494730-20-000001-index.htm",
+            "AccessionP1": 1494730,
+            "AccessionP2": 20,
+            "AccessionP3": 1,
+            "FilingType": 0,
+            "ReportedOn": "2020-02-14T00:00:00",
+            "Issuer": 1318605,
+            "_Issuer": {
+                "Cik": 1318605,
+                "Name": "TESLA MOTORS INC",
+                "TradingSymbol": "TSLA"
+            },
+            "Owner": 1494730,
+            "_Owner": {
+                "Cik": 1494730,
+                "Name": "Musk Elon",
+                "TradingSymbol": null
+            }
+        },
+        "EntryType": 0,
+        "QuantityOwnedFollowingTransaction": 34098596.0,
+        "DirectIndirect": 1,
+        "SecurityTitle": "Common Stock",
+        "SecurityType": 0,
+        "AcquiredDisposed": 0,
+        "Quantity": 13037.0,
+        "PricePerSecurity": null,
+        "TransactionDate": "2020-02-14T00:00:00",
+        "TransactionCode": 0,
+        "ConversionOrExercisePrice": null,
+        "ExercisableDate": null,
+        "ExpirationDate": null,
+        "UnderlyingSecurityTitle": null,
+        "UnderlyingSecurityQuantity": null
+    }
+]
+```
+
 Use the *cascade* paramter of the *Latest Transactions* endpoint to return all contextual data in the same response.
 
 ## It is FREE!
