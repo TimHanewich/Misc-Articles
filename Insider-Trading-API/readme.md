@@ -24,3 +24,11 @@ You can request insider trades for any company or any individual. This means tha
 - **All insider trades of Elon Musk (CIK 1494730)** - This will result in Elon Musk's trades of any company he is considered an insider of.
 
 As you can see from the examples above, you can make your request company-centric, insider-centric, or a combination of both!
+
+Use the *issuer* and *owner* parameters of the *Latest Transactions* endpoint to filter to transactions only occuring for a specific company or insider.
+
+## Filter to a Particular Date
+Since it became mandatory to report insider trading to the SEC, each company has amassed thousands of filings reporting these events. On average, 1,162 insider transactions per company in the S&P 500 from 2010-2019. Aletheia allows you to focus on transactions during a specific date in time.
+
+Use the *before* parameter of the *Latest Transactions* endpoint to filter to transactions only occuring before a certain date.
+
