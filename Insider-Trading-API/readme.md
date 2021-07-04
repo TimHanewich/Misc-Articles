@@ -10,6 +10,8 @@ I created [Aletheia](https://aletheiaapi.com/) to collect these SEC filings, ext
 
 *(diagram showing insider trading process flow)*
 
+The diagram above depicts how Aletheia's servers perform the acquisition of data, processing of data, storing, and making it available through the REST API.
+
 Full documentation for Aletheia's Insider Trading endpoints can be found [on the documentation page](https://aletheiaapi.com/docs). 
 
 I will be highlighting the primary features of Aletheia's [*Latest Transactions*](https://aletheiaapi.com/docs/#latest-transactions) endpoint, which is the service that provides on-demand insider trading data.
