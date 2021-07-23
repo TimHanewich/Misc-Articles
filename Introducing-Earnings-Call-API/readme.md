@@ -12,6 +12,7 @@ As mentioned above, the earnings calls are available for consumption in two form
 
 ## Search the Earnings Call Database
 [Documentation here](https://aletheiaapi.com/docs/#search-earnings-calls)
+
 The first endpoint gives you the ability to search the database for earnings call transcripts that are available for consumption. For example, if you wanted to see what calls are available for Microsoft ($MSFT), you do that here.
 
 Example: `GET https://api.aletheiaapi.com/SearchEarningsCalls?company=msft&year=2020&top=5`
@@ -71,9 +72,10 @@ Now that you know what is available, you can request content for this call with 
 
 ## Earnings Call Transcript Content
 [Documentation here](https://aletheiaapi.com/docs/#earnings-call)
+
 This endpoint provides the raw earnings call content. If your desire is to simply access raw earnings call content through an API, this is your endpoint.
 
-Each call to this service will provide you with the earnings call contextual data (what company it corresponds to, the date of the earnings call, etc) and a series of spoken remarks by call participants. Each spoken remark will contain contextual data about who said it, in what sequence it was spoken in, and the remark itself.
+Each call to this service will provide you with the earnings call contextual data (what company it corresponds to, the date of the earnings call, etc.) and a series of spoken remarks by call participants. Each spoken remark will contain contextual data about who said it, in what sequence it was spoken in, and the remark itself.
 
 Example: `GET https://api.aletheiaapi.com/EarningsCall?company=msft&year=2020&quarter=q1&begin=8&end=11`
 
@@ -136,6 +138,7 @@ The above example is requesting spoken remarks #8 through #11 (four total) of Mi
 
 ## Earnings Call Highlights
 [Documentation here](https://aletheiaapi.com/docs/#earnings-call-highlights)
+
 The final endpoint is for those who want to cut through the noise of the earnings call and see the remarks that specifically are the most notable or important. At the time of transcript processing, Aletheia scans and analyzes every spoken remark and highlights the notable pieces for multiple categories. This means that you can request the most notable remarks regarding *revenue*, *cash flow*, *guidance*, *EPS*, and more.
 
 Example: `GET https://api.aletheiaapi.com/EarningsCallHighlights?company=msft&year=2020&quarter=q1&category=7`
