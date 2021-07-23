@@ -225,4 +225,4 @@ In the above call we are requesting the most notable quotes related to **guidanc
 The **category** parameter is an integer-based ID that represents a category of topics. You can find the categories [on the documentation page](https://aletheiaapi.com/docs/#earnings-call-highlights).
 
 ## Free and Available over REST API
-The service is free to use for private developers and is available over a REST API, meaning it is accessible from virtually any programming language or development stack. [Register for an account](https://aletheiaapi.com/login/) to start using the service now!.
+The service is free to use for private developers and is available over a REST API, meaning it is accessible from virtually any programming language or development stack. [Register for an account](https://aletheiaapi.com/login/) to start using the service now!
