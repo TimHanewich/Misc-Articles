@@ -3,7 +3,7 @@ Aletheia's new **Earnings Call** API service was made available for public consu
 
 You can find the documentation for the service on [Aletheia's documentation page](https://aletheiaapi.com/docs).
 
-## Service Basics
+## The Earnings Call Service
 The earnings call API service was built around the capability of providing 1) full earnings call transcripts in their entirety, and 2) cutting through the noise by providing you with the *most notable* quotes from each call. I will describe each option available below.
 
 As of the time of this writing, over 27,000 earnings calls are available for over 3,700 companies going back to 2017. Over 3.1 million spoken remarks have been recorded from over 86,000 executives and have been individually analyzed and extracted of notable sentiment, financial data, guidance, and more.
@@ -133,3 +133,90 @@ Example: `GET https://api.aletheiaapi.com/EarningsCall?company=msft&year=2020&qu
 ```
 
 The above example is requesting spoken remarks #8 through #11 (four total) of Microsoft's Q1 earnings call from Fiscal Year 2020. By manipulating the `begin` and `end` parameters of the request, you can paginate through the earnings call to access the full transcript.
+
+## Earnings Call Highlights
+[Documentation here](https://aletheiaapi.com/docs/#earnings-call-highlights)
+The final endpoint is for those who want to cut through the noise of the earnings call and see the remarks that specifically are the most notable or important. At the time of transcript processing, Aletheia scans and analyzes every spoken remark and highlights the notable pieces for multiple categories. This means that you can request the most notable remarks regarding *revenue*, *cash flow*, *guidance*, *EPS*, and more.
+
+Example: `GET https://api.aletheiaapi.com/EarningsCallHighlights?company=msft&year=2020&quarter=q1&category=7`
+
+```
+[
+    {
+        "Id": "94a6a131-2717-4dec-a1d4-cc8a2b3a06f0",
+        "Remark": "Now back to overall company guidance. We expect COGS of $12.45 billion to $12.65 billion, and operating expenses of $10.8 billion to $10.9 billion. Other income and expense should be approximately $50 million, as interest income is partially offset by interest and finance lease expense. And finally, we expect our Q2 effective tax rate to be slightly above the full year rate of 17%.",
+        "SpokenBy": {
+            "Id": "e1481a76-0bdb-4c38-939d-dec0e8c7d39f",
+            "Name": "Amy E. Hood",
+            "Title": "Chief Financial Officer",
+            "IsExternal": false
+        },
+        "Highlights": [
+            {
+                "BeginPosition": 28,
+                "EndPosition": 35,
+                "Category": 7,
+                "Rating": 6.0
+            }
+        ]
+    },
+    {
+        "Id": "90d960a6-1f7f-4a11-8578-9c6a18e1b186",
+        "Remark": "Now to segment guidance. In Productivity and Business Processes, we expect revenue between $11.3 billion and $11.5 billion, driven by double-digit growth across Office Commercial, Dynamics and LinkedIn. For Intelligent Cloud, we expect revenue between $11.25 billion and $11.45 billion.",
+        "SpokenBy": {
+            "Id": "e1481a76-0bdb-4c38-939d-dec0e8c7d39f",
+            "Name": "Amy E. Hood",
+            "Title": "Chief Financial Officer",
+            "IsExternal": false
+        },
+        "Highlights": [
+            {
+                "BeginPosition": 15,
+                "EndPosition": 22,
+                "Category": 7,
+                "Rating": 6.0
+            }
+        ]
+    },
+    {
+        "Id": "d759b58b-8cdc-420f-b189-2e9aee48f61d",
+        "Remark": "And I think that's probably the unifying theme, quite frankly, of all the questions so far, which is what's next. What's next for us is in the apps and infra go from perhaps first innings to second innings. For data and AI to start the first innings. When it comes to security, compliance, we never participated in this. Guess what, we get to participate in a fairly competitive way now. We've Build, something that didn't even exist a few years ago, which is the workflow cloud. That's a huge opportunity for us. Biz Apps, we are a very competitive and growing footprint. Even when we think about something like Microsoft 365, we never participated in spite of our past success with all the first-line work, and now we get to participate in it. So I see long-term secular growth opportunities and we are going to stay focused on making sure our innovation is competitive in all those layers, we talked about.",
+        "SpokenBy": {
+            "Id": "d1956458-ac06-4c74-89fa-0f499d4faeb5",
+            "Name": "Satya Nadella",
+            "Title": "Chief Executive Officer",
+            "IsExternal": false
+        },
+        "Highlights": [
+            {
+                "BeginPosition": 583,
+                "EndPosition": 590,
+                "Category": 7,
+                "Rating": 1.0
+            }
+        ]
+    },
+    {
+        "Id": "a706520e-10d2-4e03-997a-44f14365b819",
+        "Remark": "One is the hybrid benefits. That is increasingly what is getting customers excited about the Azure choice and the fact that they can renew, knowing that they have the flexibility of both the cloud and the edge, that's definitely driving growth. Second is, we are also gaining share. When you think about what's happening even with the edge, some of the -- our data center addition products are very competitive in the marketplace. And so you see both of those effects but architecturally, we feel well placed. In fact at our Ignite Conference, you will see us even take the next leap forward even in terms of how we think about the architecture inclusive of the application models, programming models on what distributed computing looks like going forward. So we feel well positioned there.",
+        "SpokenBy": {
+            "Id": "d1956458-ac06-4c74-89fa-0f499d4faeb5",
+            "Name": "Satya Nadella",
+            "Title": "Chief Executive Officer",
+            "IsExternal": false
+        },
+        "Highlights": [
+            {
+                "BeginPosition": 613,
+                "EndPosition": 620,
+                "Category": 7,
+                "Rating": 1.0
+            }
+        ]
+    }
+]
+```
+
+In the above call we are requesting the most notable quotes related to **guidance** from Microsoft's Q1 2020 earnings call. Aletheia will provide the quote, the speaker details, and a list of highlights from that spoken remark. Each highlight indicates the beginning position and ending position of the notable portion of the remark. Each highlight will also contain a *Rating* property; this property serves as a rating of *how strongly* the language processing model believes this to be relevant to the category. 
+
+The **category** parameter is an integer-based ID that represents a category of topics. You can find the categories [on the documentation page](https://aletheiaapi.com/docs/#earnings-call-highlights).
