@@ -220,3 +220,6 @@ Example: `GET https://api.aletheiaapi.com/EarningsCallHighlights?company=msft&ye
 In the above call we are requesting the most notable quotes related to **guidance** from Microsoft's Q1 2020 earnings call. Aletheia will provide the quote, the speaker details, and a list of highlights from that spoken remark. Each highlight indicates the beginning position and ending position of the notable portion of the remark. Each highlight will also contain a *Rating* property; this property serves as a rating of *how strongly* the language processing model believes this to be relevant to the category. 
 
 The **category** parameter is an integer-based ID that represents a category of topics. You can find the categories [on the documentation page](https://aletheiaapi.com/docs/#earnings-call-highlights).
+
+## Free and Available over REST API
+The service is free to use for private developers and is available over a REST API, meaning it is accessible from virtually any programming language or development stack. [Register for an account](https://aletheiaapi.com/login/) to start using the service now!.
