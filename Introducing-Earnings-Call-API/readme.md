@@ -4,7 +4,7 @@ Aletheia's new **Earnings Call** API service was made available for public consu
 You can find the documentation for the service on [Aletheia's documentation page](https://aletheiaapi.com/docs).
 
 ## The Earnings Call Service
-The earnings call API service was built around the capability of providing 1) full earnings call transcripts in their entirety, and 2) cutting through the noise by providing you with the *most notable* quotes from each call. I will describe each option available below.
+The earnings call API service was built around the capability of providing 1) full earnings call transcripts in their entirety, and 2) cutting through the noise by providing you with the *most notable* quotes from each call.
 
 As of the time of this writing, over 27,000 earnings calls are available for over 3,700 companies going back to 2017. Over 3.1 million spoken remarks have been recorded from over 86,000 executives and have been individually analyzed and extracted of notable sentiment, financial data, guidance, and more.
 
@@ -12,7 +12,7 @@ As mentioned above, the earnings calls are available for consumption in two form
 
 ## Search the Earnings Call Database
 [Documentation here](https://aletheiaapi.com/docs/#search-earnings-calls)
-The first endpoint gives you the ability to search the earnings call database for earnings calls that are available for consumption. For example, if you wanted to see what calls are available for Microsoft ($MSFT), you do that here.
+The first endpoint gives you the ability to search the database for earnings call transcripts that are available for consumption. For example, if you wanted to see what calls are available for Microsoft ($MSFT), you do that here.
 
 Example: `GET https://api.aletheiaapi.com/SearchEarningsCalls?company=msft&year=2020&top=5`
 
