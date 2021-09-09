@@ -1,5 +1,5 @@
 # Crypto Quotes Now Available in Power Apps & Power Automate via the Aletheia Connector
-This week, the Power Platform (Microsoft Power Apps and Power Automate) added the out-of-the-box capability of retrieving prices and day trading data for cryptocurrencies. You can now get quotes and live market data for your favorite coins like Bitcoin, Etherium, and Dogecoin!
+This week, the Power Platform (Microsoft Power Apps and Power Automate) added the out-of-the-box capability of retrieving prices and day trading data for cryptocurrencies. You can now get quotes and live market data for your favorite coins like Bitcoin, Ethereum, and Dogecoin!
 
 ## Use the Aletheia Connector
 The Aletheia API service is available for free use in the Power Platform via the [official connector](https://docs.microsoft.com/en-us/connectors/aletheia/). In the sample below, we are selecting it in Power Apps:
@@ -12,7 +12,7 @@ Register for an account with Aletheia (free) at https://aletheiaapi.com/login to
 ![Provide API Key](./add-key.PNG)
 
 ## Use Aletheia's "CryptoQuote" Action to Request a Crypto Quote
-Provide the symbol of cyrptocurrency to the **CryptoQuote** action. In this example we are providing it via a string value, but you can also reference the content of a text input so, for example, a user would be able to dynamically change it.
+Provide the symbol of cryptocurrency to the **CryptoQuote** action. In this example we are providing it via a string value, but you can also reference the content of a text input so, for example, a user would be able to dynamically change it.
 
 ![CyrptoQuote formula](./formula.PNG)
 
@@ -31,7 +31,7 @@ The formula above saved the quote data to an object variable named "MyCryptoQuot
 
 ![Reference Symbol](./symbol.PNG)
 
-*Please note that the price of every cryptoccurrency is in US Dollars*
+*Please note that the price of every cryptocurrency is in US Dollars*
 
 ## Use all of the Data!
 Aletheia provides us with plenty of contextual data about the cryptocurrency we are requesting data for. Access the price, today's high and low, the year high and low, today's volume, and more.
