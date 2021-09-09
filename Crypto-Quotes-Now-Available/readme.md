@@ -9,6 +9,8 @@ The Aletheia API service is available for free use in the Power Platform via the
 ## Provide your Aletheia API Key
 Register for an account with Aletheia (free) at https://aletheiaapi.com/login to get an API key that you will use with Power Apps/Automate to begin using the service.
 
+![Provide API Key](./add-key.PNG)
+
 ## Use Aletheia's "CryptoQuote" Action to Request a Crypto Quote
 Provide the symbol of cyrptocurrency to the **CryptoQuote** action. In this example we are providing it via a string value, but you can also reference the content of a text input so, for example, a user would be able to dynamically change it.
 
