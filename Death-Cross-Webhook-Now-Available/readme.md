@@ -1,4 +1,4 @@
-# Death Cross Webhook Now Available by Aletheia
+# Death Cross Webhook Now Available via Aletheia
 
 A *Death Cross* in finance occurs when a stock's short-term moving average sinks below it's long-term moving average. Typically this is a *50-day* moving average for short-term and a *200-day* moving average for long-term. The death cross is a tecnical chart pattern which may indicate the potential for a major selloff of a stock. This metric along has proven to be a reliable indicator of many severe bear markets of the past century.
 
