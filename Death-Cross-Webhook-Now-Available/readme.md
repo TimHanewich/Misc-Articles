@@ -18,3 +18,12 @@ Alternatively, you can not specify a stock or death cross type and simple be not
 
 ## Subscribing to and Consuming the Death Cross Webhook Service
 The documentation [on Aletheia's documentation page](https://aletheiaapi.com/docs/#death-cross-webhook) explains the subscription process very well. It is a simple three step process: 1) subscribe your endpoint to the service, 2) receive HTTP post calls when death crosses occur, and 3) unsubscribe your endpoint when you wish to unsubscribe. That's it!
+
+Example notification payload (body of POST request to your web service):
+```
+{
+    "endpoint": "https://example.com/my-endpoint",
+    "stock": "TSLA",
+    "crossType": 0
+}
+```
