@@ -22,8 +22,8 @@ The documentation [on Aletheia's documentation page](https://aletheiaapi.com/doc
 Example notification payload (body of POST request to your web service):
 ```
 {
-    "endpoint": "https://example.com/my-endpoint",
-    "stock": "TSLA",
-    "crossType": 0
+    "Stock": "ALLE",
+    "CrossType": 0
 }
 ```
+In the example above, the stock you are being notified about is $ALLE, Allegion. A **CrossType** of 0 is a bearish cross while a **CrossType** of 1 is a bullish cross (short term moving average rose above long term).
