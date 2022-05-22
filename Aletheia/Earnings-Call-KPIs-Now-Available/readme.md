@@ -2,9 +2,9 @@
 
 IMG: https://www.completecontroller.com/wp-content/uploads/Key-Performance-Indicators-Complete-Controller-1.jpg
 
-[Aletheia](https://aletheiaapi.com/)'s *Earnings Call* endpoint, providing Earnings Call transcripts over a free-to-use HTTP API, can also now provide **Key Performance Indiactors**.
+[Aletheia](https://aletheiaapi.com/)'s *Earnings Call* endpoint, providing Earnings Call transcripts over a free-to-use HTTP API, can also now provide **Key Performance Indicators**.
 
-Each earnings call transcript is now being **analyzed by a sophisticated Natrual Language Processing (NLP) engine** during the processing stage. A proprietary algorithm has been developed to **contextual** the content in each earnings call. The algorithm searches for line items, product lines, key metrics, and more, that were stated by management as having increased, decreased, reached a point, etc. Upon finding these examples, the algorithm parses the plain remark into three components: the *subject* (what is being talked about), the *status* (what happened to the subject), and the *value* (the dollar figure or percentage which the subject is being measured by).
+Each earnings call transcript is now being **analyzed by a sophisticated Natural Language Processing (NLP) engine** during the processing stage. A proprietary algorithm has been developed to **contextual** the content in each earnings call. The algorithm searches for line items, product lines, key metrics, and more, that were stated by management as having increased, decreased, reached a point, etc. Upon finding these examples, the algorithm parses the plain remark into three components: the *subject* (what is being talked about), the *status* (what happened to the subject), and the *value* (the dollar figure or percentage which the subject is being measured by).
 
 When requested via Aletheia's [EarningsCall](https://aletheiaapi.com/docs/#earnings-call) endpoint, the Key Performance Indicator data will be included in the JSON response. The following as an example of how the *KeyPerformanceIndicator* property will be appended to the *SpokenRemark* array, listing the detected KPI's for this particular spoken remark:
 
@@ -49,12 +49,12 @@ When requested via Aletheia's [EarningsCall](https://aletheiaapi.com/docs/#earni
 
 For each KPI in the response, data about the **subject**, **status**, and **value** will be provided in multiple formats:
 
-- **subject** - the plain text of the subject that was refered to during the call.
+- **subject** - the plain text of the subject that was referred to during the call.
 - **status** - code indicating the action/what happened to the subject.
     - **0** = "equals", "is", etc. For example, "revenue is $500,000."
     - **1** = "increased"
     - **2** = "decreased"
-    - **3** = "Is greater than", "surprassed", "exceeded", "passed", etc.
+    - **3** = "Is greater than", "surpassed", "exceeded", "passed", etc.
     - **4** = "Is less than", "fell below", "sunk below"
     - **5** = "produced", "generated", "created", "caused". For example, "iPad contributed $100M in revenue."
 - **value** - the dollar figure, percentage, quantity, that is mentioned. If a percentage is mentioned, it will be in a percentage format (i.e. 55% would be 0.55).
