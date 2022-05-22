@@ -1,4 +1,4 @@
-# Key Performance Indicators Now Available in Aletheia's "Earnings Calls" API Endpoint
+# Key Performance Indicators Now Available from Aletheia's **Earnings Call** API
 
 IMG: https://www.completecontroller.com/wp-content/uploads/Key-Performance-Indicators-Complete-Controller-1.jpg
 
