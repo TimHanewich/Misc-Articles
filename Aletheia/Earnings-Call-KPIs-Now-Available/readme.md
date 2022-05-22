@@ -4,7 +4,7 @@ IMG: https://www.completecontroller.com/wp-content/uploads/Key-Performance-Indic
 
 [Aletheia](https://aletheiaapi.com/)'s *Earnings Call* endpoint, providing Earnings Call transcripts over a free-to-use HTTP API, can also now provide **Key Performance Indiactors**.
 
-Each earnings call transcript is now being analyzed by a sophisticated Natrual Language Processing (NLP) engine during the processing stage. A proprietary algorithm has been developed to contextual the content in each earnings call. The algorithm searches for line items, product lines, key metrics, and more, that were stated by management as having increased, decreased, reached a point, etc. Upon finding these examples, the algorithm parses the plain remark into three components: the subject (what is being talked about), the action (what happened to the subject), and the value (the dollar figure or percentage which the subject is being measured by).
+Each earnings call transcript is now being **analyzed by a sophisticated Natrual Language Processing (NLP) engine** during the processing stage. A proprietary algorithm has been developed to **contextual** the content in each earnings call. The algorithm searches for line items, product lines, key metrics, and more, that were stated by management as having increased, decreased, reached a point, etc. Upon finding these examples, the algorithm parses the plain remark into three components: the *subject* (what is being talked about), the *status* (what happened to the subject), and the *value* (the dollar figure or percentage which the subject is being measured by).
 
 When requested via Aletheia's [EarningsCall](https://aletheiaapi.com/docs/#earnings-call) endpoint, the Key Performance Indicator data will be included in the JSON response. The following as an example of how the *KeyPerformanceIndicator* property will be appended to the *SpokenRemark* array, listing the detected KPI's for this particular spoken remark:
 
@@ -65,3 +65,8 @@ For each KPI in the response, data about the **subject**, **status**, and **valu
 - **statusLength** - length of the phrase that determined the status property in the spoken remark.
 - **valueOffset** - start location of the figure (number or percentage) that determined the value property in the spoken remark.
 - **valueLength** - length of the figure (number or percentage) that determined the value property in the spoken remark.
+
+Using the offset and length properties above, one could easily highlight the specific KPI components in the spoken remark in a graphical user interface.
+
+## Free and Available over REST API
+The service is free to use for private developers and is available over a REST API, meaning it is accessible from virtually any programming language or development stack. [Register for an account](https://aletheiaapi.com/login/) to start using the service now!
