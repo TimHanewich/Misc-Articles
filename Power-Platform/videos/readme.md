@@ -3,6 +3,8 @@
 ## Pro-Code Series
 Video ideas:
 - A beginners guide to the Dataverse Web API
-- Custom Connectors in 5 Minutes
+- Connectors
+    - Power Platform Connectors 101
+    - Custom Connectors
 - Canvas App Version Control with Git & GitHub
 - PCF Controls
