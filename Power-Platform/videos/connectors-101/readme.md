@@ -26,7 +26,7 @@ Connectors have been a very successful feature in Microsoft's low-code/no-code d
 
 The out-of-the-box connectors available in the Power Platform got there in one of two ways.
 1) the first way is Microsoft themsleves made the connectors. This is most common with Microsoft's first party apps like Teams, Office, and various Azure services.
-2) The other way is the 3rd party company that owns the service creates a connector themselves and certifies it for public use with Microsoft. For example, DocuSign wanted their API to be consumable through the Power Platform so they developed their own connector for handling communication with the DocuSign API. They, like all others, followed a rigurous certification process to have their connector made generally available as an out-of-the-box connector in the Power Platform. 
+2) The other way is the 3rd party company that owns that service created a connector themselves and certified it for public use with Microsoft. For example, DocuSign wanted their API to be consumable through the Power Platform so they developed their own connector for handling communication with the DocuSign API. They, like all others, followed a rigurous certification process to have their connector made generally available as an out-of-the-box connector in the Power Platform. 
 
 ### Summary
 So now I hope you see the purpose and benefit of using connectors in the Power Platform. There is a lot more to talk about when it comes to connectors, but I hope this helped you get started. 
