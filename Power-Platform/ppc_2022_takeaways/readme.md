@@ -5,7 +5,7 @@ Last week I had the privlege of attending the very first Microsoft Power Platfor
 ## 1: Fusion development will become a major topic
 I was surprised to see "pro-code" (the low-code community's term for traditional typed programming languages like C#, JavaScript, Python, etc.) have such a major role in a conference that is focused on the power of low-code/no-code development with the Power Platform. *Fusion development*, a growing topic, occurs when professional developers using pro-code languages unite with citizen developers using low-code frameworks to build solutions. The synergies of these *fusion teams* allow businesses to build better applications using both the technical expertise of the professional developer and the domain expertise of the citizen developer. 
 
-Fusion development was a major theme at the conference this year. Many of the conference's 120 session focused on the synergies between Azure & Power Platform together and the benefits of fusion teams. For example:
+Fusion development was a major theme at the conference this year. Many of the conference's 120 session focused on the synergies between Azure & Power Platform together and the benefits of fusion teams. For example, some of the session titles:
 
 - *Take advantage of Co-authoring via Git in Power Apps Canvas Apps*
 - *Better together: Power Platform + Azure*
@@ -14,7 +14,7 @@ Fusion development was a major theme at the conference this year. Many of the co
 - *Compliment Low-Code/No-Code with your Pro-Code Skills*
 - *ALM for Citizen Devs and Code-First developers*
 
-Given my background in traditional development, I was pleased to see this and chose sessions that generally covered this topic. Besides the sessions, even the keynotes (every conference attendee attended) were heavily focused on **both Azure and Power Platform**: the *It is a great time to be a cloud developer* keynote that Scott Hanselman and Julia Kasper delivered to close the conference covered everything from Azure API Management, .NET MAUI, Azure App Service, the latest C# innovations, Power Platform custom connectors, and of course, Power Apps.
+Given my background in traditional development, I was excited to see this and chose sessions that generally covered this topic. Besides the sessions, even the keynotes (every conference attendee attended) were heavily focused on **both Azure and Power Platform**: the *It is a great time to be a cloud developer* keynote that Scott Hanselman and Julia Kasper delivered to close the conference covered everything from Azure API Management, .NET MAUI, Azure App Service, the latest C# innovations, Power Platform custom connectors, and of course, Power Apps.
 
 It was very clear to me that, while we work with the Power Platform, a low-code/no-code development framework, collaboration with pro-dev counterparts will allow us to achieve even more. "Fusion teams" will be commonplace in the years to come.
 
@@ -38,12 +38,39 @@ Using Power Fx in a REPL (read-eval-print-loop) environment was also demonstrate
 Finally, the team hinted that, despite *ParseJSON* being announced only recently, you would have been able to find unit tests of the function in the [open-source repository on GitHub](https://github.com/microsoft/Power-Fx) over 6 months ago. They hinted that you may find other future features if you watch the commit timeline closely...
 
 ## 3: Dataverse is evolving
+Another of my favorite sessions was the *Every System Connected* session by Nirav Shah, the VP of Dataverse at Microsoft. Nirav spoke about the importance of data in today's organizations, highlighted a customer story, and the vision for the future of Dataverse.
+
+The Dataverse team is investing heavily into improving the experience of using virtual tables. Virtual tables is not a new concept of Dataverse and [has been around since the early days of Dynamics 365](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-virtual-entities). This feature allows you to *substitute* another datasource for Dataverse while still using the same functionality you would benefit from in Dataverse: using it in Model Driven apps, forms, views, etc. This feature has often been overlooked and in the background as it has been seen only as a secondary functionality to Dataverse itself, the star of the show. However, the Dataverse team is changing this notion and investing into creating a new unified UI for establishing connection to other tabular data sources as part of the virtual table setup process.
+
+With this new UI, you will be able to point Dataverse at your SharePoint list or SQL table, have it *appear* as a Dataverse table, and build an entire model driven app around it, as if it were an *actual* Dataverse table. This is nothing new, but Nirav went on to explain that their goal is the "virtualization of data", and for there to be a **consistent API interface for everything**, and Dataverse *is* that consisten API interface. In otherwords, Dataverse could servie as the enterprise's "front gate" for all data exchanges. Even if data ultimately lies in SQL or SharePoint, you can use the Dataverse API for all your CRUD operations.
+
+In addition to the virtual tables investment, the team debuted their new *Formula* column type. What was previously a **calculated** or **rollup** field, will now be a **Formula Column**. Using formula columns, you will be able to describe any unique calculation that Dataverse should perform on data in the row(s) and save to this column, the formula column. Just like Excel, you can use any operator (addition, subtraction, multiplication, division) and leverage some simple functions or constants.
+
+(INCLUDE PICTURE OF FORMULA COLUMN)
+
 
 ## 4: Canvas & Model-Driven App Convergence
 
 ## 5: Developers, developers, developers!
 
-## 6: Microsoft is committed to the Power Platform
+## 6: A case study for Power Platform adoption at scale
+Andrew Gaskins, the Global Power Platform Lead at Lumen Technologies, a global telecommunications company, was featured at the *Every System Connected* session by Nirav Shah, VP of Dataverse. Andrew told the story about his company's adoption of the Power Platform. Lumen's story provides us with a case study for how a large organization can use low-code/no-code to drive innovation at every corner of their business:
+
+- Lumen's journey with the platform began in 2017 when their very first Power App was made.
+- In 2020, interest in "Premium" connectors was shown from members of their business community.
+- In late 2020, Dataverse for Teams began to gain traction
+- In early 2021, Lumen and Microsoft team up and **Lumen Makers**, a community of Power Platform makers at Lumen that meets monthly, is formed.
+- In June 2021, Lumen secures enterprise-wide Power Platform licenses (every employee)
+- 2022 - Dataverse takes hold at Lumen
+
+Andrew spoke about the importance of their *Lumen Makers* community and how collaboration is facilitated: A monthly in-person meetup that is tailored for all experience levels, from makers that are brand new and curious, to the professional development veterans. A Microsoft Teams team was created for the community and a channel was created as a forum for each part of the platform - Power Apps, Automate, PVA, Dataverse, etc.
+
+Andrew detailed the benefits and value that has been created for Lumen as they've adopted the platform:
+- Most value was realized after rolling out licenses **enterprise wide**. No longer did they have to worry about who is licensed and managing licensing when deploying an app. Despite the obvious cost of licensing the full organizaiton, the most *value* was realized when everyone was licensed. This allowed them to easily roll out enterprise-wide apps like a COVID attestion app, without worrying about licensing. 
+- What won them over was the "pro-dev" features of the platform that would allow their traditional developers to leverage the platform for traditional workloads as well. For example, using ALM practices with Dataverse. The major features that Lumen's traditional developers embraced was the ability to use the **Dataverse Web API** to read and write data to Dataverse from their own applications written in "pro-code". Citizen makers could easily write to Dataverse while professional developers could consume that data (and data schema) in their own .NET applications.
+- Lumen ❤️'s Dataverse for it's: Performance, Security, and Governance
+
+Andrew's word of advice for any organization embracing the Power Platform is to have a plan in place for two things: internal upskilling and environment strategy (governance). 
 
 ## 7: Features & Functionality on my radar
 
