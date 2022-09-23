@@ -1,0 +1,65 @@
+Charles lamana. Where we have been, why we are here, where we are going. Power Platform empowers everyone to create amazing solutions. We now have over 800 connnectors. SAP connector package was shown. Collection of connector, apps, flows, that replicate most common SAP functionality. Independent publisher connectors. Share connectors across organization. Coauthoring now available! Next month coming out. Early preview.
+MPPC 2023 in Las Vegas in fall.
+
+Jeff teper. 150 petabytes ingested in SharePoint per month. Up from 100 a month ago.
+
+
+Coauthoring with git. Fabio. git is a good alternative to get around the coauthoring issues.you can use any git source control provider for this. Mergine had issues. Power Platform tools extension inVS Code.
+
+Mobile app development with power Platform. High astechic expectations.ever shown your work to a teenager? Gave the example of Xiami customizing their app, making it seem like a native app. Wrap: APK file?
+
+John Papa. Readingncode. Code is about communication, not packing condense functionality. Care about the developer behind you. Properties before methods. Instead of a function that does 9 things, write 9 functions that so 1 thing each. Smaller functions are easy to read. Except for http calls. Don't chain them. Try to do all in one. He tries to stick to 20 lines of code per function.
+
+
+Day 2!
+
+Every system connected. Nirav Shah and the Dataverse PG team. There are 9ZB of data out there. Half of data exists isn't being captured. Lumen went from power apps in 2017, interest in premium connectors in 2020, Dataverse for teams in late 2020. Kick off their own Lumen Makers program in 2021.monthyl meetup to support user group. All levels. Brand new people to new pro developers. Teams set up with different channels for different parts of the platform. And monthly in person meetup. State of the platform. Someone from the community shows that they are doing too. Rolled out Enterprise wide in 2021. Didn't have t worry about which gorups has it, could roll out a company wide Covid app. "Makers" are full time developers on Power Apps. with Dataverse they now can do ALM. Engaging fusion teams is very exciting. Pro devs are requesting access to the Dataverse web API. Asking for the schema. Interfacing with it in other appa. They see this being a huge growth opportunity. Their mindset is "see a need, fill a need". What won them over: Dataverse performance, security and permissions, governance was the main driver. The protection is what won them over.  Andrew's most important word of advice is to have a plan for training and environment strategy in place. They are adding capabilities around wizard capabilities for virtual tables. Point Dataverse to your SharePoint site, sql table, etc and have that appear as a Dataverse table and be able to use that in a MD app or Canvas app. "Virtualization of data".  Goal is a consistent API interface for everything. Everything "goes through" Dataverse. Formula columns coming soon. No more calculated columns. Those are old.dataverse branding is even shown to include SharePoint and OneNote in it now.
+
+
+
+Low code pro code. Custom connectors exposed with API mgmt is the shared denominator among all fusion patterns.the Chevron guy showed a great ALM slide. you can export an API schema swagger file from APIM and use that directly to a custom connector. Private preview coming up you can register for with the qr code.
+
+Nick Doelmanc- custom code in power pages. He listed off the good tools to use for custom development in power pages.  
+
+
+Modernization of the Power Apps authoring canvas. They only want to have "make a power app" no more app type. Parse JSON coming to power FX. Native support for YAML files.
+
+
+Pro dev enabling citizen dev. Thursday morning. They want .net to be the best language for API's and are making investments. They keep harping on port tunneling. For azure services to be able to interact with local running API's. HttpRepl. Set browser to run the API not in the web but the repl. They showed off that from any c# project, you can add a "Service" with a wizard, point it to a swagger file, and automatically have the C# code written for you for calling that API. Port tunneling big takeaway here. Allows you to surface locally running API to cloud resources. Better for debugging in power apps. They showed a really impressive direct "make a custom connector from an API management instance".
+
+
+Power FX best practices with Gio. Cool architecture. Coming up. AI. Natural language support (knows what you need),  "smart repair" features that try to figure out how to fix an error you made and make suggestions. Named formulas in power FX instead of set and collect for performance. Use App.StartScreen, not Navigate in App.OnStart. new "prefecthing" feature will concurrently run calls. Save data now! Keep saving to Dataverse or the cloud, not local memory. Introducing ParseJSON and untyped object (no structure). Greg was the guy that gave the long deck presentation. Introducing power FX for Dataverse, PVA, cards. Power FX is now open source and on GitHub. You could have spotted ParseJson tests a year ago on the repo. So maybe a place to see upcoming features before they release or announced. The Power FX engine is now a nuget package. You can EVEN USE IT YOURSELF!!!  They showed off a REPL use case.
+
+
+
+Modern apps with Leon Welicki. 5 principles for modern design. Custom pages brings canvas into model driven apps. Center dialog canvas page in MD app.their answer for canvas and md together is canvas pages. can use navigate between model driven pages and canvas pages.
+
+
+
+It's a great time to be a cloud developer keynote. C# minimal API
+
+
+
+
+--------------
+Managed environments.
+Automation coe toolkit
+Power pages VS code extension one click.
+Dataverse T-SQL
+Power Platform tools extensions in VS code
+Pplatform cli tool
+Portals Web API
+Named formulas in power apps power FX.
+Aka.ms/powerup
+
+
+----- takeaways----
+Dataverse is evolving
+
+The future of Power FX is bright
+
+Fusion development will become more prevalent
+
+Microsoft's commitment to developers. Be the best language/platform.
+
+Microsofts commitment to the platform. New features.
