@@ -33,6 +33,8 @@ Also, **Power Fx is now OPEN SOURCE**! All of the source code that drives Power 
 
 (INCLUDE PICTURE OF POWER FX INTERPRETER IN C#)
 
+Using Power Fx in a REPL (read-eval-print-loop) environment was also demonstrated via a console interface. I believe this was a console app that the Power Fx team set up that leverages the Power Fx library, but it also may have been a separate Power Fx app/CLI that they are working on... but more likely the former.
+
 ## 3: Dataverse is evolving
 
 ## 4: Canvas & Model-Driven App Convergence
