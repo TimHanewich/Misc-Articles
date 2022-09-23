@@ -35,6 +35,8 @@ Also, **Power Fx is now OPEN SOURCE**! All of the source code that drives Power 
 
 Using Power Fx in a REPL (read-eval-print-loop) environment was also demonstrated via a console interface. I believe this was a console app that the Power Fx team set up that leverages the Power Fx library, but it also may have been a separate Power Fx app/CLI that they are working on... but more likely the former.
 
+Finally, the team hinted that, despite *ParseJSON* being announced only recently, you would have been able to find unit tests of the function in the [open-source repository on GitHub](https://github.com/microsoft/Power-Fx) over 6 months ago. They hinted that you may find other future features if you watch the commit timeline closely...
+
 ## 3: Dataverse is evolving
 
 ## 4: Canvas & Model-Driven App Convergence
