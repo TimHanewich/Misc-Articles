@@ -122,3 +122,8 @@ There are several new-ish features that were mentioned, discussed, or demonstrat
 - Power Up - Microsoft is investing into the upskilling and training of new makers with the Power Platform. This new program called "Power Up" is the place for anyone to start! Check it out: [aka.ms/powerup](https://aka.ms/powerup).
 
 ## 8: It is a revolution
+The sessions and speakers were fantastic, but I was even more impressed with the folks in attendance. It is clear that this is a platform that is very near to the hearts of many of us, but especially those that are brand new to development entirely. Many had come from different industries and different careers entirely. People from all stages of career, from all industries, are making the switch to becoming a full-time Power Platform developer.
+
+During one of the keynote sessions with engineering leadership, one of the attendees approached the microphone and, emotionally, thanked the team for creating the platform which she is now basing her career on. She said something along the lines of *"I'm 50 years old, have switched careers, and have FINALLY found my passion*". Many shared similar stories.
+
+You see here how the Power Platform embodies Microsoft's mission statement, *To empower every person and every organization on the planet to achieve more*. The future is bright with no-code/low-code, and Microsoft's Power Platform is leading the way!
