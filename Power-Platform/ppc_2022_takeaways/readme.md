@@ -50,6 +50,20 @@ In addition to the virtual tables investment, the team debuted their new *Formul
 
 
 ## 4: Canvas & Model-Driven App Convergence
+At the *Building Modern Power Apps* session by Adrian Orth, Leon Welicki, and Ramiro Melgoza, the vision for and a demonstration of the convergence of Canvas and Model-Driven apps was shown. This is a topic that has been long discussed - what app should you build? Weighing the various benefits and downsides of each, and choosing one for a particular function while having the other type for another. In the future, there will be only one single app type. Within that app, you will be able to create "custom pages", a reusable page that can be used across a model-driven app. These custom pages are designed in a familiar setting, using the same canvas maker portal you have already been using to make canvas apps. 
+
+(INCLUDE PICTURE OF CUSTOM PAGE INTRO SLIDE)
+
+The team sees the following common scenarios, but we are free to dream big here!
+- Landing page
+- Key data summaries/dashboards
+- Quick access to common tasks
+
+Furthermore, the custom page can be placed anywhere within the app. A pop-up dialog can be a canvas page; or, you can "anchor" a canvas page permanently on the side of the application so it is ever there, ever present.
+
+(INCLUDE PICTURE OF CENTER DIALOG CUSTOM PAGE)
+
+(INCLUDE PICTURE OF SIDE EMAIL PAGE)
 
 ## 5: Developers, developers, developers!
 
