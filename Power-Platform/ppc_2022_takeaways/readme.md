@@ -109,5 +109,16 @@ Andrew detailed the benefits and value that has been created for Lumen as they'v
 Andrew's word of advice for any organization embracing the Power Platform is to have a plan in place for two things: internal upskilling and environment strategy (governance). 
 
 ## 7: Features & Functionality on my radar
+There are several new-ish features that were mentioned, discussed, or demonstrated at the conference that I am excited to research further and learn more about:
+
+- [Managed environments](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-overview) - Additional governance control over environments. New features include [weekly digests](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-weekly-digests), [sharing limits](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-sharing-limits), and [data policies](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-data-policies).
+- The [Automation Kit](https://learn.microsoft.com/en-us/power-automate/guidance/automation-kit/overview/introduction) for Power Automate Desktop, used in CoE scenarios.
+- **Power Pages** has a feature to open a site in VS Code, to allow for a pro-dev to edit the HTML/CSS/JS behind the site. 
+- [Querying Dataverse using T-SQL with SSMS](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/dataverse-sql-query)
+- [Power Platform Tools Extension for VS Code](https://powerapps.microsoft.com/en-us/blog/power-platform-extension-for-vs-code/)
+- [Power Platform Command Line Interface (CLI)](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction) for various administrative tasks in the Power Platform.
+- [Portals (Power Pages) web API](https://learn.microsoft.com/en-us/power-apps/maker/portals/web-api-overview), an API that can be used within a Power Pages site for doing things like CRUD operations on Dataverse, creating an account, update a contact, or changing table permissions
+- [Power Fx Named Formulas](https://powerapps.microsoft.com/en-us/blog/power-fx-introducing-named-formulas/) - This was covered in depth at a session I described above
+- Power Up - Microsoft is investing into the upskilling and training of new makers with the Power Platform. This new program called "Power Up" is the place for anyone to start! Check it out: [aka.ms/powerup](https://aka.ms/powerup).
 
 ## 8: It is a revolution
