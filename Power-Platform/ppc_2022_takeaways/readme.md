@@ -1,11 +1,11 @@
 # 8 Takeaways from the Inaugural Microsoft Power Platform Conference in Orlando (2022)
 
-Last week I had the privilege of attending the very first Microsoft Power Platform Conference in Orlando Florida. This in-person, three day conference featured several keynotes from Microsoft leadership like Charles Lamana, Jeff Teper, and Scott Hanselman, 120 breakout sessions on all parts of the Power Platform, and even optional hands-on workshops to participate in. In addition to the fun I had, I've learned a lot and am documenting my **top eight** takeaways from the conference below.
+Last week I had the privilege of attending the very first Microsoft Power Platform Conference in Orlando Florida. This in-person, three-day conference featured several keynotes from Microsoft leadership like Charles Lamana, Jeff Teper, and Scott Hanselman, 120 breakout sessions on all parts of the Power Platform, and even optional hands-on workshops to participate in. In addition to the fun I had, I've learned a lot and am documenting my **top eight** takeaways from the conference below.
 
 ## 1: Fusion development will become a major topic
 I was surprised to see "pro-code" (the low-code community's term for traditional typed programming languages like C#, JavaScript, Python, etc.) have such a major role in a conference that is focused on the power of low-code/no-code development with the Power Platform. *Fusion development*, a growing topic, occurs when professional developers using pro-code languages unite with citizen developers using low-code frameworks to build solutions. The synergies of these *fusion teams* allow businesses to build better applications using both the technical expertise of the professional developer and the domain expertise of the citizen developer. 
 
-Fusion development was a major theme at the conference this year. Many of the conference's 120 session focused on the synergies between Azure & Power Platform together and the benefits of fusion teams. For example, some of the session titles:
+Fusion development was a major theme at the conference this year. Many of the conference's 120 sessions focused on the synergies between Azure & Power Platform together and the benefits of fusion teams. For example, some of the session titles:
 
 - *Take advantage of Co-authoring via Git in Power Apps Canvas Apps*
 - *Better together: Power Platform + Azure*
@@ -66,7 +66,7 @@ Furthermore, the custom page can be placed anywhere within the app. A pop-up dia
 (INCLUDE PICTURE OF SIDE EMAIL PAGE)
 
 ## 5: Developers, developers, developers!
-Whether you are a citizen developer of professional developer, it is clear that Microsoft's mission is to provide you with the *absolute best tools in the market* to develop your vision. I saw this at the conference along the entire development spectrum.
+Whether you are a citizen developer or professional developer, it is clear that Microsoft's goal is to provide you with the *absolute best tools in the market* to develop your vision. I saw this at the conference along the entire development spectrum.
 
 Microsoft is investing heavily into their business applications portfolio, and that is evident particularly in the Power Platform. In only a short 6-7 years, Power Apps (and the Power Platform) has evolved tremendously. The resources that have been allocated to this group has certainly risen since then and we will see their efforts materialize. The next 6-7 years could be even more game-changing than the last.
 
