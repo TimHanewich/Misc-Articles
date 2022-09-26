@@ -66,6 +66,28 @@ Furthermore, the custom page can be placed anywhere within the app. A pop-up dia
 (INCLUDE PICTURE OF SIDE EMAIL PAGE)
 
 ## 5: Developers, developers, developers!
+Whether you are a citizen developer of professional developer, it is clear that Microsoft's mission is to provide you with the *absolute best tools in the market* to develop your vision. I saw this at the conference along the entire development spectrum.
+
+Microsoft is investing heavily into their business applications portfolio, and that is evident particularly in the Power Platform. In only a short 6-7 years, Power Apps (and the Power Platform) has evolved tremendously. The resources that have been allocated to this group has certaintly risen since then and we will see their efforts materialize. The next 6-7 years could be even more game-changing than the last.
+
+On the *professional* developer side, investments are being made, but this is nothing new for Microsoft. The quip that caught my attention the most is hearing the following repeated several times: *We want .NET to be the best language for API's*. I heard this several times and saw the new technology that is backing up this claim:
+
+**C# minimal API** - Showed off in several sessions, including the Scott Hanselman keynote. This is the latest upgrade to ASP.NET that allows you to create an API endpoint with only a few lines of code. For example:
+```
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/", () => "Hello World!");
+
+app.Run();
+```
+You can read more about the **C# minimal API** [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0).
+
+**Port Tunneling** - When testing an API that you are developing in Visual Studio or VS Code, the endpoint you will call will always start with something like this: `http://localhost:7071`. That is because your API is running *locally*. When it is running locally, this means you will be able to call it yourself on your computer, but another computer from a different network would not be able to call it because it isn't *exposed* publicly. After deploying to a service like **Azure App Service** or **Azure Functions**, you would be given a publicly-accessible URL which serves as your API endpoint. 
+
+This always made it difficult for testing with cloud services like the Power Platform. You were unable to run an entire end-to-end test, from the Power App/Automate "front end" consuming the API, to the actual code that is running the API. **Port Tunneling** is a new feature which, instead of serving on `localhost`, gives you a publicly-accessible endpoint with the code running in *real-time* on *your computer*! You can give the URL to a friend to try the service, insert a breakpoint in your code and see it being hit after being called (your friend would be awaiting a response in the meantime), or as shown at the conference, provide it to a cloud SaaS app/workflow to be tested on.
+
+In the fusion team setting, this allows a citizen developer to collaborate in synchrony with a professional developer as that pro-dev developers an API for the citizen developer and tests it in their *actual* application in real-time. This is big!
 
 ## 6: A case study for Power Platform adoption at scale
 Andrew Gaskins, the Global Power Platform Lead at Lumen Technologies, a global telecommunications company, was featured at the *Every System Connected* session by Nirav Shah, VP of Dataverse. Andrew told the story about his company's adoption of the Power Platform. Lumen's story provides us with a case study for how a large organization can use low-code/no-code to drive innovation at every corner of their business:
