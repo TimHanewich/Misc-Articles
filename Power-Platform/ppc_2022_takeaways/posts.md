@@ -1,0 +1,1 @@
+https://timhanewich.medium.com/8-takeaways-from-the-inaugural-microsoft-power-platform-conference-in-orlando-2022-19176fbd2754
