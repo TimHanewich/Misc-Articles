@@ -16,15 +16,6 @@ We must face the music. There are many areas in which various AI solutions *are 
 
 And we could keep going. There are *already* countless ways in which this technology is *already* making us rethink our approaches across every industry today.
 
-## Are our jobs doomed?
-Short-term, no. Long-term, yes, many will be, and the degree of effect will be based on several factors.
-
-In the short term, ChatGPT helps me be a better C# developer by quickly reminding of implementation patterns, teaching me about new namespaces and their features, helping me understanding versioning strategies, and more. 
-
-In the long-term, AI will *alleviate* the need for me to develop at all. When I'm constantly switching back and forth between my IDE and ChatGPT, copying and pasting code, asking questions, trying to understand... *I become the limiting factor in this process*. Removing myself from this process entirely will only drive more efficiency. What will be far more efficient is simply *describing the app that you want to the AI model and allowing it to build the complete code repository for you*. 
-
-Want a new feature? Describe the feature to the AI model. The model will create the necessary code, commit directly to your Git repo, design and perform unit tests, and deploy your app, all within minutes. This must be a feature that the folks at GitHub are already working on (or at least dreaming of)! 
-
 ## Will I be left jobless?
 To answer this question, let's look back in time. 
 
