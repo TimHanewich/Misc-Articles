@@ -1,4 +1,4 @@
-# Will AI Replace my Job?
+# Will AI Take My Job?
 ![robot applying for job](https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/artificial-intelligence-impact-jobs.jpg)
 
 *Yes, but it won't leave you jobless.*
