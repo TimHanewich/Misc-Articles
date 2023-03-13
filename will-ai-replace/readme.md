@@ -25,7 +25,7 @@ The first backhoe, an excavating machine for digging holes, was invented in 1948
 
 ![first backhoe](https://img.forconstructionpros.com/files/base/acbm/fcp/image/2019/03/1949_Sherman__2____Copy.5c9943b97ad5d.png?auto=format%2Ccompress&h=1299&q=70&w=1280)
 
-When the backhoe was first introduced, many were concerned that it would replace the jobs of these manual laborers who used shovels and other hand tools to dig. Many people worried that the use of machines like the backhoe would lead to mass unemployment and a loss of valuable skills. 
+When the backhoe was first introduced, **many were concerned that it would replace the jobs of these manual laborers** who used shovels and other hand tools to dig. Many people worried that the use of machines like the backhoe would **lead to mass unemployment** and a loss of valuable skills. 
 
 We now understand these concerns to be **preposterous**. It quickly became clear that the backhoe could perform the job far faster, far more efficiently, would save the workers from bodily injury, and would cost significantly less while doing so. 
 
