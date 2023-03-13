@@ -8,20 +8,22 @@ In three short months, it's made multiple headlines in every major news outlet, 
 ## Replacing Human Effort
 We must face the music. There are many areas in which various AI solutions *are already* competing with human talent:
 - Image generation models [DALL-E 2](https://openai.com/product/dall-e-2) and [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) are now alternatives to artists, animators, and graphic designers.
-- Instead of paying $300 per hour for IT support, one can quickly troubleshoot an issue they are having by asking [Bing AI](https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/).
+- Instead of paying $300 per hour for IT support, one can quickly troubleshoot an IT issue they are having by asking [Bing AI](https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/).
 - [ChatGPT](https://openai.com/blog/chatgpt) can help you think through the pros and cons of any organizational strategy decision, taking this responsibility from the highly expensive "big four" consulting firms who previously held this post for decades.
-- [ChatGPT](https://openai.com/blog/chatgpt) can write a fictional novel for you on any subject of your choosing, competing authors known for their work.
+- [ChatGPT](https://openai.com/blog/chatgpt) can write a fictional novel for you on any subject of your choosing, competing with authors known for their work.
 - While [ChatGPT](https://openai.com/blog/chatgpt) is not a *journalist*, it allows anyone to easily play the role of a journalist by easily generating quality content on demand, commoditizing the skills of a journalist.
-- Large language models, like what powers ChatGPT, will soon be coupled with both telephony services and realistic voice generators and will completely reimagine the modern day call center. What was once a facility of 2,000 call center reps will become a small group of ten managers that handle escalations from a bot's 15,000 conversations in a day.
 
-And we could keep going. There are *already* countless ways in which this will completely revolutionize every industry across the globe.
+
+And we could keep going. There are *already* countless ways in which this technology is *already* making us rethink our approaches across every industry today.
 
 ## Are our jobs doomed?
-Short-term, no. Long-term, yes, many will be, and the degree of effect will be based on several factors. For example, in the short term, ChatGPT helps me be better C# developer by quickly reminding of implementation patterns, teaching me about new namespaces and their features, helping me understanding app versioning, and more. 
+Short-term, no. Long-term, yes, many will be, and the degree of effect will be based on several factors.
 
-But in the long-term, AI will *alleviate* the need for me to develop at all. When I'm constantly switching back and forth between my IDE and ChatGPT, copying and pasting code, asking questions, trying to understand... *I become the limiting factor in this process*. Removing myself from this process entirely will only drive more efficiency. What will be far more efficient is simply *describing the app that you want to the AI model and allowing it to build the complete code repository for you*. 
+In the short term, ChatGPT helps me be a better C# developer by quickly reminding of implementation patterns, teaching me about new namespaces and their features, helping me understanding versioning strategies, and more. 
 
-Want a new feature? Describe the feature to the AI model. The model will create the necessary code, commit directly to your Git repo, design and perform unit tests, and deploy your app, all within minutes. This must be a feature that the folks at GitHub are already working on (or at least dreaming of) as I write this. 
+In the long-term, AI will *alleviate* the need for me to develop at all. When I'm constantly switching back and forth between my IDE and ChatGPT, copying and pasting code, asking questions, trying to understand... *I become the limiting factor in this process*. Removing myself from this process entirely will only drive more efficiency. What will be far more efficient is simply *describing the app that you want to the AI model and allowing it to build the complete code repository for you*. 
+
+Want a new feature? Describe the feature to the AI model. The model will create the necessary code, commit directly to your Git repo, design and perform unit tests, and deploy your app, all within minutes. This must be a feature that the folks at GitHub are already working on (or at least dreaming of)! 
 
 ## Will I be left jobless?
 To answer this question, let's look back in time. 
@@ -52,6 +54,7 @@ Despite seeing this pattern repeat through history, it is difficult to predict h
 - Several universities have already put together new curriculum focused on effectively using AI tools; they call it [prompt engineering](https://fourweekmba.com/prompt-engineering/).
 - Sam Altman, the CEO of OpenAI, is [investing heavily in a startup attempting to add 10 healthy years to every human lifespan](https://www.technologyreview.com/2023/03/08/1069523/sam-altman-investment-180-million-retro-biosciences-longevity-death/).
 - Tech giants like rushing to incorporate these AI models into their existing products: [Microsoft boosting conversational value of their Power Virtual Agents chat bot](https://powervirtualagents.microsoft.com/en-us/blog/optimize-your-chatbots-with-new-ai-features-for-power-virtual-agents/), [Google enhancing their flagship search service with Bard, their own LLM](https://blog.google/technology/ai/bard-google-ai-search-updates/), and [Salesforce introducing Einstein GPT to assist customers with various CRM tasks](https://www.youtube.com/watch?v=YAsKRxXdyj0&ab_channel=Salesforce).
+- Large language models, like what powers ChatGPT, will soon be coupled with both telephony services and realistic voice generators and will completely reimagine the modern day call center. What was once a facility of 2,000 call center reps will become a small group of ten managers that handle escalations from a bot's 15,000 conversations in a day.
 
 ## New Horizons
 Like we've seen from previous disruptive innovations, the advent of AI will also open doors for even more innovation. Old and new companies alike now have new tools at their disposal which will revolutionize what they can build and accomplish. With these tools now at their disposal, many companies will form and build products that we never thought would be possible before:
