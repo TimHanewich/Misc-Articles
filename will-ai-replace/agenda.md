@@ -1,0 +1,15 @@
+- Stunning AI
+- Already Replacing Jobs
+    - Consultants
+    - Journalists
+    - Content creators
+- Jobs it will replace
+    - Content creators (video)
+- Shovels to backhoe
+- New industries
+    - No one ever predicted the rise in front-end/back-end frameworks and people spending an entire career in one framework back when people were writing punch hole code in the 70's
+    - Prompt engineers
+    - Innovative companies: 
+        - Sam altman investment into company researhing how to live 10 years longer
+        - Emulating mannerisms
+- One day we just collect a check?
