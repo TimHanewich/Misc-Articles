@@ -29,22 +29,22 @@ When the backhoe was first introduced, many were concerned that it would replace
 
 We now understand these concerns to be **preposterous**. It quickly became clear that the backhoe could perform the job far faster, far more efficiently, would save the workers from bodily injury, and would cost significantly less while doing so. 
 
-The near-sighted perspective would be to focus on the immediate loss of man hours: what once required a group of nine manual laborers six hours now requires a single backhoe operator for 30 minutes. 
+The near-sighted perspective would be to focus on the immediate loss of man hours: what once required a group of nine manual laborers six hours now requires a single backhoe operator 30 minutes. 
 
 The reality of the situation is *no jobs were lost*; the jobs shifted to higher-skilled talent. Instead of nine men with shovels, we now have engineers, developers, electricians, and more that *develop* the backhoe, and a single skilled *operator* of the backhoe machine at the site.
 
 ![backhoe innovation](./backhoe_innovation.jpg)
 
 The backhoe is only one example. We've seen this throughout history time and time again:
-- The invention of the digital computer was a concern for the jobs of those in the paper industry. With things going digital, there would be less of a need for paper. What was originally a threat to their existence has now become their biggest growth engine: the paper manufacturers of yesterday have now pivoted their business model to manufacturing and supplying Amazon with the 1,600,000 million cardboard boxes it uses for deliveries each day.
+- The invention of the digital computer was a concern for the jobs of those in the paper industry. With things going digital, there would be less of a need for paper. What was originally a threat to their existence has now become their biggest growth engine: the paper manufacturers of yesterday have now pivoted their business model to manufacturing and supplying Amazon, a *digital* retailer, with the 1,600,000 million cardboard boxes it uses for deliveries each day.
 - The invention of the car put horse trainers, coachman, farriers, stablehands, and buggy developers out of business (not entirely as this is still a novelty) but the explosion in job opportunities in the modern-day car industry more than compensates.
 - Alarm clock manufacturers, landline phone manufacturers, GPS device manufacturers, all feared for their jobs when the smartphone was introduced to the world in the late 2010's. The explosive growth in the number of jobs and major companies spawned from the smartphone alone is difficult to comprehend. From games, to peripheral devices, and more... even enormous companies like Uber and Lyft have a business model pinned on the fact that everyone has a small computer in their pocket!
 
 ## The Future is Already Unfolding
-Despite seeing this pattern repeatedly through history, it is difficult to predict how each major innovation will mature in today's world. However, we're already seeing glimpses of the future unfold in front of us:
+Despite seeing this pattern repeatedly through history, it is difficult to predict how each major innovation will mature in today's world. However, we're already seeing glimpses of the future with AI unfold in front of us:
 - Several universities have already put together new curriculum focused on effectively using AI tools; they call it [prompt engineering](https://fourweekmba.com/prompt-engineering/).
 - Sam Altman, the CEO of OpenAI, is [investing heavily in a startup attempting to add 10 healthy years to every human lifespan using AI](https://www.technologyreview.com/2023/03/08/1069523/sam-altman-investment-180-million-retro-biosciences-longevity-death/).
-- Tech giants are rushing to incorporate these AI models into their existing products: [Microsoft boosting conversational value of their Power Virtual Agents chat bot](https://powervirtualagents.microsoft.com/en-us/blog/optimize-your-chatbots-with-new-ai-features-for-power-virtual-agents/), [Google enhancing their flagship search service with Bard, their own LLM](https://blog.google/technology/ai/bard-google-ai-search-updates/), and [Salesforce introducing Einstein GPT to assist customers with various CRM tasks](https://www.youtube.com/watch?v=YAsKRxXdyj0&ab_channel=Salesforce).
+- Tech giants are rushing to incorporate these AI models into their existing products: [Microsoft is boosting conversational value of their Power Virtual Agents chat bot](https://powervirtualagents.microsoft.com/en-us/blog/optimize-your-chatbots-with-new-ai-features-for-power-virtual-agents/), [Google is enhancing their flagship search service with Bard, their own LLM](https://blog.google/technology/ai/bard-google-ai-search-updates/), and [Salesforce is introducing Einstein GPT to assist customers with various CRM tasks](https://www.youtube.com/watch?v=YAsKRxXdyj0&ab_channel=Salesforce).
 - Large language models, like what powers ChatGPT, will soon be coupled with both telephony services and realistic voice generators and will completely reimagine the modern-day call center. What was once a facility of 2,000 call center reps will become a small group of ten managers that handle escalations from a bot's 25,000 conversations in a day.
 
 ## New Horizons, Previously Unimagined
