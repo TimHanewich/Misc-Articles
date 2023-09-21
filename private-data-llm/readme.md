@@ -96,7 +96,7 @@ What is John's occupation?
 
 In the example above, we are providing the humanized record with explicit instructions before it, and prepending this to the user's question. We prompt an LLM with this and receive the response "General Contractor". Had we *only* prompted the LLM with the question "What is John's Occupation?", it would not know who John is!
 
-## Is my Data Secure?
+## Is My Data Secure?
 Obviously, in the process above, we are providing private data, along with a question, directly to the LLM. Is this safe? Is it secure?
 
 Firstly, don't think that you must provide *all* private data to an LLM for any particular question. As mentioned previously, it is your responsibility to build the mechanism that prepares private data to be fed to an LLM as context to a question. Within this mechanism, build safeguards that prevent specific pieces of data that you don't wish to ever be exposed to any third party system from being used and sent to an LLM. For example, you may design your mechanism to only pull from specific tables but not others, to never include certain fields (i.e. social security numbers) in the payload that will be exposed, and more.  In developing a custom system like this, you have **complete control** over what is exposed to the LLM because **you are designing the mechanism that performs the exposing**!
