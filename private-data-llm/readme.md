@@ -4,13 +4,13 @@ With the massive rise of large language models in 2023, so many "conversation-ba
 If you're considering creating your own chatbot service using a large language model as a service like OpenAI's GPT models, you may be curious how you can weave your *private* data into the LLM's "knowledge base". I'll explain this here:
 
 ## Training?
-There are two fundamental ways in which an LLM can be "knowledgeable" of any data, using its understanding of the data to answer questions from the user. 
+There are two fundamental ways in which an LLM can be "knowledgeable" of any data, using its understanding of the data to answer questions from the user. The first is **training**.
 
-The first way, through **training**, is how the LLM established a foundational understanding of the world we live in. By exposing an LLM to millions upon millions of Wikipedia articles, news articles, books, online forums, and more, these LLMs eventually gained the ability to construct meaningful sentences simply by predicting which word ("token") comes next in a sentence. During the training process, the LLM not only became capable of constructing complex sentences and paragraphs, it also became capable of explicitly using the knowledge it was exposed to in its training material. This is why, despite having only been trained on a corpus of text from mid-2021 and before, ChatGPT is capable of divulging foundational knowledge of our understanding of the world we live in; it can answer questions like "why is the sky blue?" and "who was the first person to step foot on the moon?".
+**Training** is how the LLM originally established a foundational understanding of the world we live in. After exposing an LLM to millions upon millions of Wikipedia articles, news articles, books, online forums, and more, the LLMs eventually gained the ability to construct meaningful sentences simply by predicting which word ("token") comes next in a sentence. During the training process, the LLM not only became capable of constructing complex sentences and paragraphs, it also became capable of explicitly using the knowledge it was exposed to in its training material. This is why, despite having only been trained on a corpus of text from mid-2021 and before, ChatGPT is capable of divulging foundational knowledge of our understanding of the world we live in; it can answer questions like "why is the sky blue?" and "who was the first person to step foot on the moon?".
 
-Through the tools provided to us by OpenAI, we can train a model ourselves - not from absolute scratch, but more "fine-tuning". If you were to train a model on a series of questions and answers that include the use of your private data, the model will absolutely capture your data and be able to use this later during conversations. 
+Through the tools provided to us by OpenAI, we can train a model ourselves - not from absolute scratch, but more of a "fine-tuning". If you were to train a model on a series of questions and answers that include the use of your private data, the model would eventually capture an "understanding" of your data and would be able to use this later during conversations. 
 
-However, *training* is usually not the solution for using private data in an LLM. Training is costly and requires meticulous planning, preparation, and processing time to accomplish. With data changing rapidly and the LLM needing to *always* use the most up-to-date version of certain data points, it would be impractical to train the model at a frequency high enough to always have the "latest" version of the data. And even if this were the case, there would not be a guarantee that the *correct* version of certain datapoints have truly "overwritten" the old versions in the LLM's "memory".
+However, *training* is usually not the solution for using private data in an LLM. Training is costly and requires meticulous planning, preparation, and processing time to accomplish. With data changing rapidly and the LLM needing to *always* use the most up-to-date version of certain data points, it would be impractical to train the model at a frequency high enough to always have the "latest" version of the data at all times. And even if this were the case, there would not be a guarantee that the *correct* version of certain datapoints have truly "overwritten" the old versions in the LLM's "memory".
 
 ## Prompt Engineering
 Instead, a far more intuitive solution to this problem is commonly used: **prompt engineering**. Instead of relying on model training, **prompt engineering is the process of asking a question of an LLM while simultaneously providing it with the context (data) it needs to answer the question**.
@@ -22,14 +22,14 @@ In the first question to the LLM, on the left, the user is asking for the date o
 
 In the second question to the LLM, in the middle, the LLM is asked when Daniel Smith was born. There is no famous figure named Daniel Smith that this GPT model had been trained on previously, thus no "knowledge" of Daniel Smith or his birthday lives within the "memory" of the LLM, and the LLM answers as such.
 
-However, in the third question to the LLM, on the right, we are asking the same question - "When was Daniel Smith born?", but also providing the LLM with the required **context** (*data*) that it needs to answer this question. 
+However, in the third question to the LLM, on the right, we are asking the same question, "When was Daniel Smith born?", but also providing the LLM with the required **context** (*data*) that it needs to answer this question. 
 
 This third example is known as *prompt engineering*. In this method, two pieces of information are always sent to the LLM as a prompt - the question itself, either following or followed by some context that is required to answer the question. While the two are not separated by anything more than a simple blank line, engineers often refer to the two pieces of information as different components: the *system prompt* and *user prompt*. The user prompt is the prompt that the user defined - the question. The system prompt is the information that was gathered and will be included with the user prompt as context when prompting the LLM. The system prompt is either prepended or appended to the user prompt and the result - both together - is then asked of the LLM.
 
 ## Constructing a System Prompt
 In *prompt engineering*, the **system prompt** is where you would include any private data that you would want the LLM to use in answering a question. That *private data* can be anything from knowledge about processes for how a department should handle certain requests, instructions for how the LLM should respond or behave, explicit data points, or more. 
 
-But the system prompt cannot be of unlimited size; LLMs like OpenAI's GPT series have limits on the amount of text they are capable of comprehending and answer. So you can't just dump every record of a database and allow the LLM to figure it out, unfortunately!
+But the system prompt cannot be of unlimited size; LLMs like OpenAI's GPT series have limits on the amount of text they are capable of comprehending. So you can't just dump every record of a database and allow the LLM to figure it out, unfortunately!
 
 Instead, engineers spend countless hours developing systems to identify the data that they think will be most pertinent and helpful for a particular question, seeking that data out, and preparing it to be used in a system prompt. From **Bing AI**, **Google Search with AI**, **Power Virtual Agents**, **Power Apps Copilot**, and others, all of these systems use the same methodology.
 
@@ -71,7 +71,7 @@ While we can make these educated guesses about this data, and the LLM can too, i
 }
 ```
 
-The "humanized" payload above is much easier to understand and draw conclusions from. By providing this to the LLM, the LLM is able to extract much more meaning out of this data. By **appending this humanized-version of this private data record to a user question**, the LLM can now answer questions about John such as:
+The "humanized" payload above is much easier to understand and draw conclusions from. The LLM is able to extract much more meaning out of this data compared to its raw state. By **appending this humanized-version of this private data record to a user question**, the LLM can now answer questions about John such as:
 
 - What is John's occupation?
 - What is John's father's name?
@@ -101,7 +101,7 @@ Obviously, in the process above, we are providing private data, along with a que
 
 Firstly, don't think that you must provide *all* private data to an LLM for any particular question. As mentioned previously, it is your responsibility to build the mechanism that prepares private data to be fed to an LLM as context to a question. Within this mechanism, build safeguards that prevent specific pieces of data that you don't wish to ever be exposed to any third party system from being used and sent to an LLM. For example, you may design your mechanism to only pull from specific tables but not others, to never include certain fields (i.e. social security numbers) in the payload that will be exposed, and more.  In developing a custom system like this, you have **complete control** over what is exposed to the LLM because **you are designing the mechanism that performs the exposing**!
 
-Secondly, this is a common concern that is shared by many that has been addressed by the stewards of the LLMs. Microsoft provides large language models as a service through its **Azure OpenAI service** and clearly documents the data privacy and security safeguards in place [here](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy). Microsoft clearly states any exposed data:
+Secondly, this is a common concern that is shared by many and has been addressed by the stewards of the LLMs. Microsoft provides large language models as a service through its **Azure OpenAI service** and documents the data privacy and security safeguards in place [here](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy). Microsoft clearly states any exposed data:
 
 - is NOT available to other customers.
 - is NOT available to OpenAI.
@@ -110,20 +110,3 @@ Secondly, this is a common concern that is shared by many that has been addresse
 - is NOT used for automatically improving Azure OpenAI models for your use in your resource (The models are stateless, unless you explicitly fine-tune models with your training data).
 
 The documentation Microsoft provides goes on at length about the safeguards in place to secure your private prompts (which include data you've included). Thus, exposing private data to LLMs on a secure and trusted platform like Microsoft Azure is safe.
-
-
-
-
-
-
-
-
-
-
-
-- "conversation with data" so big in 2023
-- 2 ways LLM's have "knowledge": training, prompt engineering
-- training can be used for "tone" - see examples I made (gilligan, spongebob)
-- Example prompt engineering w/ and w/o context
-- Transforming ("hummanizing") data
-- Using private data is secure w/ Azure OpenAI
