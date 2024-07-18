@@ -169,6 +169,6 @@ During testing, you may notice that even if you don't have an active script *rec
 
 How is this? Is it stored somewhere? The answer is yes. Devices like this commonly have UART Rx buffers that are managed at a lower level (i.e. OS-level) that are sort of like a quality of life feature. So just in case your program is running slowly or temporarily stopped reading, the data is still there to be read so no major interruption takes place.
 
-The UART Rx buffer size differs between devices, but I've generally seen between 16 bytes and 192 bytes. So not that large! If the buffer exceeds this length, old bytes will be lapsed and be "overwritten" with new bytes (continuous stream with a cutoff).
+The UART Rx buffer size differs between devices, but I've seen buffers listed as little as 32 bytes and larger than 99,999. So not that large! If the buffer exceeds this length, old bytes will be lapsed and be "overwritten" with new bytes (continuous stream with a cutoff).
 
 This is why sometimes when you start the read program, if you haven't been reading for a while, a lot of data will come back all at once. It was in the buffer, being received, but not being read (and subsequently disposed of). For this reason, you should usually do a buffer flush by reading all bytes all at once to clear the buffer before continuing with reading as part of the normal program. In other words, start each program by rapidly reading all bytes (clearing the buffer) before continuing with the normal read cycle.
