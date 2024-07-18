@@ -1,4 +1,4 @@
-# Using UART between a Raspberry Pi Pico and Raspberry Pi 3b
+# Using UART between a Raspberry Pi Pico and Raspberry Pi 3b (Raspbian)
 ![opening image](https://i.imgur.com/JYi7HVU.jpeg)
 
 This tutorial describes how we can facilitate communication between two devices using UART, a form of serial communication. In this simple example, we will use both a Raspberry Pi Pico (Microcontroller) and a Raspberry Pi 3b (running Raspbian, a Linux image).
