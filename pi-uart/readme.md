@@ -66,6 +66,7 @@ My wiring in the below examples is the following:
 - Pin 6 (GP4) on the Pi Pico to Pin 10 (GPIO 16) on the Raspberry Pi.  *(Pico --> RPi3b)*
 - Pin 3 (GND) on the Pi Pico to Pin 6 (GND) on the Raspberry Pi. *(sharing common ground)*
 
+## First Communication
 With wiring set up, we'll first use the command line on the Pi 3 to send a message to the Pi Pico.
 
 On the Pi Pico, probably through Thonny, run this simple script. This will establish a UART interface and constantly read any incoming data:
