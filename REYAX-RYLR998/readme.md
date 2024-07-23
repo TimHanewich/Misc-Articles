@@ -1,4 +1,4 @@
-# REYAX RYLR998 LoRa Module MicroPython Driver
+# How to use a REYAX RYLR998 LoRa Module with a Raspberry Pi Pico and Other Microcontrollers
 ![opening](https://i.imgur.com/r51HAFz.png)
 
 The RYLR998 LoRa module by REYAX is a powerful and versatile wireless communication solution for IoT applications. With its long-range capabilities and low power consumption, it's an ideal choice for a wide range of projects, from smart sensors to industrial automation.
