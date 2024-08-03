@@ -4,7 +4,7 @@ AI has already changed my world. As of August 2024, I rely on a large language m
 
 At roughly 18 months since ChatGPT taking the world by storm, I wanted to document some thoughts on the evolution of this technology and the public's perception of it. I'll share each thought below, section by section.
 
-## Humans are incredibly adaptable
+## Humans are Incredibly Adaptable
 I remember the first time I chatted with a large language model. I was stunned at how humanlike the responses were and how its knowledge seemed to be endless. This was the first time I witnessed well-formed, creative, compelling text coming from a machine. 
 
 And this shocked the world too. There is a reason why ChatGPT was one of the fastest growing products in history. But now, only ~18 months later, there is much chatter about the "overhyping" of LLM technology and the broader advancement of AI. 
@@ -15,12 +15,12 @@ And this is true for many of my peers and friends. For many, there is the initia
 
 I think this is very telling for how the world may react to the continued macroeconomic effects of AI on the world economy, both in expected and unexpected ways.
 
-## "Copilot" is the correct name
+## "Copilot" is Genius Branding - It's Spot On!
 As I alluded to in the opening, I use LLM technology for *a lot* of things. Realistically, I don't think there is a day that goes by any more that I am not interfacing with an LLM. And my use of these involves everything from assistance in cooking, coding help, advice on handling challenging situations, preparing for meetings, and much much more.
 
 Llama 3.1, GPT-4o, and other frontier LLMs have truly become my "copilot". I remember playing Halo 3 in my childhood; the relationship I have with Llama-3.1, for example, reminds me a bit of the relationship The Master Chief has with Cortana, his AI companion. While of course there are some inadequacies at the moment, an LLM is truly my daily companion, in my work and personal life. 
 
-In the future, I can't wait until we find further ways to integrate this technology into our daily lives. The [Humane Pin](https://humane.com/) and [Rabbit R1](https://www.rabbit.tech/) try to accomplish this, but I don't think this is really the future. Immediate near term (3-5 years), I'm not sure what this will look like. But long term, I could easily see a future where it is commonplace for humans to install a small implant in the skull/brain to allow a machine-to-human interface. All sensory perception will be fed to a model (models like GPT-4o are alreayd multi-modal, allegedly accepting text, audio, and video inputs), the model will record "memories" in its own format and will retrieve these as needed, and model output will be immediately made available to the human through additional sensory perception or neural feedback.
+In the future, I can't wait until we find further ways to integrate this technology into our daily lives. The [Humane Pin](https://humane.com/) and [Rabbit R1](https://www.rabbit.tech/) try to accomplish this, but I don't think this is really the future. Immediate near term (3-5 years), I'm not sure what this will look like. But long term, I could easily see a future where it is commonplace for humans to install a small implant in the skull/brain to allow a machine-to-human interface. All sensory perception will be fed to a model (models like GPT-4o are already multi-modal, allegedly accepting text, audio, and video inputs), the model will record "memories" in its own format and will retrieve these as needed, and model output will be immediately made available to the human through additional sensory perception or neural feedback.
 
 Neuralink has already made incredible strides in this, successfully implanting one of their "N1" devices in the brain of Noland Arbaugh, their first patient. [The results were successful](https://neuralink.com/blog/prime-study-progress-update/), with Noland quickly learning how to use the technology to control a cursor on a screen, purely through thought.
 
@@ -57,10 +57,12 @@ I wouldn't be surprised if we slowly see the need for the *quantity* of human ta
 
 
 ## What will the next wave be? 
-As I mentioned above, we are still *very new* to AI being so strong. AI is the favorite term of S&P 500 executives in earnings calls; mentions of "AI" are now at record numbers as [reported here](https://insight.factset.com/highest-number-of-sp-500-companies-citing-ai-on-earnings-calls-over-past-10-years). 
+As I mentioned above, we are still *very new* to AI being so strong. AI is the favorite term of S&P 500 executives in earnings calls; mentions of "AI" in earnings calls are now at record numbers as [reported here](https://insight.factset.com/highest-number-of-sp-500-companies-citing-ai-on-earnings-calls-over-past-10-years). 
 
-This will probably be the "hot thing" for another decade or so. But what will the next thing be?
+AI will probably be the "hot thing" for another decade or so. But what will the next big thing be?
 
 I'm not very sure. Nobody is! But I think the frontrunner is **robotics**.
 
 We've already seen some impressive demonstrations by companies like [Figure](https://www.figure.ai/) and [Boston Dynamics](https://bostondynamics.com/atlas/) with their humanoid machines, but the *intelligence* technology may not be quite there yet. We have the mechanical know-how to make these machines move succinctly, but have not yet figured out a way of training or implementing an AI model to allow them to interact with the world as freely as we do.
+
+It's clear that **white-collar work** is the most susceptible to effects by AI at the moment. **Blue-collar**, labor-intensive work may be next!
