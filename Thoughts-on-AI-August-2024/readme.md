@@ -1,6 +1,6 @@
 # My Thoughts on AI: August 2024
 ![img](https://i.imgur.com/d47WcIu.jpeg)
-AI has already changed my world. Now in August 2024, there isn't a day that goes by that I consult a large language model, usually the latest and greatest Llama model, at least one time on a key decision, wording of a message, refining a presentation script, or learning about a new concept. It has truly become my "copilot". 
+AI has already changed my world. As of August 2024, I rely on a large language model, typically the latest Llama model, to inform at least one key decision, refine my communication, or enhance my knowledge on a daily basis. It has truly become my "copilot". 
 
 At roughly 18 months since ChatGPT taking the world by storm, I wanted to document some thoughts on the evolution of this technology and the public's perception of it. I'll share each thought below, section by section.
 
