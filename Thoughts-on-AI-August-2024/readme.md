@@ -2,7 +2,7 @@
 ![img](https://i.imgur.com/d47WcIu.jpeg)
 AI has already changed my world. As of August 2024, I rely on a large language model, typically the latest Llama model, to inform at least one key decision, refine my communication, or enhance my knowledge on a daily basis. It has truly become my "copilot". 
 
-At roughly 18 months since ChatGPT taking the world by storm, I wanted to document some thoughts on the evolution of this technology and the public's perception of it. I'll share each thought below, section by section.
+At roughly 18 months since ChatGPT took the world by storm, I wanted to document some thoughts on the evolution of this technology and the public's perception of it. I'll share each thought below, section by section.
 
 ## Humans are Incredibly Adaptable
 I remember the first time I chatted with a large language model. I was stunned at how humanlike the responses were and how its knowledge seemed to be endless. This was the first time I witnessed well-formed, creative, compelling text coming from a machine. 
@@ -16,7 +16,7 @@ And this is true for many of my peers and friends. For many, there is the initia
 I think this is very telling for how the world may react to the continued macroeconomic effects of AI on the world economy, both in expected and unexpected ways.
 
 ## "Copilot" is Genius Branding - It's Spot On!
-As I alluded to in the opening, I use LLM technology for *a lot* of things. Realistically, I don't think there is a day that goes by any more that I am not interfacing with an LLM. And my use of these involves everything from assistance in cooking, coding help, advice on handling challenging situations, preparing for meetings, and much much more.
+As I alluded to in the opening, I use LLM technology for *a lot* of things. Realistically, I don't think there is a day that goes by anymore that I am not interfacing with an LLM. And my use of these involves everything from assistance in cooking, coding help, advice on handling challenging situations, preparing for meetings, and much much more.
 
 Llama 3.1, GPT-4o, and other frontier LLMs have truly become my "copilot". I remember playing Halo 3 in my childhood; the relationship I have with Llama-3.1, for example, reminds me a bit of the relationship The Master Chief has with Cortana, his AI companion.
 
@@ -29,15 +29,15 @@ Of course, we'll need to pack a high degree of computational power into these ve
 ## LLM Inference is Becoming Commoditized
 The first digital storage form was magnetic tape. The first commercial computer, UNIVAC 1, used a magnetic tape system that could storage about 1.2 megabytes of data. Released in 1951, it took up an entire room. The UNIVAC 1 was also incredibly expensive, at $1,500,000.
 
-We got floppy disks, capable of storing a few hundred kilobytes, in the 1970's. And CD's in the 1980's, capable of storing 650 MB.
+We got floppy disks, capable of storing a few hundred kilobytes, in the 1970's. And CDs in the 1980's, capable of storing 650 MB.
 
-Today, you can purchase a micro SD card, something smaller than your thumbnail, with a capacity of 1 TB for under $70.
+Today, you can purchase a micro-SD card, something smaller than your thumbnail, with a capacity of 1 TB for under $70.
 
 This is possible because the economy, realizing digital storage is something of value in today's world, naturally applied focus on driving efficiencies in the production of digital storage. Through investments in R&D and mass production, now, storage is *almost* free. Even cloud providers like Microsoft and AWS offer storage at extremely inexpensive costs. It has truly become commoditized.
 
 The same will happen for LLM inference, if it hasn't already happened that is. Today, data scientists are squeezing more and more performance ("intelligence") out of smaller and smaller models by driving efficiencies in the training process while also optimizing inference on LLM-optimized hardware. We're squeezing performance out of smaller models at lower and lower computational costs. 
 
-For example, Microsoft's Phi-3-Mini model is very impressive at only a footprint of 3.8B parameters! We are learning how to squeeze more and more performance out of smaller and smaller models. This is a very good thing as it opens up even more possibilities for AI (i.e. on-device wearables) while democratizing access to state of the art models.
+For example, Microsoft's Phi-3-Mini model is very impressive at only a footprint of 3.8B parameters! We are learning how to squeeze more and more performance out of smaller and smaller models. This is a very good thing as it opens up even more possibilities for AI (i.e. on-device wearables) while democratizing access to state-of-the-art models.
 
 ## The Greatest Innovation is Around the Corner
 Between 1995 and 2000, the massive "dot-com bubble" was forming in the stock market as investors threw untold amounts of money at any company with ".com" at the end of their name. In March of 2000, this came to a massive crash; the hype was over and the bubble had popped.
