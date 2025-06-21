@@ -3,6 +3,13 @@ OpenAI's Sora model is a cutting-edge text-to-video AI that transforms written p
 
 In this article I will describe how to use the Azure OpenAI Sora API to generate your own videos!
 
+## Prereq: Create a Sora Deployment
+Before you do anything, you have to spin up your own deployment of the Sora model in your own Azure OpenAI (in Azure AI Foundry) project. [This article](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal) walks you through that process. This is important as every subsequent request will be against *your* unique Azure OpenAI service (replace my `https://ai-myproject.openai.azure.com` with your deployment's unique endpoint).
+
+After creating a Sora deployment in your Azure OpenAI project, Azure AI Foundry will very neatly show your the target URL you can call to for any subsequent API call as well as the API key you will use as a header, shown in examples below.
+
+![sora deployed](https://i.imgur.com/O08FVoh.png)
+
 ## Step 1: Request Video Generation
 The first step in the process is to perform a POST request to the Azure OpenAI service to *request* video generation. Example below:
 
@@ -115,7 +122,7 @@ Content-Type application/json
 ```
 
 ## Step 3: Retrieve the Video
-Finally, we can perform the last step in the video generation process: retrieve the video! To do this, we make a final GET call to the API, like so:
+Finally, we can perform the last step in the video generation process: retrieve the video! In the `status: suceeded` response from step 2, will see it provides another `id` of the generation directly (**not** the job ID). In my case, it is `gen_01jy990gaxeayb74aq4hnbn2cp`. We can use this ID in *another* GET request to retrieve the completed video, shown below:
 
 ```
 GET https://ai-myproject.openai.azure.com/openai/v1/video/generations/gen_01jy990gaxeayb74aq4hnbn2cp/content/video?api-version=preview
