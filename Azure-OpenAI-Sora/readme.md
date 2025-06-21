@@ -132,3 +132,6 @@ Api-key 12abd080a3734bc2acdde9c3c71afbb3
 And the response we get will be the video content directly!
 
 ![rocket](https://i.imgur.com/EUIfct0.png)
+
+## Close
+With these steps, you're now equipped to bring your creative vision to life using the Sora API within Azure OpenAI. Whether you're prototyping marketing content, simulating training scenarios, or just exploring the possibilities of AI-generated video, this powerful toolset allows you to go from idea to immersive experience with just a few lines of code. Happy building!
