@@ -1,4 +1,4 @@
-# How to use the Sora API in Azure OpenAI Service (Azure AI Foundry)
+# How to use the Sora API for Video Generation in Azure OpenAI Service
 ![sora](https://i.imgur.com/hDMSTZR.png)
 
 OpenAI's Sora model is a cutting-edge text-to-video AI that transforms written prompts into vivid, high-quality video clips. Now available through Azure OpenAI, Sora empowers developers and creators to generate up to 20-second videos in 1080p resolution directly from text, making it ideal for industries like advertising, media, and enterprise training. With built-in safety features and seamless integration into Azure’s ecosystem, users can deploy Sora via the Azure AI Foundry and even scale development using tools like Visual Studio Code. 
