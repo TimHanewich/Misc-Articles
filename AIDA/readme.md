@@ -1,4 +1,4 @@
-# Writing My Own CLI-Based LLM Client: AIDA
+# I wrote my own CLI-Based LLM Client: AIDA
 ![AIDA banner](https://i.imgur.com/824qYfQ.png)
 
 Before I do nearly anything nowadays, I always check with my personal guide - usually either *Copilot* or *ChatGPT*. These AI-driven assistants are invaluable in nearly every facet of life: tech assistance, financial advice, email drafting, and more.
