@@ -33,23 +33,23 @@ To add a connection reference, just type `settings`, select “Add/Change/Delete
 
 Once you’ve added connections, you’ll see a list of available models each time you visit “Add/Change/Delete a model connection.” Select “Change Active Model Connection” to instantly switch the AI model you’re chatting with (and yes - all your chat history comes along for the ride).
 
-![AIDA screenshot showing all available model connections]()
+![AIDA screenshot showing all available model connections](https://i.imgur.com/e4LwwWp.png)
 
 ## Example: Read File Content
 AIDA is built as a lightweight desktop assistant, so it can read file contents out-of-the-box - TXT, PDFs, Word docs (and maybe more file types down the road!).
 
 AIDA uses tools to complete tasks. One, `read_file`, lets it read any file - just tell it the file path!
 
-![AIDA screenshot asking it to summarize the contents of a file]()
+![AIDA screenshot asking it to summarize the contents of a file](https://i.imgur.com/BjbI9Rf.png)
 
 This sounds simple (it’s just tool-calling under the hood), but it’s a big advantage over commercial LLM clients like Copilot, ChatGPT, Gemini, or Claude. Those require uploads, and usually only let models “see” a snipped-down part of a file that was selected by a search algorithm (to save on tokens). It’s great for small tasks, but means prompts like “summarize this 30-page essay in 3 paragraphs” rarely work as the entire essay never actually reaches the model!
 
 ## Example: Save File Content
 AIDA can save files to your computer as well. Just ask AIDA to save something and it’ll drop a `.txt` file in your Downloads folder, filled with your requested content!
 
-![AIDA screenshot of saving file content]()
+![AIDA screenshot of saving file content](https://i.imgur.com/DQwwnwx.png)
 
-![screenshot of that content]()
+![screenshot of that content](https://i.imgur.com/gw20wCI.png)
 
 All files are saved in your Downloads folder (works on both Windows and Linux).
 
@@ -60,12 +60,12 @@ Say you want AIDA to summarize every reference to “Lake Dora” in the `./trip
 
 This lets your LLM truly explore your PC to accomplish more complex, multitiered tasks.
 
-![AIDA screenshot of navigating folder]()
+![AIDA screenshot of navigating folder](https://i.imgur.com/uV2PO7o.png)
 
 ## Example: Save/Load Chat
 You can save your chat history (your entire conversation) with a single command. No need for fancy cloud storage or logins: just run `save`, and AIDA saves a `.json` record of your chat right to your Downloads folder.
 
-![screenshot of saving a chat history]()
+![screenshot of saving a chat history](https://i.imgur.com/xC8Zfko.png)
 
 To pick up where you left off, use the `load` command, provide AIDA the path of the chat history `.json` file, and it’ll restore your conversation in full context. You'll pick up write where you left off!
 
