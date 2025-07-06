@@ -1,5 +1,6 @@
 # Writing My Own CLI-Based LLM Client: AIDA
-![AIDA banner]()  
+![AIDA banner](https://i.imgur.com/824qYfQ.png)
+
 Before I do nearly anything nowadays, I always check with my personal guide - usually either *Copilot* or *ChatGPT*. These AI-driven assistants are invaluable in nearly every facet of life: tech assistance, financial advice, email drafting, and more.
 
 However, I ran into a few issues. For one, firing one up meant heading to a special website in a browser. Second, they never quite did *exactly* what I wanted. I wanted more control and customization.
@@ -13,7 +14,7 @@ In this article, I’ll detail what AIDA is, how it works, and how you can use i
 ## What is AIDA?
 At its core, AIDA is a .NET 9.0 (C#) Console App - a simple command line utility that lets you interface with either a **local or remote** large language model connection. Because it’s .NET-based, it runs smoothly on both Windows and Linux, which was a must for me (since I often need LLM access in a Linux environment, sometimes without a GUI!).
 
-![AIDA screenshot of basic question answering i.e. why is the sky blue?]()
+![AIDA screenshot of basic question answering i.e. why is the sky blue?](https://i.imgur.com/wnI2NUI.png)
 
 What makes AIDA different is that you can connect it with *your own* deployment of a remote or local model. As of writing, you can hook AIDA up to any **Azure OpenAI** deployment or local **Ollama** model you have. (Future plans: add OpenAI and Azure Agent Service support). For example, if you have a deployment of `GPT-4.1` or `o4-mini` running on Azure OpenAI, just give AIDA the endpoint and API key, and you’re off to the races.
 
@@ -21,14 +22,14 @@ AIDA is designed to play nicely with files and folders on your desktop. No need 
 
 And, because tokens are the cost driver for LLMs, you cam use the handy `tokens` command that shows exactly how many tokens you’ve used in any session. No surprises!
 
-![AIDA screenshot of tokens]()
+![AIDA screenshot of tokens](https://i.imgur.com/kpTQHuZ.png)
 
 ## Example: Adding Model Connection
 AIDA gives you full control to add, manage, and swap between multiple LLM connections, like Azure OpenAI or Ollama.
 
 To add a connection reference, just type `settings`, select “Add/Change/Delete a model connection,” add your connection, and save!
 
-![AIDA screenshot of adding model connection]()
+![AIDA screenshot of adding model connection](https://i.imgur.com/TyJrZgw.png)
 
 Once you’ve added connections, you’ll see a list of available models each time you visit “Add/Change/Delete a model connection.” Select “Change Active Model Connection” to instantly switch the AI model you’re chatting with (and yes - all your chat history comes along for the ride).
 
