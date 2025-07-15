@@ -1,4 +1,4 @@
-# Building and Invoking AI Agents in Azure AI Foundry's Agent Service via API
+# Building and Invoking AI Agents in Azure AI Foundry's Agent Service
 ![banner](https://i.imgur.com/IMS6AD6.png)
 
 The Azure AI Foundry Agent Service is a fully managed platform from Microsoft designed to help developers build, deploy, and scale intelligent AI agents for enterprise use. It's part of the broader Azure AI Foundry ecosystem, which acts like a digital factory for creating AI-powered applications and agents.
