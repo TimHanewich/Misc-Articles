@@ -21,7 +21,7 @@ As depicted above, there are several resources we may provide to an agent that a
 - **Instructions**: we provide the model with instructions on how to go about doing its job.
 - **History**: we provide the model with the chat history from a conversation thread with a user so the model knows what was previously being discussed earlier in the conversation.
 - **Settings**: some settings, like `temperature` or `top_p` slightly alter the way the model behaves.
-- **Knowledge**: data (PDFs, word documents, website content, databases, knowledge articles, etc.) that we provivde to the model that it can use to find relevant answers in.
+- **Knowledge**: data (PDFs, word documents, website content, databases, knowledge articles, etc.) that we provide to the model that it can use to find relevant answers in.
 - **Tools** (a.k.a. "functions"): discrete capabilities the model can call upon to take action in a system in its journey of satisfying the user's request to it.
 
 Services like **Azure AI Foundry Agent Service** and **Copilot Studio**, both by Microsoft, allow us to have an easy-to-use infrastructure for setting up and using these agents!
@@ -29,7 +29,7 @@ Services like **Azure AI Foundry Agent Service** and **Copilot Studio**, both by
 ## Step 1: Create the Agent in the Portal
 The very step to using the Azure AI Foundry Agent Service is to create *an Agent*.
 
-There are two ways to do this: 1) via the Azure AI Foundry portal (website with a GUI), or 2) programatically via an API call. For the sake of this article, I'll show it visually in the portal:
+There are two ways to do this: 1) via the Azure AI Foundry portal (website with a GUI), or 2) programmatically via an API call. For the sake of this article, I'll show it visually in the portal:
 
 This assumes you already have a **project** established in Azure AI Foundry. If you haven't already, see [this documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/create-projects?tabs=ai-foundry&pivots=hub-project).
 
@@ -39,14 +39,14 @@ Navigate to the Azure AI Foundry portal: [ai.azure.com](https://ai.azure.com).
 
 On the left, select "Agents". This will present you with a list of agents that you have made so far within the project you are currently within.
 
-At the top, click on "+ New Agent" to create an agent. And that is it! Just like that, you have created a new agent. In the pane on the right is where you can further customize your agent, meaning giving it various resources it can use at its dispossal to accomplish any task you, or a user, give it.
+At the top, click on "+ New Agent" to create an agent. And that is it! Just like that, you have created a new agent. In the pane on the right is where you can further customize your agent, meaning giving it various resources it can use at its disposal to accomplish any task you, or a user, give it.
 
 As you can see in the screenshot above, creating the agent does require you to select a **Deployment**. This is where you would select what underlying large language model (LLM) you want this agent to use for its inference (generating its response). If you aren't seeing one in the list there, you just need to deploy an instance of your own! Click "+ Create new deployment" and select a model you like - I'm using GPT-4.1-mini and it works quite well for most basic tasks.
 
 Normally, we would add additional resources to the agent: elaborate instructions (I added basic instructions), knowledge sources, actions, connected agents, and more. For the sake of this article, I'll skip that for now to keep things simple, but feel free to explore with adding those if you wish.
 
 ## Step 2: Get a Bearer Token
-Unlike with Microsoft's **Copilot Studio**, which provides a graphic interface for us to interface with our agent, Azure AI Foundry Agent Service serves purely as a middle layer between a user interface (i.e. a chatbox) and an underlying LLM that **we call to via API**.
+Unlike with Microsoft's **Copilot Studio**, which provides a graphic interface for us to interface with our agent, Azure AI Foundry Agent Service serves purely as a middle layer between a user interface (i.e. a chat box) and an underlying LLM that **we call to via API**.
 
 Before we do *anything* with our agent via API, we first must first authenticate. To do this, we will use [the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli?view=azure-cli-latest) to get a [bearer token](https://swagger.io/docs/specification/v3_0/authentication/bearer-authentication/) that we can provide in all subsequent API calls; Azure AI Foundry will use this to confirm we are who we say we are and thus have permission to interact with it!
 
