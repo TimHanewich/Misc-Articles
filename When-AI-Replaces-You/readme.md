@@ -1,0 +1,1 @@
+- ["The Future of Team Producitivty" graphic](https://github.com/TimHanewich/Misc-Articles/releases/download/1/future-teams.pptx)
