@@ -5,14 +5,22 @@ And as the capabilities and performance of underlying AI models continue to evol
 
 So what should you do if AI is coming for your job? In this article I'll share my thoughts on staying employable in this new economy.
 
-## The Employable Skills of the Future
-*Agent* is a term you have almost undoubtedly come across in the past 12 months, probably a number of times! Before we dive deeper, allow me to first clarify what an agent is.
-
-![agent picture](https://i.imgur.com/NxqkDdp.png)
+## What is an Agent?
+*Agent* is a term you have almost undoubtedly come across in the past 12 months, probably a number of times. Before we dive deeper, allow me to first clarify what an agent is.
 
 Technically speaking, an agent is a configuration of resources that surround and support an underlying large language model (LLM). These resources allow the LLM to provide you with more accurate, relevant, and tailored answers to you, while also taking action upon external systems to achieve what you've asked of it.
 
 But non-technically, you can think of an agent as an AI with a few tools it has to complete it's mission! In the same way a waiter needs familairty with a menu, a credit card billing system, and the ability to interact with restaurant-goers in a friendly tone, an agent has all the tools it needs to complete its particular job!
+
+![agent picture](https://i.imgur.com/NxqkDdp.png)
+
+The graphic above depicts exactly what types of resources we give to an underlying large language model to allow it do its job: 
+- **Instructions** define how an agent should behave, what steps it should follow, and more.
+- **Conversation History** allows the agent to understand how questions you ask now may correspond to an earlier part of the conversation.
+- **Knowledge** represents the information we provide to an agent to better allow it to do its job - website content, PDF's, etc.
+- **Tools** allow an agent to proactively take action against an external system you provide it
+
+So, when you think of *an agent*, this is nothing more than a term that we give larger systems that provide an underlying large language model (the same model that powers ChatGPT) with resources that allow it to better serve you and the task you give it.
 
 ## The Future of Productivity: Agents in the Workplace
 As mentioned in the intro, the ceiling of capaility on these *agents* only continues to rise. As the underlying large language models that power these models become more and more powerful, the range of applications of this technology broadens. And as time goes on, it becomes more aparent that both white-collar and blue-collar work are susceptible to AI replacing what once were traditionally human-staffed roles.
