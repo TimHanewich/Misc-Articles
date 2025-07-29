@@ -8,7 +8,7 @@ So what should you do if AI is coming for your job? In this article I'll share m
 ## The Employable Skills of the Future
 *Agent* is a term you have almost undoubtedly come across in the past 12 months, probably a number of times! Before we dive deeper, allow me to first clarify what an agent is.
 
-![agent picture]()
+![agent picture](https://i.imgur.com/NxqkDdp.png)
 
 Technically speaking, an agent is a configuration of resources that surround and support an underlying large language model (LLM). These resources allow the LLM to provide you with more accurate, relevant, and tailored answers to you, while also taking action upon external systems to achieve what you've asked of it.
 
