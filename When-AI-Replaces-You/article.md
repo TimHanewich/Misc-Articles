@@ -17,6 +17,6 @@ But non-technically, you can think of an agent as an AI with a few tools it has 
 
 
 ## If you can't beat 'em, join 'em
-![teams of tomorrow](https://i.imgur.com/9bXNP3e.jpeg)
+![teams of tomorrow](https://i.imgur.com/6yKzGdy.png)
 
 ## 
