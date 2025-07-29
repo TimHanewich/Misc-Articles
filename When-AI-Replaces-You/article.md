@@ -17,7 +17,7 @@ But non-technically, you can think of an agent as an AI with a few tools it has 
 ## The Future of Productivity: Agents in the Workplace
 As mentioned in the intro, the ceiling of capaility on these *agents* only continues to rise. As the underlying large language models that power these models become more and more powerful, the range of applications of this technology broadens. And as time goes on, it becomes more aparent that both white-collar and blue-collar work are susceptible to AI replacing what once were traditionally human-staffed roles.
 
-As this field evolves and countless innovators begin applying this technology to every industry, the *composition* of productivity wil also greatly evolve. Consider the graphic below:
+As this field evolves and countless innovators begin applying this technology to every industry, the *composition* of team-based productivity wil also greatly evolve. Consider the graphic below:
 
 ![teams of tomorrow](https://i.imgur.com/6yKzGdy.png)
 
