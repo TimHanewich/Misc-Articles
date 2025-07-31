@@ -1,4 +1,5 @@
 # What to do when AI comes for your Job
+![article image](https://i.imgur.com/mZ3DnCD.jpeg)
 In 2025, only three years into the "AI Boom" spawned by the release of ChatGPT in late 2022, we have already seen a number of *very* compelling examples of artificial intelligence not just *augmenting*, but *replacing* human labor. From executive assistants to HR recruiters to financial analysts and legal professionals, the sophisticated white collar jobs that were previously thought of as being "AI-proof" within our lifetime are now the first ones to be threatened by AI automation.
 
 And as the capabilities and performance of underlying AI models continue to evolve at a break-neck pace, tech companies are working overtime to apply this new form of intelligence to the *real-world* work - the work that we have been staffing with humans!
