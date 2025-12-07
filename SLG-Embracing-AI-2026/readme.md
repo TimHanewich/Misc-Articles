@@ -22,4 +22,5 @@
 - Frame AI as a tool to *support* staff, not replace them. address fears early. 
 - Invest in AI literacy: workshops, classes, etc.
 - Establish a why. Inspiration, otivation. 
+- Set up user groups.
 - Set up an AI Oversight Board. ARB.
