@@ -1,4 +1,6 @@
 # AI Readiness in Government: 3 Practical Steps for 2026
+![image](https://i.imgur.com/c8lO7ZI.png)
+
 Since [the AI Boom](https://en.wikipedia.org/wiki/AI_boom) began only a few years ago, artificial intelligence has reshaped how organizations operate and deliver value to their constituents. In only a few years, we've seen the private sector race to adopt AI, using it to enhance products, streamline services, and capture market share. For example, [Coca-Cola leverages text-to-video models to produce annual holiday commercials](https://www.youtube.com/watch?v=Yy6fByUmPuE), [Lowe's deploys "Mylow", an AI shopping assistant to guide customers](https://openai.com/index/lowes/), and [Procter & Gamble uses Azure IoT to build predictive models that improve manufacturing efficiency](https://www.microsoft.com/en/customers/story/25077-procter-and-gamble-iot-operations).
 
 But innovation shouldn't stop with the private sector. Government agencies, the organizations that shape society and serve residents, must also embrace AI to keep pace with modern expectations. While this may feel like uncharted territory for many leaders, it doesn't have to be daunting. Below are **three practical steps** every government agency should take in 2026 to proactively prepare for long-term success with AI.
