@@ -22,13 +22,13 @@ Government leaders often tell me: *"We know we want to embrace AI, but we're not
 
 The key is to begin with a project that is feasible, limited in scope, and impactful. Your first initiative should provide a safe environment for learning while delivering tangible value.
 
-**Qualities of a strong first AI project:**
+Qualities of a strong first AI project:
 - **Clear, narrow scope** – Focus on a single capability within an established process, such as automating document classification or summarizing internal knowledge.  
 - **Pilot-friendly** – Choose a project that can be built, tested, and evaluated quickly. The goal isn't to transform everything at once, but to gain experience.  
 - **Low risk to public trust** – In government, trust is paramount. Avoid high-stakes public-facing deployments until your team has confidence.  
 - **Meaningful impact** – Select a project tied to your agency's core mission so staff can see and validate its value.  
 
-**Examples of strong candidate projects I have encoutered in my work with State & Local gov leaders:**
+Examples of strong candidate projects I have encoutered in my work with State & Local gov leaders:
 - An internal knowledge agent that uses policy documents to help staff respond to inquiries and make decisions.
 - An external chatbot that synthesizes answers from existing public-facing content (i.e. FAQs, websites).  
 - A back-office AI solution, such as extracting invoice fields with [document intelligence](https://learn.microsoft.com/en-us/ai-builder/create-form-processing-model), to streamline financial processes - not flashy, but *impactful*!
