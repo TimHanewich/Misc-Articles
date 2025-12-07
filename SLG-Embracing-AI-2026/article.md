@@ -20,7 +20,7 @@ You don't need deep technical expertise, but having a working understanding of t
 ## Step 2: Identify *the Right* Problems to Solve
 Government leaders often tell me: *"We know we want to embrace AI, but we're not sure where to start."* That uncertainty is natural given how new these capabilities are.
 
-The key is to begin with a project that is feasible, limited in scope, and impactful. Your first initiative should provide a safe environment for learning while delivering tangible value.
+The key is to begin with a project that is feasible, limited in scope, but still impactful. Your first initiative should provide a safe environment for learning while delivering tangible value.
 
 Qualities of a strong first AI project:
 - **Clear, narrow scope** – Focus on a single capability within an established process, such as automating document classification or summarizing internal knowledge.  
