@@ -30,7 +30,7 @@ Qualities of a strong first AI project:
 - **Low risk to public trust** – In government, trust is paramount. Avoid high-stakes public-facing deployments until your team has confidence.  
 - **Meaningful impact** – Select a project tied to your agency's core mission so staff can see and validate its value.  
 
-Examples of strong candidate projects I have encoutered in my work with State & Local gov leaders:
+Examples of strong candidate projects I have encountered in my work with State & Local gov leaders:
 - An internal knowledge agent that uses policy documents to help staff respond to inquiries and make decisions.
 - An external chatbot that synthesizes answers from existing public-facing content (i.e. FAQs, websites).  
 - A back-office AI solution, such as extracting invoice fields with [document intelligence](https://learn.microsoft.com/en-us/ai-builder/create-form-processing-model), to streamline financial processes - not flashy, but *impactful*!
