@@ -33,7 +33,7 @@ Examples of strong candidate projects I have encoutered in my work with State & 
 - An external chatbot that synthesizes answers from existing public-facing content (i.e. FAQs, websites).  
 - A back-office AI solution, such as extracting invoice fields with [document intelligence](https://learn.microsoft.com/en-us/ai-builder/create-form-processing-model), to streamline financial processes - not flashy, but *impactful*!
 
-## Step 3: Build AI Readiness
+## Step 3: Build Your Team's AI Readiness
 McKinsey reports that 70% of digital transformation initiatives fail to meet their objectives, often due to [employee resistance](https://builtin.com/articles/ai-resistance-at-work). Any organizational leader knows that *culture* is a vital part of any organization's ability to execute successfully, quickly, and efficiently. Culture is critical, and in the age of AI, preparing staff to embrace change is essential.
 
 To set yourself up for success as well as possible, prepare your staff to embrace AI in the following ways:
