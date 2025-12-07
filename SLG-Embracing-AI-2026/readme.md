@@ -1,3 +1,5 @@
+PUBLISHED HERE: https://www.linkedin.com/pulse/ai-readiness-government-3-practical-steps-2026-tim-hanewich-s6v1e/
+
 # AI Readiness in Government: 3 Practical Steps for 2026
 
 ## 1: Familiarize with the capabilities
