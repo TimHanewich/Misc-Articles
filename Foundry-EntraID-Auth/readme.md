@@ -2,7 +2,7 @@
 As you already probably know from visiting this article, Microsoft Foundry (formerly known as *Azure AI Foundry* before November 2025) provides **two** ways to authenticate when using the service for various things, including LLM inference: **key-based**, and **Entra ID**.
 
 ## Entra ID Authentication: The Advantages
-**Key-based** authentication is quick and simple... just grab the API key out of the Foundry portal, plug it in as a header under the `api-key` name, and you're up and running! However, **key-based** authentication, due to its simplicity, also has some limitations. One of the major limitations is **security**. While key-based authentication is simply, it is "all of nothing" access - anyone who has that key can perform any action the resource allows. 
+**Key-based** authentication is quick and simple... just grab the API key out of the Foundry portal, plug it in as a header under the `api-key` name, and you're up and running! However, **key-based** authentication, due to its simplicity, also has some limitations. One of the major limitations is **security**. While key-based authentication is simple, it is "all of nothing" access - anyone who has that key can perform any action the resource allows. 
 
 With **Entra ID** authentication, you can use Microsoft Azure's **Role-Based Access Control (RBAC)**; this means you can assign specific roles to users or authorized applications within your tenant, following the principles of **least privileges**. You can also use **Conditional Access** to enforce policies that require Multi-Factor Authentication, a compliant device, or even a specific IP ranges before an AI model can be accessed.
 
@@ -24,7 +24,7 @@ Click on "+ New Registration" which will take you through some questions about y
 
 ![fill out app reg details](https://i.imgur.com/RbcmZSD.png)
 
-Once you created your new app registration, there are **three details** we will want to take note of: the **application (client) ID**, the **Directory (tenant) ID**, and a **client secret**. I blacked mine out for privacy, but take note of the application ID and directory ID on the main page!
+Once you have created your new app registration, there are **three details** we will want to take note of: the **application (client) ID**, the **Directory (tenant) ID**, and a **client secret**. I blacked mine out for privacy, but take note of the application ID and directory ID on the main page!
 
 ![ids](https://i.imgur.com/7czDBeB.png)
 
@@ -76,7 +76,7 @@ With your app registration added, click "Review + assign" at the bottom.
 
 ![review and assign](https://i.imgur.com/0ySC7BE.png)
 
-Then click it again to assign it to your app registration. Congrats! That app registration now has the permissions to use that Foundry resource. We are now prepared to move onto the next step.
+Then click it again to assign it to your app registration. Congrats! That app registration now has permissions to use that Foundry resource. We are now prepared to move onto the next step.
 
 ## Step 3: Obtain an Entra ID Access Token
 When using Entra ID, we first make a call to the Entra ID service *requesting* access to a resource in the Azure tenant (in this case, Foundry). So that is our next goal - call to Entra ID and say *"Hi, it is me, your app registration... may I use Foundry right now?"*. The formal way of doing this is requesting an **Access Token** from Entra ID. And this access token will be used in all future calls to Foundry as "proof" that we have access!
@@ -150,6 +150,6 @@ The workflow, at a glance:
 3. Request & Obtain an access token
 4. Consume the Foundry service using that token!
 
-Now you are prepared to use Foudry by authenticating via Entra ID, a significantly more secure method than using static API keys. While a key can be easily leaked, hardcoded, or shared, Entra ID relies on short-lived access tokens that expire automatically, drastically reducing the window of opportunity for an attacker if a token is intercepted.
+Now you are prepared to use Foundry by authenticating via Entra ID, a significantly more secure method than using static API keys. While a key can be easily leaked, hardcoded, or shared, Entra ID relies on short-lived access tokens that expire automatically, drastically reducing the window of opportunity for an attacker if a token is intercepted.
 
 Written by [Tim Hanewich](https://www.linkedin.com/in/timhanewich/), Sr. AI Business Solutions Engineer at Microsoft. Follow me [on Github](https://github.com/TimHanewich) for more of my content.
