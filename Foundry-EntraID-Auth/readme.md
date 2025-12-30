@@ -1,5 +1,7 @@
 # How to use Microsoft Foundry via Entra ID Authentication (with Step-by-Step Screenshots)
-As you already probably know from visiting this article, Microsoft Foundry (formerly known as *Azure AI Foundry* before November 2025) provides **two** ways to authenticate when using the service for various things, including LLM inference: **key-based**, and **Entra ID**.
+![pic](https://i.imgur.com/Rd0tFfU.png)
+
+As you already probably know, Microsoft Foundry (formerly known as *Azure AI Foundry* before November 2025) provides **two** ways to authenticate when using the service for various things, including LLM inference: **key-based**, and **Entra ID**.
 
 ## Entra ID Authentication: The Advantages
 **Key-based** authentication is quick and simple... just grab the API key out of the Foundry portal, plug it in as a header under the `api-key` name, and you're up and running! However, **key-based** authentication, due to its simplicity, also has some limitations. One of the major limitations is **security**. While key-based authentication is simple, it is "all of nothing" access - anyone who has that key can perform any action the resource allows. 
