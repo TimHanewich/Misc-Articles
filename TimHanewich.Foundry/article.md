@@ -6,11 +6,13 @@ Standard SDKs are often designed to be "everything for everyone," resulting in c
 In this article, I'll show you how to get up and running with Microsoft Foundry in C# using this library.
 
 ## Why TimHanewich.Foundry?
-While the official OpenAI or Azure SDKs are powerful, **TimHanewich.Foundry** targets the specific nuances of the Foundry Responses API. It offers:
+The biggest hurdle with official enterprise SDKs is the "cognitive overhead": the sheer amount of boilerplate code, deeply nested namespaces, and configuration objects you have to navigate just to send a simple prompt.
+
+**TimHanewich.Foundry** was built for *simplicity*. While the official OpenAI or Azure SDKs are powerful, they are often designed for every possible edge case, which makes the learning curve steep. This library targets the specific nuances of the Microsoft Foundry service with a flat, intuitive architecture. It offers:
 - **Native Entra ID Support**: Simplifies Service Principal authentication.
 - **Smart Conversation Tracking**: Uses the `previous_response_id` natively to maintain context without manually managing arrays of message history.
 - **Strongly-Typed Tooling**: Simple classes for function calling and JSON mode.
-- **Zero Bloat**: Built for .NET 10+, it stays out of your way and lets you focus on the logic.
+- **Zero Bloat**: Built for .NET 10+, it stays out of your way and lets you focus on the logic
 
 ## Getting Started
 First, add the package to your project:
@@ -104,6 +106,6 @@ d.AccessToken = credential.AccessToken; // Use the token instead of a key!
 ## Conclusion
 Interfacing with high-performance models in Microsoft Foundry shouldn't require hundreds of lines of configuration. With **TimHanewich.Foundry**, you get a streamlined, .NET-first experience that handles the heavy lifting of authentication and conversation state for you.
 
-You can find the full source code and more examples on GitHub or download the package on NuGet.
+You can find the full source code and more examples [on GitHub](https://github.com/TimHanewich/TimHanewich.Foundry) or download the package [on NuGet](https://www.nuget.org/packages/TimHanewich.Foundry).
 
 Happy coding!
