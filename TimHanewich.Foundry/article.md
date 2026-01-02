@@ -1,4 +1,6 @@
 # How to Call Microsoft Foundry Services in C#
+![banner](https://i.imgur.com/f4bzAhf.jpeg)
+
 Building applications on top of Large Language Models (LLMs) has become a standard requirement for all modern developers, and that includes .NET developers. However, the integration experience can sometimes feel heavier than it needs to be.
 
 Standard SDKs are often designed to be "everything for everyone," resulting in complex boilerplate and deeply nested configurations. That's why I built **TimHanewich.Foundry**, a lightweight, purpose-built .NET library designed to make interfacing with Foundry deployments as clean and intuitive as possible.
