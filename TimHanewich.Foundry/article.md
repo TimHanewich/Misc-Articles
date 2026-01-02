@@ -1,12 +1,12 @@
 # How to Call Microsoft Foundry Services in C#
 Building applications on top of Large Language Models (LLMs) has become a standard requirement for modern .NET developers. However, if you are working within the Microsoft ecosystem - specifically using Microsoft Foundry (formerly Azure AI Foundry) - the integration experience can sometimes feel heavier than it needs to be.
 
-Standard SDKs are often designed to be "everything for everyone," resulting in complex boilerplate and deeply nested configurations. That's why I built TimHanewich.Foundry, a lightweight, purpose-built .NET library designed to make interfacing with Foundry deployments as clean and intuitive as possible.
+Standard SDKs are often designed to be "everything for everyone," resulting in complex boilerplate and deeply nested configurations. That's why I built **TimHanewich.Foundry**, a lightweight, purpose-built .NET library designed to make interfacing with Foundry deployments as clean and intuitive as possible.
 
 In this article, I'll show you how to get up and running with Microsoft Foundry in C# using this library.
 
-## Why TimHanewich.Foundry?
-While the official OpenAI or Azure SDKs are powerful, TimHanewich.Foundry targets the specific nuances of the Foundry Responses API. It offers:
+## Why **TimHanewich.Foundry**?
+While the official OpenAI or Azure SDKs are powerful, **TimHanewich.Foundry** targets the specific nuances of the Foundry Responses API. It offers:
 - **Native Entra ID Support**: Simplifies Service Principal authentication.
 - **Smart Conversation Tracking**: Uses the previous_response_id natively to maintain context without manually managing arrays of message history.
 - **Strongly-Typed Tooling**: Simple classes for function calling and JSON mode.
@@ -99,7 +99,7 @@ d.AccessToken = credential.AccessToken; // Use the token instead of a key!
 ```
 
 ## Conclusion
-Interfacing with high-performance models in Microsoft Foundry shouldn't require hundreds of lines of configuration. With TimHanewich.Foundry, you get a streamlined, .NET-first experience that handles the heavy lifting of authentication and conversation state for you.
+Interfacing with high-performance models in Microsoft Foundry shouldn't require hundreds of lines of configuration. With **TimHanewich.Foundry**, you get a streamlined, .NET-first experience that handles the heavy lifting of authentication and conversation state for you.
 
 You can find the full source code and more examples on GitHub or download the package on NuGet.
 
