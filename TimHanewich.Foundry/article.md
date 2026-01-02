@@ -1,14 +1,14 @@
 # How to Call Microsoft Foundry Services in C#
-Building applications on top of Large Language Models (LLMs) has become a standard requirement for modern .NET developers. However, if you are working within the Microsoft ecosystem - specifically using Microsoft Foundry (formerly Azure AI Foundry) - the integration experience can sometimes feel heavier than it needs to be.
+Building applications on top of Large Language Models (LLMs) has become a standard requirement for all modern developers, and that includes .NET developers. However, if you are working within the Microsoft ecosystem - specifically using Microsoft Foundry (formerly Azure AI Foundry) - the integration experience can sometimes feel heavier than it needs to be.
 
 Standard SDKs are often designed to be "everything for everyone," resulting in complex boilerplate and deeply nested configurations. That's why I built **TimHanewich.Foundry**, a lightweight, purpose-built .NET library designed to make interfacing with Foundry deployments as clean and intuitive as possible.
 
 In this article, I'll show you how to get up and running with Microsoft Foundry in C# using this library.
 
-## Why **TimHanewich.Foundry**?
+## Why TimHanewich.Foundry?
 While the official OpenAI or Azure SDKs are powerful, **TimHanewich.Foundry** targets the specific nuances of the Foundry Responses API. It offers:
 - **Native Entra ID Support**: Simplifies Service Principal authentication.
-- **Smart Conversation Tracking**: Uses the previous_response_id natively to maintain context without manually managing arrays of message history.
+- **Smart Conversation Tracking**: Uses the `previous_response_id` natively to maintain context without manually managing arrays of message history.
 - **Strongly-Typed Tooling**: Simple classes for function calling and JSON mode.
 - **Zero Bloat**: Built for .NET 10+, it stays out of your way and lets you focus on the logic.
 
@@ -48,13 +48,12 @@ foreach (Exchange exchange in r.Outputs)
 ```
 
 ### 2. Handling Conversations (The Easy Way)
-Maintaining state is usually the hardest part of LLM development. This library leverages the Foundry previous_response_id to link messages together automatically. You don't need to pass the entire history back and forth; just pass the ID of the last response.
+Maintaining state is usually the hardest part of LLM development. This library leverages the responses API's `previous_response_id` property to link messages together within a conversation context automatically. You don't need to pass the entire history back and forth; just pass the ID of the last response.
 
 ```C#
 ResponseRequest rr = new ResponseRequest();
 rr.Model = "gpt-5-mini";
-// Link to the previous exchange
-rr.PreviousResponseID = "resp_05c65468f65bdb3c006950294d66948196ac0afea12bfba22d"; 
+rr.PreviousResponseID = "resp_05c65468f65bdb3c006950294d66948196ac0afea12bfba22d";  // Link to the previous exchange
 rr.Inputs.Add(new Message(Role.user, "Can you explain that again, but for a 5-year-old?"));
 
 Response r = await d.CreateResponseAsync(rr);
@@ -70,7 +69,11 @@ CheckWeather.Name = "CheckWeather";
 CheckWeather.Description = "Check the weather for any zip code.";
 CheckWeather.Parameters.Add(new ToolInputParameter("zip_code", "Zip code to check"));
 
+//Add the tool
 rr.Tools.Add(CheckWeather);
+
+// Call the service
+Response r = await d.CreateResponseAsync(rr);
 
 // Check if the model wants to use the tool
 foreach (Exchange exchange in r.Outputs)
@@ -83,7 +86,7 @@ foreach (Exchange exchange in r.Outputs)
 ```
 
 ### 4. Enterprise Security with Entra ID
-For production environments, API keys are often discouraged in favor of Managed Identities or Service Principals. The library includes a built-in EntraAuthenticationHandler to manage token acquisition and expiration.
+For production environments, API keys are often discouraged in favor of Managed Identities or Service Principals. The library includes a built-in `EntraAuthenticationHandler` to manage token acquisition and expiration.
 
 ```C#
 EntraAuthenticationHandler eah = new EntraAuthenticationHandler();
