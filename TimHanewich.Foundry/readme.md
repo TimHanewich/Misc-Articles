@@ -1,0 +1,1 @@
+Article published here: https://timhanewich.medium.com/how-to-call-microsoft-foundry-azure-openai-services-in-c-d175ee667a3a
