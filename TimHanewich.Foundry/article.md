@@ -1,12 +1,12 @@
 # How to Call Microsoft Foundry Services in C#
-Building applications on top of Large Language Models (LLMs) has become a standard requirement for all modern developers, and that includes .NET developers. However, if you are working within the Microsoft ecosystem - specifically using Microsoft Foundry (formerly Azure AI Foundry) - the integration experience can sometimes feel heavier than it needs to be.
+Building applications on top of Large Language Models (LLMs) has become a standard requirement for all modern developers, and that includes .NET developers. However, the integration experience can sometimes feel heavier than it needs to be.
 
 Standard SDKs are often designed to be "everything for everyone," resulting in complex boilerplate and deeply nested configurations. That's why I built **TimHanewich.Foundry**, a lightweight, purpose-built .NET library designed to make interfacing with Foundry deployments as clean and intuitive as possible.
 
 In this article, I'll show you how to get up and running with Microsoft Foundry in C# using this library.
 
 ## Why TimHanewich.Foundry?
-The biggest hurdle with official enterprise SDKs is the "cognitive overhead": the sheer amount of boilerplate code, deeply nested namespaces, and configuration objects you have to navigate just to send a simple prompt.
+The biggest hurdle with official enterprise SDKs is the *overhead*: the sheer amount of boilerplate code, deeply nested namespaces, and configuration objects you have to navigate just to send a simple prompt.
 
 **TimHanewich.Foundry** was built for *simplicity*. While the official OpenAI or Azure SDKs are powerful, they are often designed for every possible edge case, which makes the learning curve steep. This library targets the specific nuances of the Microsoft Foundry service with a flat, intuitive architecture. It offers:
 - **Native Entra ID Support**: Simplifies Service Principal authentication.
