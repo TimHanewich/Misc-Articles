@@ -1,4 +1,7 @@
 # Zero Trust Dataverse: Securing Dataverse API Integrations with Service Principals and Application Users
+
+![banner](https://i.imgur.com/v6oF4gR.png)
+
 In 2026, the stakes for data security have never been higher. As we navigate the age of Agentic AI and autonomous workflows, the data you store is no longer just a record: it is the "brain" fueling your company's intelligence. Protecting this mission-critical data is vital.
 
 Microsoft Dataverse has emerged as the secure standard for businesses in this AI-driven era. For organizations looking to bridge the gap between innovation and safety, Dataverse provides a Zero Trust framework where every interaction is scrutinized and every identity is verified.
