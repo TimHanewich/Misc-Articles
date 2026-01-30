@@ -56,7 +56,7 @@ At the top, select "+ New App User":
 
 ![new app user](https://i.imgur.com/TPGq5rq.png)
 
-A fly-out pane will appear on the right. It will prompt you to seelct an "App". It is referring to the **Application User** (service principal) you set up in step one!
+A fly-out pane will appear on the right. It will prompt you to select an "App". It is referring to the **Application User** (service principal) you set up in step one!
 
 ![add an app](https://i.imgur.com/zKN4BJJ.png)
 
@@ -159,4 +159,4 @@ Why this is the 2026 Gold Standard:
 - **Reduced Blast Radius**: By using Bearer Tokens that expire, you ensure that even a successful interception of a credential has a very limited "shelf life."
 - **Complete Auditability**: Every row changed or deleted via the Web API is now explicitly stamped with the name of your Service Principal, providing a clear "paper trail" for compliance.
 
-*Written by [Tim Hanewich](https://www.linkedin.com/in/timhanewich/), Sr. AI Business Solutions Engineer at Microsoft. Follow me [on Github](https://github.com/TimHanewich) for more of my content.*
+*Written by [Tim Hanewich](https://www.linkedin.com/in/timhanewich/), Sr. AI Business Solutions Engineer at Microsoft. Follow me [on GitHub](https://github.com/TimHanewich) for more of my content.*
