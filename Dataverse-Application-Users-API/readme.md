@@ -1,6 +1,11 @@
 # Zero Trust Dataverse: Securing Web API Integrations with Service Principals and Application Users
+In 2026, the stakes for data security have never been higher. As we navigate the age of Agentic AI and autonomous workflows, the data you store is no longer just a record: it is the "brain" fueling your company's intelligence. Protecting this mission-critical data is vital.
 
-[Some preamble about Dataverse's security posture and how it can be securely interfaced/integrated with using Azure Service Principals and the special 'Application User' feature within Dataverse, specifically designed for non-user based interaction]
+Microsoft Dataverse has emerged as the secure standard for businesses in this AI-driven era. For organizations looking to bridge the gap between innovation and safety, Dataverse provides a Zero Trust framework where every interaction is scrutinized and every identity is verified.
+
+One of the most powerful ways to maintain this security posture is using Azure Service Principals paired with Dataverse Application Users. This combination allows your external services and AI agents to interface with your data using fine-grained permissions.
+
+In this guide, I'll walk through how to set up this integration:
 
 ## Step 1: Create Service Principal (App Registration) in Azure
 The first step is to visit [the Azure Portal](https://portal.azure.com/#home) to create your *app registration* - this serves as a registration of the particular app/service you are building that your app/service will use to authenticate into your tenant. By having this app registration (service principal) as mechanism, we can ensure fine-grain control over exactly what the app can and cannot do in your tenant.
