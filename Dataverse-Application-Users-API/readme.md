@@ -1,0 +1,1 @@
+Article posted [here](https://www.linkedin.com/pulse/zero-trust-dataverse-securing-api-integrations-service-tim-hanewich-knipe/?trackingId=0tGTnroKRvOmiIvAxQa40Q%3D%3D).
