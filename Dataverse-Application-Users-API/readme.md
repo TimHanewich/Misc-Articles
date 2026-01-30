@@ -8,7 +8,7 @@ One of the most powerful ways to maintain this security posture is using Azure S
 In this guide, I'll walk through how to set up this integration:
 
 ## Step 1: Create Service Principal (App Registration) in Azure
-The first step is to visit [the Azure Portal](https://portal.azure.com/#home) to create your *app registration* - this serves as a registration of the particular app/service you are building that your app/service will use to authenticate into your tenant. By having this app registration (service principal) as mechanism, we can ensure fine-grain control over exactly what the app can and cannot do in your tenant.
+The foundation of a secure integration is a distinct identity. We start by visiting [the Azure Portal](https://portal.azure.com/#home) to create an App Registration. This creates a Service Principal, which is a dedicated identity for your application that exists independently of any human user. By using a Service Principal instead of a service account, you move away from vulnerable passwords and toward a model of explicitly defined permissions, ensuring your app has exactly the access it needs to your tenant and nothing more.
 
 Visit the Azure portal at [portal.azure.com](https://portal.azure.com) and navigate to the Microsoft Entra ID service.
 
@@ -46,9 +46,9 @@ Fantastic! Now we have *three values* we will need from our app registration to 
 We are now ready to move on to step 2!
 
 ## Step 2: Register the Service Principal as an Application User in Power Platform
-The Power Platform has a special mechanism for registering access for non-users (i.e. programmatic applications or services that wish to access Dataverse *not* on behalf of a user): [Application Users](https://learn.microsoft.com/en-us/power-platform/admin/manage-application-users)
+To actually interact with your data, Dataverse uses a specialized gateway called an Application User. This is a crucial security boundary: it allows you to map your Azure Service Principal to a specific environment and govern it using Dataverse Security Roles. By using an Application User instead of a standard licensed user, you ensure that this programmatic access is non-interactive, audit-ready, and adheres to the principle of least privilege within your organization's data.
 
-Visit the [Power Platform Admin Center](), select your environment, go to "Settings" (at the top), and then select "**Application Users**" under "Users + permissions". This will open a list of application users registered within this particular Dataverse environment.
+Visit the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/), select your environment, go to "Settings" (at the top), and then select "**Application Users**" under "Users + permissions". This will open a list of application users registered within this particular Dataverse environment.
 
 ![app users setting](https://i.imgur.com/cI48Kjt.png)
 
@@ -77,10 +77,9 @@ After clicking "add" at the bottom, your application user is now ready!
 ![ready to go](https://i.imgur.com/YbYbWq9.png)
 
 ## Step 3: Get an Access Token
-Now that we have created our service principal, registered as an **app registration** in Azure, and added our service principal as an authorized **application user** within our Power Platform environment (along with a security role), now we are ready to reach out to the Microsoft Entra ID service to request an **Access Token**.
+With our identity established in Azure and our permissions defined in Dataverse, we now will request and acquire an **access token**. Instead of sending your Client Secret with every data request (which would be a massive security risk) your application will make a single, secure POST request to Microsoft Entra ID.
 
-We will make an HTTP call to the Entra ID authentication service to authenticate; upon authenticating, we will be provided with an Access Token that we can then use for all subsequent requests (i.e. reads, writes) to Dataverse for a period of time until it expires.
-
+Entra ID will verify your Service Principal's credentials and issue a short-lived Bearer Token. This token acts like a digital "key card". It is cryptographically signed, restricted to your specific Dataverse environment, and will automatically expire, drastically reducing the "blast radius" if the token were ever intercepted.
 
 The following steps consists of API calls, which I will be showing in Bruno (similar to Postman).
 
@@ -105,9 +104,11 @@ Your request will look something like this:
 If all is successful, as you can see on the right, the Entra ID service will return `200 OK` and give us an `access_token` value. *That* is the value we want! That is permission (at least for a period of time... it expires!) to use the Foundry service! Take note of that `access_token` value (starts with `eyJ0eXAiOi...` in my example)!
 
 ## Step 4: Interface with the Dataverse API
-Now that we have acquired an access token, we can now go ahead and begin using the Dataverse API!
+With your short-lived access token in hand, you are now ready for the final step: use the Dataverse API! In the Zero Trust model, this is the "Continuous Verification" phase. Every single request you send from here on out will include that token in the header, allowing Dataverse to verify your identity and enforce your security roles in real-time.
 
-In all subsequent API calls, provide the access token acquired from step #3 as a **bearer token** (header like `Authorization: Bearer <token here>`):
+Because Dataverse is built on the [OData v4.0 standard](https://www.odata.org/), interacting with it feels familiar to any modern developer, but with the added peace of mind that every `GET`, `POST`, and `PATCH` is being governed by the industry's most robust security engine.
+
+In all subsequent API calls, provide the access token acquired from step #3 as a **bearer token** (header `Authorization: Bearer <token here>`):
 
 ![bearer](https://i.imgur.com/0rDcL2l.png)
 
