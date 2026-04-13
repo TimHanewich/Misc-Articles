@@ -1,7 +1,5 @@
-![banner](https://i.imgur.com/0nLHKiE.png)
-
 # Your First Power Apps Code App
-![Image 1](https://i.imgur.com/wLlIYr6.jpeg)
+![banner](https://i.imgur.com/0nLHKiE.png)
 
 [Power Apps Code Apps](https://learn.microsoft.com/en-us/power-apps/developer/code-apps/overview) allows developers to bring custom React applications into the Power Platform, integrated with key Power Platform services like Dataverse, connectors, and Entra ID authentication.
 
