@@ -1,6 +1,15 @@
 # The Understanding Gap
-[Models, in their new agent form are getting better and better. Not just your Copilot, but now on Autopilot.]
-
-[More and more tasks are being given to them to do for us. From making apps to writing emails to drafting powerpoint decks with speaker script]
-
-[But at what point are we nothing more than puppets of the ]
+**So much velocity, so little understanding.**
+- How did we get here?
+    - Models are getting better ad better at doing things. Being your **autpilot**
+        - 3 Examples of them doing well.
+    - Pressure to increase velocity
+    - We are faced with decision: slow down and understnad? Or just give in and ship?
+- Dilemna: Understanding gap
+    - Risks of "getting lost in forest"
+    - Are we becoming stupid? Is intellectual thinking being delegated to the machine? Are we **puppets**?
+    - Is "value" changing?
+- Thoughts on the future
+    - How to stay relevant
+    - Staying sharp: coding by hand to stay sharp
+    - Emphasis on judgement... which requires *understanding*
