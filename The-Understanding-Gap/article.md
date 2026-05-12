@@ -20,4 +20,6 @@ We are still in the very early days of fully realizing this newfound capability.
 In all of these examples above, the AI is not just *helping* a human do their work, it is actually doing work *for* the human, autonomously. In years past, this would have seemed impossible due to the highly unstructured, unpredictable nature of the work. But with modern day language models provided in an "agentic" package, humans can truly delegate these tasks, including all of the "thinking" involved in them, to an AI.
 
 ## Velocity Pressure
-With how much can now be delegated to AI, the maximum output of a human worker is now seemingly multiple times greater than it was in the past. 
+With how much can now be delegated to AI, the maximum output of a human worker is now seemingly multiple times greater than it was in the past. Every and any employee looking to maximize their output in today's day and age is stringently analyzing their day-to-day work habits and questioning which of their tasks can be delegated to an AI agents, and how.
+
+
