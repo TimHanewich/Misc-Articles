@@ -1,7 +1,7 @@
 # The Understanding Gap
 *So much velocity, so little understanding.*
 
-For the worker of the modern era, a gap is developing between what they truly understand and what they are authoring, or "shipping."
+For the professional of the modern era, a gap is developing between what they truly understand and what they are authoring, or "shipping."
 
 In the past, this gap was much smaller because employees had to produce everything themselves. Producing meaningful output required extensive understanding of the topic or material; behind every finished product were countless hours spent learning the underlying system before anything could be delivered.
 
@@ -20,7 +20,7 @@ We are still in the very early days of fully realizing this new capability. Seve
 In all of these examples, the AI is not just *helping* a human do work, it is actually doing work *for* the human, autonomously. In years past, this would have seemed impossible because of the highly unstructured and unpredictable nature of the work. But with modern language models provided in an "agentic" package, humans can now truly delegate these tasks, including much of the "thinking" involved, to AI.
 
 ## Velocity Pressure
-With so much now delegable to AI, the maximum output of a human worker seems to be multiple times greater than it was in the past. That is an amazing thing.
+With so much now delegable to AI, the maximum output of a human professional seems to be multiple times greater than it was in the past. That is an amazing thing.
 
 I'm sure you have already seen it: endless examples of "look what I made with Claude," or "check out the amazing app Codex built for me," or "I put this PowerPoint deck together using Cowork." The *velocity* of content creation is through the roof right now. Content platforms are seeing levels of output unlike anything before, with [GitHub seeing 30x more activity](https://www.mindstudio.ai/blog/github-30x-repos-infrastructure-signals-proactive-agents) as one striking example.
 
@@ -51,7 +51,7 @@ Because AI creates the illusion that you can go deep into a domain you barely kn
 The more we defer without questioning, the more our critical thinking skills risk erosion. And if we become nothing more than puppets to the machine, what unique value do we provide that cannot be easily reproduced by the model itself, or by another human puppet using the same model? The value of what you provide can quickly fall toward zero, degraded by the commoditized nature of what you are offering.
 
 ## Staying Relevant
-Today, every hard worker is searching for ways to remain relevant and employable in this economy. I do not have all the answers, but I will share a few early thoughts while we are still only on the doorstep of what is coming:
+Today, there are so many hard working professionals searching for ways to remain relevant and employable in this new era. I do not have all the answers, but I will share a few early thoughts while we are still only on the doorstep of what is coming:
 
 **Tip #1: Find the right Ownership/Delegation Balance**: When using AI agent tools, we face a difficult choice: how much effort should we spend understanding *what* the AI agent is doing and *how* it is doing it? At first glance, this may seem like a fool's errand. Why concern yourself with the underlying mechanisms if the AI will always be there to solve the problem? That is a fallacy. Project Managers (PMs), for example, are responsible for directing the work of developers toward the right problems. The *best* PMs are those who work to understand the developers' work well enough to choose the best path forward for the team as a whole. The same principle applies to users of AI agents. Having some level of understanding is helpful, but knowing exactly **what level of understanding** is worth investing in allows you to strike the right balance.
 
