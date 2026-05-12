@@ -58,3 +58,12 @@ Today, every hard worker is constantly searching for ways to remain relevant and
 **Tip #2: Choosing what to understand**: no leader will tell you they can do a better job of each of the people working under them. Their role, as a leader, is finding the right people for each job and removing obstacles to allow them to do their best work. Naturally, their *understanding* of each domain is being *outsourced* to someone else, allowing the leader to spread there focus elsewhere. THat is the role of delegation and it is a wonderful thing. However, sometimes leaders must become deeply understanding of a particular topic or domain, with thier understanding later becoming critical to them making the *right decisions* on where to delegate their teams energy. The decision of **what** to invest your time learning and understanding is going to be a critical question that we answer in the future, especially with how much we can delegate to AI and get away with (procrastinate/postpone).
 
 **Tip #3: Quickly Understanding**: With how much we can now delegate to AI Agents, pressure will likely ramp up on the individual worker *not* being an isolated "specialist" of a particular single domain, task, business process, etc. Instead, each of us will be expected to do more with these tools, not only outputting more but outputting across a variety of connected disciplines. Being a *quick, adaptable learner* is going to become a very valuable skill in the modern era - again, not necessarily learning it all at a deep level at a domain, but enough to be "dangerous", i.e. direct your agent exactly as necessarily to achieve the optimal outcome!
+
+## Close
+This isn't something new: Cliffnotes allowed students to fake understanding of a book. Phrasebooks allowed travelers to fake understanding of a language when traveling abroad. Auto-correct allows authors to fake proper grammar and spelling.
+
+Now with AI, it is possible to fake *intelligence*.
+
+The tempting allure of the illusion of capability will be alluring to many to postpone their understanding of a particular domain, outsourcing thought and understanding to the agent. This can quickly become a slippery slope.
+
+Stay sharp! But not in the "old way"... stay sharp in the "new way": find that symbiosis with agents, the right balance that allows *both* you and your agents to thrive in the long term. With these agents, you're the captain of the ship anyway; the captain better maintain his/her judgement and wit!
