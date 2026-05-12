@@ -1,5 +1,7 @@
 # The Understanding Gap
-**So much velocity, so little understanding.**
+*So much velocity, so little understanding.*
+
+In the worker of the modern era, there is a gap developing between what the worker truly understands and what they are authoring or "shipping". In the past, this wasn't there because workers had to 
 
 - How did we get here?
     - Models are getting better ad better at doing things. Being your **autpilot**. 3 Examples of them doing well: coding agents, research and data synthesis, autonoumous threat hunting (cybersecurity).
