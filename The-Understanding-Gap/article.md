@@ -1,9 +1,9 @@
 # The Understanding Gap
 *So much velocity, so little understanding.*
 
-For the professional of the modern era, a gap is developing between what they truly understand and what they are authoring, or "shipping."
+For the professional of the modern era, a gap is developing between what they truly understand and what they are producing.
 
-In the past, this gap was much smaller because employees had to produce everything themselves. Producing meaningful output required extensive understanding of the topic or material; behind every finished product were countless hours spent learning the underlying system before anything could be delivered.
+In the past, this gap was much smaller because employees had to produce everything themselves. Producing meaningful output required extensive understanding of the topic or material; behind every output were countless hours spent learning the underlying system before anything could be delivered.
 
 Now, with the help of AI, and more specifically *agents*, that level of understanding is no longer always required. AI is quickly evolving beyond knowledge-based work into *problem-solving* and *reasoning*, and that shift is happening extremely fast, with potentially serious consequences for how work will change and evolve for all of us.
 
@@ -29,7 +29,7 @@ With so much now possible with so little effort, there is mounting pressure on t
 That mounting pressure to *produce* is the root cause of what I am calling "**The Understanding Gap**."
 
 ## The Understanding Gap
-When you combine **increased pressure to produce** with a **decreased barrier to entry that is approaching zero**, the result is a *decreased level of understanding* of what was produced and how it was produced. In other words, a divide is forming between *what* is being produced and our *understanding of what was produced*.
+When you combine **increased pressure to produce** with a **decreased barrier to entry that is approaching zero**, the result is a dramatic increase in how much can be produced, and how quickly. At a certain point, the velocity becomes difficult for the human to keep up with, making it increasingly likely that we ship things we do not fully understand. In other words, a divide begins to form between *what* is being produced and our *understanding of what was produced*.
 
 Before AI, if you wanted to build a web app for your users, you had to learn programming fundamentals, front-end development, the React framework, cloud hosting, and the overall process required to achieve that goal. After AI, you can simply prompt an agent and let it figure out the rest.
 
