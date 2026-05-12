@@ -66,4 +66,4 @@ Now, with AI, it is possible to fake *intelligence*.
 
 The temptation of borrowed capability will be powerful. Many people will postpone developing understanding in a domain, choosing instead to outsource thought and comprehension to the agent. That can quickly become a slippery slope.
 
-Stay sharp, but not in the "old way." Stay sharp in the "new way": find the symbiosis with agents, and the balance that allows *both* you and your agents to thrive over the long term. With these agents, you're still the captain of the ship; the captain had better preserve their judgment and wit.
+Stay sharp, but not in the "old way." Stay sharp in the "new way": find the symbiosis with agents, the balance that allows *both* you and your agents to thrive over the long term. With these agents, you're still the captain of the ship; the captain had better preserve their judgment and wit!
