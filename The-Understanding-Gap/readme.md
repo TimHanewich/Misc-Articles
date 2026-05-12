@@ -7,7 +7,7 @@
     - Risks of "getting lost in forest"
     - Are we becoming stupid? Is intellectual thinking being delegated to the machine? Are we **puppets**?
     - Is "value" changing?
-- Thoughts on the future
-    - How to stay relevant
-    - Staying sharp: coding by hand to stay sharp
-    - Emphasis on judgement... which requires *understanding*
+- Thoughts on the future & How to stay relevant: **JUDGEMENT**
+    - Knowing where on the spectrum of understanding to be... right balance of velocity and understanding
+    - Knowing WHAT to spend time understanding, what to delegate away
+    - Quickly grasping something important (quick understanding)

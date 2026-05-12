@@ -20,6 +20,23 @@ We are still in the very early days of fully realizing this newfound capability.
 In all of these examples above, the AI is not just *helping* a human do their work, it is actually doing work *for* the human, autonomously. In years past, this would have seemed impossible due to the highly unstructured, unpredictable nature of the work. But with modern day language models provided in an "agentic" package, humans can truly delegate these tasks, including all of the "thinking" involved in them, to an AI.
 
 ## Velocity Pressure
-With how much can now be delegated to AI, the maximum output of a human worker is now seemingly multiple times greater than it was in the past. Every and any employee looking to maximize their output in today's day and age is stringently analyzing their day-to-day work habits and questioning which of their tasks can be delegated to an AI agents, and how.
+With how much can now be delegated to AI, the maximum output of a human worker is now seemingly multiple times greater than it was in the past. This is an amazing thing. 
 
+I'm sure you have already seen it - seemingly endless amounts of "look what I made with Claude" or "check out the amazing app Codex built me" or "I put this PowerPoint deck together using Cowork". The *velocity* of content creation is seemingly through the roof right now. Content hosting platforms are seeing a velocity of creation like never before, with [GitHub seeing 30x more activity](https://www.mindstudio.ai/blog/github-30x-repos-infrastructure-signals-proactive-agents) as a great example.
 
+With how much can be done with so little effort, there is mounting pressure on those *not* using these tools to keep up with those that *are* using these tools. Particularly in the current economic environment with mass layoffs and increased scrutiny into outputs, each of us are mindful that our output must scale leveraging these tools and not stay stagnant. 
+
+This mounting pressure to *produce* is the root cause of what I am calling "**The Understanding Gap**.
+
+## The Understanding Gap
+When you have **increased pressure to produce** and **decreased barrier to entry to producing to near-zero**, the net result is a *decreased level of understanding* of what was produced and how it was produced. In other words, there is a developing divide between *what* is being produce and our *understanding of what was produced*.
+
+Before AI, if you wanted to produce a web app for your users, you would have to learn programming fundamentals, learn front-end development, learn the React framework, learn cloud hosting, *understanding* the process and methods to achieve the goal. After AI, you just prompt an agent and it figures out the rest.
+
+Before AI, if you wanted to deliver a presentation on a newly announced product to a customer, you would have to spend hours combing through announcements, testing the capabilities, brainstorming ways to convey the key messaging, building visuals in a deck, and then refining talking points, *understanding* the new capability, how it works, and its value. With AI, you just prompt an agent to draft a deck with speaker notes and read the script word-for-word.
+
+In both of the examples above, in the "After AI" scenario, the required level of *understanding* of the subject is near-zero. The "figuring out", "reasoning", "brainstorming", and all thought can be fully delegated to the agent, asking only the "cliffnotes" that you need to make the final delivery even giving the *illusion* of understanding to those you deliver to. What you produced, via your agent, becomes a black box that you have little to no understanding of; but boy does it look good!
+
+While this may at first seem like a conccious choice and that staying sharp in any particular domain can still be taken seriously and done, market dynamics beg to differ: what value does *understanding* actually have in a world where your peer competition is outsourcing understanding and producing 5x more output by giving up on the goal of understanding? For every 1 hour you spend trying to undertand an underlying process, your competitors are spending delegating to an agent and producing because of it.
+
+## Risks of The Understanding Gap
