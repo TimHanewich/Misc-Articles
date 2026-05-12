@@ -1,8 +1,8 @@
 # The Understanding Gap
 **So much velocity, so little understanding.**
+
 - How did we get here?
-    - Models are getting better ad better at doing things. Being your **autpilot**
-        - 3 Examples of them doing well.
+    - Models are getting better ad better at doing things. Being your **autpilot**. 3 Examples of them doing well: coding agents, research and data synthesis, autonoumous threat hunting (cybersecurity).
     - Pressure to increase velocity
     - We are faced with decision: slow down and understnad? Or just give in and ship?
 - Dilemna: Understanding gap
