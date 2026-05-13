@@ -11,3 +11,5 @@
     - Knowing where on the spectrum of understanding to be... right balance of velocity and understanding
     - Knowing WHAT to spend time understanding, what to delegate away
     - Quickly grasping something important (quick understanding)
+
+A person in a play doing a dance on stage with strings attached from above. They are actually just a puppet, going through the motions of the dance with little understanding of it. 

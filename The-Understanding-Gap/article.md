@@ -1,4 +1,7 @@
 # The Understanding Gap
+
+![banner](https://i.imgur.com/dqhqm3g.png)
+
 *So much velocity, so little understanding.*
 
 For the professional of the modern era, a gap is developing between what they truly understand and what they are producing.
