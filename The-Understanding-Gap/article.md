@@ -59,7 +59,7 @@ Today, there are so many hard working professionals searching for ways to remain
 
 **Skill #3: Adaptability**: As more work becomes delegable to AI agents, pressure will likely increase on the individual worker to avoid becoming an isolated "specialist" in only one domain, task, or business process. Instead, many of us will be expected to do more with these tools, not only producing more, but producing across a broader range of connected disciplines. Being a *quick, adaptable learner* is going to become a highly valuable skill in the modern era. Again, this does not necessarily mean mastering every domain at a deep level, but understanding enough to be "dangerous", enough to direct your agent exactly as needed to achieve the best outcome.
 
-In other words: choosing *what* deserves your attention, choosing *how deep* you go into it, and *staying adaptable* across changing needs is where I feel the most value will be had.
+In other words: choosing *what* deserves your attention, choosing *how deep* you go into it, and *staying adaptable* across changing needs is where I believe the most value will be created.
 
 ## Close
 This is not entirely new. CliffsNotes allowed students to fake understanding of a book. Phrasebooks allowed travelers to fake understanding of a language while abroad. Auto-correct allows writers to fake proper spelling and grammar.
