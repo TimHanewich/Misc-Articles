@@ -1,11 +1,11 @@
 # Programatically Interact with your Copilot Studio Agents via the Direct Line API
-(a bit about Copilot Studio)
+Copilot Studio makes it easy to build and publish conversational agents with a low-code experience. That works great when you want to use the built-in chat surfaces, but sometimes you need to interact with your agent from your own application or workflow.
 
-(what value does programmatic access provide?... UI extensibility!)
+That is where programmatic access becomes valuable. It lets you embed your agent into a custom UI, trigger conversations from backend services, and connect it to experiences beyond the default Copilot Studio interface.
 
-(introduce the Direct Line API, which borrows from Azur Bot Framework)
+To support that, Copilot Studio exposes the Direct Line API, which follows the same Direct Line pattern used by Azure Bot Service / Bot Framework. Through it, you can start conversations, send messages, and retrieve responses with standard API calls.
 
-(Note that there is also a websocket endpoint but I am showing HTTP call for simplicity)
+Direct Line also supports a WebSocket streaming endpoint, but for this walkthrough I will keep things simple and use plain HTTP requests.
 
 Official documentation [here](https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts).
 
