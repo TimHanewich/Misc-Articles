@@ -12,7 +12,7 @@ You can read the official Microsoft documentation below if you'd prefer the sour
 - [All Activity Types](https://github.com/Microsoft/botframework-sdk/blob/main/specs/botframework-activity/botframework-activity.md)
 
 
-## Prepare your Agent for Direct Line
+## Step 1: Prepare your Agent for Direct Line
 The first step is to configure your agent to be accessible via the Direct Line Channel. 
 
 Step #1 = **PUBLISH YOUR AGENT**! This is a required step to interface with it in any external channel. Trust me, I have made the mistake of missing this!
@@ -29,7 +29,7 @@ That "Token Endpoint" is the URL endpoint we will later call to to authenticate 
 
 ![get endpoint](https://i.imgur.com/5J4gl3q.jpeg)
 
-## Request Access Token
+## Step 2: Request Access Token
 Great! Now your agent is ready, let's begin programattic access!
 
 The first step is to call to your agent's unique Token Endpoint (collected in the step above). It will respond back with a [Bearer token](https://blog.postman.com/what-is-a-bearer-token/) that we will embed in every subsequent call that verifies we are who we are and have authorization to interface with the agent!
@@ -54,7 +54,7 @@ This will be returned with something that looks like this:
 
 The critical information we want to capture and record is the `token` property. That is the Bearer Token we will embed in every subsequent request; the `expires_in` property tells us how long we have with this token until we have to refresh for another.
 
-## Start Conversation
+## Step 3: Start Conversation
 With that Bearer Token, we are now ready to make calls to interact with the agent!
 
 The first step is to formally start the conversation. The example below shows how we can start the conversation via a `POST` call to the `/conversations` endpoint.
@@ -86,7 +86,7 @@ The critical piece of information in the response above is the `conversationId`.
 
 You may think *"we already received that same conversation ID in the request token step... did we really need to do this 'start conversation' step?"*. The answer is yes! The conversation must be formally started.
 
-## Send a Message
+## Step 4: Send a Message
 Now, with that conversation started, we now have a "container" to send messages into.
 
 We can make a `POST` call to the `/activities` endpoint with our (the user's) message, passing that `conversationId` into the URL we are POST'ing to:
@@ -115,7 +115,7 @@ Will return:
 
 The response above confirms that the message was received and is now in the conversation. The ID returns has the `conversationId` and the unique index number of this message in that conversation. Since this is the first message in the conversation, it has an index of `0`!
 
-## Retrieve Activities (including Response)
+## Step 5: Retrieve Activities (including Response)
 As soon as you send that message and it responds successfully, your agent is working behind-the-scenes to respond to you! In only a few moments, that response should be available for you to retrieve!
 
 We can retrieve a full list of **all activities** (all messages and other activity types) via a `GET` request to the `/activities` endpoint (again, make sure you pass in your `conversationId`!):
@@ -241,7 +241,7 @@ For example, in a subsequent request, you can instead make a `GET` request to `h
 
 *(no activities have happened since that first watermark!)*
 
-## End the Conversation
+## Step 6: End the Conversation
 After back-and-forth dialog, the final step is to **end the conversation** once complete.
 
 This involves a simple `POST` to the `/activities` endpoint again, this time specifying the intent to end the conversation in the body:
