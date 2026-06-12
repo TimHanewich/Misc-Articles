@@ -1,6 +1,6 @@
 # Programmatically Interact with your Copilot Studio Agents via the Direct Line API
 
-![banner](https://i.imgur.com/cOpNmgP.png)
+![banner](https://i.imgur.com/epHlhDz.png)
 
 Copilot Studio makes it easy to build and publish conversational agents with a low-code experience. That works great when you want to use the built-in chat surfaces, but sometimes you need to interact with your agent from your own application or workflow. That out-of-the-box experience, along with the ability to embed agents into ready-made channels, is fantastic when you want to get up and running quickly. But what if you want to *programmatically* interact with your agent?
 
