@@ -5,22 +5,40 @@
 
 (introduce the Direct Line API, which borrows from Azur Bot Framework)
 
+(Note that there is also a websocket endpoint but I am showing HTTP call for simplicity)
+
 Official documentation [here](https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts).
 
 
 ## Prepare your Agent for Direct Line
+The first step is to configure your agent to be accessible via the Direct Line Channel. 
+
+Step #1 = **PUBLISH YOUR AGENT**! This is a required step to interface with it in any external channel. Trust me, I have made the mistake of missing this!
+
+While turning off authentication is not necessarily required to access the agent, I'm disabling it in mine to make it as easy as possible to authenticate:
+
 ![Turn off authentication](https://i.imgur.com/077M147.png)
 
+Next, we will need to get one specific data point from the agent that will subsequently use to interface with it via the Direct Line API. In the "Channels" tab, find the "Direct Line Speech" channel:
+
 ![channel to select](https://i.imgur.com/WN3z7tD.jpeg)
+
+That "Token Endpoint" is the URL endpoint we will later call to to authenticate into the agent and begin a new conversation!
 
 ![get endpoint](https://i.imgur.com/5J4gl3q.jpeg)
 
 ## Request Access Token
+Great! Now your agent is ready, let's begin programattic access!
+
+The first step is to call to your agent's unique Token Endpoint (collected in the step above). It will respond back with a [Bearer token](https://blog.postman.com/what-is-a-bearer-token/) that we will embed in every subsequent call that verifies we are who we are and have authorization to interface with the agent!
+
+Fortunately, it is a simple GET request:
+
 ```
 GET https://4492c53693cde2b0a25d5d84503ad9.14.environment.api.powerplatform.com/powervirtualagents/botsbyschema/craa5_Debbie/directline/token?api-version=2022-03-01-preview
 ```
 
-Will return:
+This will be returned with something that looks like this:
 
 ```
 200 OK
@@ -32,13 +50,21 @@ Will return:
 }
 ```
 
+The critical information we want to capture and record is the `token` property. That is the Bearer Token we will embed in every subsequent request; the `expires_in` property tells us how long we have with this token until we have to refresh for another.
+
 ## Start Conversation
+With that Bearer Token, we are now ready to make calls to interact with the agent!
+
+The first step is to formally start the conversation. The example below shows how we can start the conversation via a `POST` call to the `/conversations` endpoint.
+
+*Note: the Bearer Token is what associates your call with the particular agent you intent on interfacing with.*
+
 ```
 POST https://directline.botframework.com/v3/directline/conversations
 Authorization: Bearer eyJhbGciO...
 ```
 
-Will return:
+This will return with:
 
 ```
 201 Created
@@ -52,7 +78,17 @@ Will return:
 }
 ```
 
+*Note: while this provided another Bearer Token, I will use the same Bearer Token collected in the first step throughout the subsequent calls.*
+
+The critical piece of information in the response above is the `conversationId`. We will use that to send messages to and receive messages from, in the context of that conversation.
+
+You may think *"we already received that same conversation ID in the request token step... did we really need to do this 'start conversation' step?"*. The answer is yes! The conversation must be formally started.
+
 ## Send a Message
+Now, with that conversation started, we now have a "container" to send messages into.
+
+We can make a `POST` call to the `/activities` endpoint with our (the user's) message, passing that `conversationId` into the URL we are POST'ing to:
+
 ```
 POST https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities
 Authorization: Bearer eyJhbGciO...
@@ -75,7 +111,13 @@ Will return:
 }
 ```
 
+The response above confirms that the message was received and is now in the conversation. The ID returns has the `conversationId` and the unique index number of this message in that conversation. Since this is the first message in the conversation, it has an index of `0`!
+
 ## Retrieve Activities (including Response)
+As soon as you send that message and it responds successfully, your agent is working behind-the-scenes to respond to you! In only a few moments, that response should be available for you to retrieve!
+
+We can retrieve a full list of **all activities** (all messages and other activity types) via a `GET` request to the `/activities` endpoint (again, make sure you pass in your `conversationId`!):
+
 ```
 GET https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities
 Authorization: Bearer eyJhbGciO...
@@ -180,7 +222,28 @@ Will return:
 }
 ```
 
+And as you can see in the response above, we now have a list of all activities (including messages) in the conversation; and we can see our own origianl message and the agent's response to our message! Woohoo!
+
+You can continue having this back-and-forth dialog with the agent, sending in a message, and then retrieving its response. As you chat with the agent further, the `activities` will grow as the conversation history grows. To alleviate the need for you to receive and parse *so much* data every time, the Azure Bot Framework API provides the `watermark` property for you to paginate the activity you are receiving.
+
+For example, in a subsequent request, you can instead make a `GET` request to `https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities?watermark=1` to *only* request activities *after* the ones you just received (see `watermark` is `1` at the very end of that first call we made), which would return:
+
+```
+200 OK
+
+{
+    "activities": [],
+    "watermark": "2"
+}
+```
+
+*(no activities have happened since that first watermark!)*
+
 ## End the Conversation
+After back-and-forth dialog, the final step is to **end the conversation** once complete.
+
+This involves a simple `POST` to the `/activities` endpoint again, this time specifying the intent to end the conversation in the body:
+
 ```
 POST https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities
 Authorization: Bearer eyJhbGciO...
@@ -191,7 +254,7 @@ Authorization: Bearer eyJhbGciO...
 }
 ```
 
-Will respond:
+Will respond with the following, confirming receipt:
 
 ```
 200 OK
