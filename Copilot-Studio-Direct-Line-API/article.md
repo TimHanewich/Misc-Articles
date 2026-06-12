@@ -1,6 +1,8 @@
 # Programatically Interact with your Copilot Studio Agents via the Direct Line API
 (a bit about Copilot Studio)
 
+(what value does programmatic access provide?... UI extensibility!)
+
 (introduce the Direct Line API, which borrows from Azur Bot Framework)
 
 Official documentation [here](https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts).
