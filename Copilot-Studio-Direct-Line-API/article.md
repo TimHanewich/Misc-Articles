@@ -1,4 +1,4 @@
-# Programmatically Interact with your Copilot Studio Agents via the Direct Line API
+# Interact with your Copilot Studio Agents via the Direct Line API
 
 ![banner](https://i.imgur.com/epHlhDz.png)
 
