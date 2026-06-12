@@ -11,7 +11,6 @@ You can read the official Microsoft documentation below if you'd prefer the sour
 - [Direct Line API Key Concepts](https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)
 - [All Activity Types](https://github.com/Microsoft/botframework-sdk/blob/main/specs/botframework-activity/botframework-activity.md)
 
-
 ## Step 1: Prepare your Agent for Direct Line
 The first step is to configure your agent to be accessible via the Direct Line Channel. 
 
