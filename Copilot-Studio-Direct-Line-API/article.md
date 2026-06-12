@@ -1,13 +1,15 @@
 # Programatically Interact with your Copilot Studio Agents via the Direct Line API
-Copilot Studio makes it easy to build and publish conversational agents with a low-code experience. That works great when you want to use the built-in chat surfaces, but sometimes you need to interact with your agent from your own application or workflow.
-
-That is where programmatic access becomes valuable. It lets you embed your agent into a custom UI, trigger conversations from backend services, and connect it to experiences beyond the default Copilot Studio interface.
+Copilot Studio makes it easy to build and publish conversational agents with a low-code experience. That works great when you want to use the built-in chat surfaces, but sometimes you need to interact with your agent from your own application or workflow. This out of the box configuration *and* embedding within consumable channels is amazing for someone looking to get off the ground quickly! But what if you want to *programatically* interact with your agent?
 
 To support that, Copilot Studio exposes the Direct Line API, which follows the same Direct Line pattern used by Azure Bot Service / Bot Framework. Through it, you can start conversations, send messages, and retrieve responses with standard API calls.
 
-Direct Line also supports a WebSocket streaming endpoint, but for this walkthrough I will keep things simple and use plain HTTP requests.
+Programmatic interaction of your Copilot Studio agent opens up a world of possibilities! You can now embed your agent into a custom UI, trigger conversations from backend services, and connect it to experiences beyond the default Copilot Studio interface!
 
-Official documentation [here](https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts).
+In this article I'll share a basic step-by-step guide to get you up and running with the Direct Line API in Copilot Studio. Please note that the Direct Line API also supports a WebSocket streaming endpoint, but for this walkthrough I will keep things simple and use plain HTTP requests.
+
+You can read the official Microsoft documentation below if you'd prefer the source material 😊
+- [Direct Line API Key Concepts](https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)
+- [All Activity Types](https://github.com/Microsoft/botframework-sdk/blob/main/specs/botframework-activity/botframework-activity.md)
 
 
 ## Prepare your Agent for Direct Line
