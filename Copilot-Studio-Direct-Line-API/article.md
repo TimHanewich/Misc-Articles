@@ -377,3 +377,10 @@ And now, if we re-query the activities at the `/activities` endpoint, we can see
   "watermark": "2"
 }
 ```
+
+## Summary
+In short, the Direct Line API gives you a straightforward way to interact with your Copilot Studio agent outside of the default chat experience. After publishing your agent and grabbing its token endpoint, you can request a bearer token, start a conversation, send activities, retrieve responses, and formally end the conversation. 
+
+If you want to embed your agent into a custom app or automate interactions from your own services, Direct Line provides a simple and flexible path to do it!
+
+*Written by [Tim Hanewich](https://timhanewich.github.io/), Solution Engineer at Microsoft*.
