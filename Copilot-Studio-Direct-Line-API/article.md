@@ -1,40 +1,40 @@
-# Programatically Interact with your Copilot Studio Agents via the Direct Line API
+# Programmatically Interact with your Copilot Studio Agents via the Direct Line API
 
 ![banner](https://i.imgur.com/cOpNmgP.png)
 
-Copilot Studio makes it easy to build and publish conversational agents with a low-code experience. That works great when you want to use the built-in chat surfaces, but sometimes you need to interact with your agent from your own application or workflow. This out of the box configuration *and* embedding within consumable channels is amazing for someone looking to get off the ground quickly! But what if you want to *programatically* interact with your agent?
+Copilot Studio makes it easy to build and publish conversational agents with a low-code experience. That works great when you want to use the built-in chat surfaces, but sometimes you need to interact with your agent from your own application or workflow. That out-of-the-box experience, along with the ability to embed agents into ready-made channels, is fantastic when you want to get up and running quickly. But what if you want to *programmatically* interact with your agent?
 
-To support that, Copilot Studio exposes the Direct Line API, which follows the same Direct Line pattern used by Azure Bot Service / Bot Framework. Through it, you can start conversations, send messages, and retrieve responses with standard API calls.
+To support that, Copilot Studio exposes the Direct Line API, which follows the same Direct Line pattern used by Azure Bot Service / Bot Framework. Through it, you can start conversations, send messages, and retrieve responses using standard API calls.
 
-Programmatic interaction of your Copilot Studio agent opens up a world of possibilities! You can now embed your agent into a custom UI, trigger conversations from backend services, and connect it to experiences beyond the default Copilot Studio interface!
+Programmatic interaction with your Copilot Studio agent opens up a world of possibilities. You can embed your agent into a custom UI, trigger conversations from backend services, and connect it to experiences beyond the default Copilot Studio interface.
 
-In this article I'll share a basic step-by-step guide to get you up and running with the Direct Line API in Copilot Studio. Please note that the Direct Line API also supports a WebSocket streaming endpoint, but for this walkthrough I will keep things simple and use plain HTTP requests.
+In this article, I'll walk through a simple step-by-step guide to help you get up and running with the Direct Line API in Copilot Studio. Please note that Direct Line also supports a WebSocket streaming endpoint, but for this walkthrough I'll keep things simple and use plain HTTP requests.
 
-You can read the official Microsoft documentation below if you'd prefer the source material 😊
+You can read the official Microsoft documentation below if you'd prefer the source material.
 - [Direct Line API Key Concepts](https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)
 - [All Activity Types](https://github.com/Microsoft/botframework-sdk/blob/main/specs/botframework-activity/botframework-activity.md)
 
 ## Step 1: Prepare your Agent for Direct Line
-The first step is to configure your agent to be accessible via the Direct Line Channel. 
+The first step is to configure your agent so it is accessible through the Direct Line channel.
 
-Step #1 = **PUBLISH YOUR AGENT**! This is a required step to interface with it in any external channel. Trust me, I have made the mistake of missing this!
+Step #1 = **PUBLISH YOUR AGENT**! This is required before you can interface with it through any external channel. Trust me, I've made the mistake of forgetting this step.
 
-While turning off authentication is not necessarily required to access the agent, I'm disabling it in mine to make it as easy as possible to authenticate:
+While turning off authentication is not strictly required to access the agent, I'm disabling it here to make authentication as simple as possible:
 
 ![Turn off authentication](https://i.imgur.com/077M147.png)
 
-Next, we will need to get one specific data point from the agent that will subsequently use to interface with it via the Direct Line API. In the "Channels" tab, find the "Direct Line Speech" channel:
+Next, we need to capture one specific value from the agent that we'll use to interface with it through the Direct Line API. In the "Channels" tab, find the "Direct Line Speech" channel:
 
 ![channel to select](https://i.imgur.com/WN3z7tD.jpeg)
 
-That "Token Endpoint" is the URL endpoint we will later call to to authenticate into the agent and begin a new conversation!
+That "Token Endpoint" is the URL we'll later call to authenticate with the agent and begin a new conversation.
 
 ![get endpoint](https://i.imgur.com/5J4gl3q.jpeg)
 
 ## Step 2: Request Access Token
-Great! Now your agent is ready, let's begin programattic access!
+Great! Now that your agent is ready, let's begin programmatic access.
 
-The first step is to call to your agent's unique Token Endpoint (collected in the step above). It will respond back with a [Bearer token](https://blog.postman.com/what-is-a-bearer-token/) that we will embed in every subsequent call that verifies we are who we are and have authorization to interface with the agent!
+The first step is to call your agent's unique Token Endpoint from the previous step. It will respond with a [Bearer token](https://blog.postman.com/what-is-a-bearer-token/) that we'll include in every subsequent request to verify that we are authorized to interface with the agent.
 
 Fortunately, it is a simple GET request:
 
@@ -42,7 +42,7 @@ Fortunately, it is a simple GET request:
 GET https://4492c53693cde2b0a25d5d84503ad9.14.environment.api.powerplatform.com/powervirtualagents/botsbyschema/craa5_Debbie/directline/token?api-version=2022-03-01-preview
 ```
 
-This will be returned with something that looks like this:
+This will return something like the following:
 
 ```
 200 OK
@@ -54,21 +54,21 @@ This will be returned with something that looks like this:
 }
 ```
 
-The critical information we want to capture and record is the `token` property. That is the Bearer Token we will embed in every subsequent request; the `expires_in` property tells us how long we have with this token until we have to refresh for another.
+The critical property to capture is `token`. That is the Bearer Token you'll include in every subsequent request. The `expires_in` property tells you how long the token remains valid before you need to request a new one.
 
 ## Step 3: Start Conversation
-With that Bearer Token, we are now ready to make calls to interact with the agent!
+With that Bearer Token, we're now ready to make calls to interact with the agent.
 
-The first step is to formally start the conversation. The example below shows how we can start the conversation via a `POST` call to the `/conversations` endpoint.
+The first step is to formally start the conversation. The example below shows how to do that with a `POST` call to the `/conversations` endpoint.
 
-*Note: the Bearer Token is what associates your call with the particular agent you intent on interfacing with.*
+*Note: the Bearer Token is what associates your call with the specific agent you intend to interface with.*
 
 ```
 POST https://directline.botframework.com/v3/directline/conversations
 Authorization: Bearer eyJhbGciO...
 ```
 
-This will return with:
+This will return:
 
 ```
 201 Created
@@ -82,16 +82,16 @@ This will return with:
 }
 ```
 
-*Note: while this provided another Bearer Token, I will use the same Bearer Token collected in the first step throughout the subsequent calls.*
+*Note: while this response provides another Bearer Token, I'll continue using the same Bearer Token collected in the first step throughout the remaining calls.*
 
-The critical piece of information in the response above is the `conversationId`. We will use that to send messages to and receive messages from, in the context of that conversation.
+The critical piece of information in the response above is the `conversationId`. We'll use that to send messages to and retrieve messages from within the context of that conversation.
 
-You may think *"we already received that same conversation ID in the request token step... did we really need to do this 'start conversation' step?"*. The answer is yes! The conversation must be formally started.
+You might be thinking, *"we already received that same conversation ID in the request token step... did we really need to do this 'start conversation' step?"* The answer is yes. The conversation must be formally started.
 
 ## Step 4: Send a Message
-Now, with that conversation started, we now have a "container" to send messages into.
+Now that the conversation has been started, we have a "container" to send messages into.
 
-We can make a `POST` call to the `/activities` endpoint with our (the user's) message, passing that `conversationId` into the URL we are POST'ing to:
+We can make a `POST` call to the `/activities` endpoint with our message, passing the `conversationId` into the URL we are POSTing to:
 
 ```
 POST https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities
@@ -115,12 +115,12 @@ Will return:
 }
 ```
 
-The response above confirms that the message was received and is now in the conversation. The ID returns has the `conversationId` and the unique index number of this message in that conversation. Since this is the first message in the conversation, it has an index of `0`!
+The response above confirms that the message was received and is now part of the conversation. The returned ID contains the `conversationId` plus the unique index number of this message within that conversation. Since this is the first message in the conversation, it has an index of `0`.
 
 ## Step 5: Retrieve Activities (including Response)
-As soon as you send that message and it responds successfully, your agent is working behind-the-scenes to respond to you! In only a few moments, that response should be available for you to retrieve!
+As soon as you send the message and it is accepted successfully, your agent starts working behind the scenes to respond. Within a few moments, that response should be available for you to retrieve.
 
-We can retrieve a full list of **all activities** (all messages and other activity types) via a `GET` request to the `/activities` endpoint (again, make sure you pass in your `conversationId`!):
+We can retrieve a full list of **all activities** (messages and other activity types) with a `GET` request to the `/activities` endpoint. Again, make sure you pass in your `conversationId`:
 
 ```
 GET https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities
@@ -226,11 +226,11 @@ Will return:
 }
 ```
 
-And as you can see in the response above, we now have a list of all activities (including messages) in the conversation; and we can see our own origianl message and the agent's response to our message! Woohoo!
+As you can see in the response above, we now have a list of all activities in the conversation, including both our original message and the agent's response. Woohoo!
 
-You can continue having this back-and-forth dialog with the agent, sending in a message, and then retrieving its response. As you chat with the agent further, the `activities` will grow as the conversation history grows. To alleviate the need for you to receive and parse *so much* data every time, the Azure Bot Framework API provides the `watermark` property for you to paginate the activity you are receiving.
+You can continue this back-and-forth dialogue with the agent by sending a message and then retrieving its response. As the conversation continues, the `activities` array will keep growing along with the conversation history. To avoid retrieving and parsing so much data every time, the Azure Bot Framework API provides the `watermark` property so you can paginate the activities you receive.
 
-For example, in a subsequent request, you can instead make a `GET` request to `https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities?watermark=1` to *only* request activities *after* the ones you just received (see `watermark` is `1` at the very end of that first call we made), which would return:
+For example, in a subsequent request, you can make a `GET` request to `https://directline.botframework.com/v3/directline/conversations/FBfSqjVTqId8YuZUagotOF-us/activities?watermark=1` to retrieve only the activities *after* the ones you just received. In this case (`watermark` is `1` at the very end of the first call we made), the response would be:
 
 ```
 200 OK
@@ -241,10 +241,10 @@ For example, in a subsequent request, you can instead make a `GET` request to `h
 }
 ```
 
-*(no activities have happened since that first watermark!)*
+*(No activities have occurred since that first watermark.)*
 
 ## Step 6: End the Conversation
-After back-and-forth dialog, the final step is to **end the conversation** once complete.
+After your back-and-forth dialogue is complete, the final step is to **end the conversation**.
 
 This involves a simple `POST` to the `/activities` endpoint again, this time specifying the intent to end the conversation in the body:
 
@@ -258,7 +258,7 @@ Authorization: Bearer eyJhbGciO...
 }
 ```
 
-Will respond with the following, confirming receipt:
+This responds with the following, confirming receipt:
 
 ```
 200 OK
@@ -268,7 +268,7 @@ Will respond with the following, confirming receipt:
 }
 ```
 
-And now, if we re-query the activities at the `/activities` endpoint, we can see that `endOfConversation` activity reflected at the bottom of the list:
+And now, if we query the `/activities` endpoint again, we can see that `endOfConversation` activity reflected at the bottom of the list:
 
 ```
 {
@@ -379,8 +379,8 @@ And now, if we re-query the activities at the `/activities` endpoint, we can see
 ```
 
 ## Summary
-In short, the Direct Line API gives you a straightforward way to interact with your Copilot Studio agent outside of the default chat experience. After publishing your agent and grabbing its token endpoint, you can request a bearer token, start a conversation, send activities, retrieve responses, and formally end the conversation. 
+In short, the Direct Line API gives you a straightforward way to interact with your Copilot Studio agent outside of the default chat experience. After publishing your agent and capturing its token endpoint, you can request a bearer token, start a conversation, send activities, retrieve responses, and formally end the conversation.
 
-If you want to embed your agent into a custom app or automate interactions from your own services, Direct Line provides a simple and flexible path to do it!
+If you want to embed your agent into a custom app or automate interactions from your own services, Direct Line provides a simple and flexible way to do it.
 
 *Written by [Tim Hanewich](https://timhanewich.github.io/), Solution Engineer at Microsoft*.
