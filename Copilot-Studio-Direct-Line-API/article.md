@@ -9,9 +9,9 @@ Official documentation [here](https://learn.microsoft.com/en-us/azure/bot-servic
 ## Prepare your Agent for Direct Line
 ![Turn off authentication](https://i.imgur.com/077M147.png)
 
-![channel to select]()
+![channel to select](https://i.imgur.com/WN3z7tD.jpeg)
 
-![get endpoint]()
+![get endpoint](https://i.imgur.com/5J4gl3q.jpeg)
 
 ## Request Access Token
 ```
