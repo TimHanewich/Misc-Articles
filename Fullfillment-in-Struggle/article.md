@@ -84,14 +84,16 @@ Apart from "the what", described above, I've recently spent time pondering "the 
 
 This is already happening across many industries today.
 
-[MATHEMATICS CALLS FOR BAN ON AI]
+As I write this, mathmeticians are struggling to accept the changes that the recent advancemens and discoveries in the field that the latest models by OpenAI have solved:
+![mathematics](https://i.imgur.com/kBBTVMe.png)
 
-[PROGRAMMERS FEEL WHAT IS THE POINT APPOVING CLAUDE CODE]
+A humorous meme about workers using Claude Code (a coding agent), becoming numb reviewing its work and simply accepting (delegating all cognition to the AI):
+![devs](https://i.imgur.com/mPBrZVz.png)
 
-[NYC AND LA SCHOOLS BAN AI]
+NYC place a moratorium on AI use in schools to preserve youth critical reasoning and development.
+![ai](https://i.imgur.com/wPoEzsW.png)
 
-
-
+Above are only three recent examples of resistance against the changes that AI is bringing about. We are still in the very early days of AI, four years since ChatGPT brought the technology to the masses and spurred a wave of investment and discovery, now called ["The AI Boom"](https://en.wikipedia.org/wiki/AI_boom) that we are living in right now. AI will continue rippling through the remainder of the global economy and impact other areas, eventually all in time.
 
 
 ## SOLUTIONS
