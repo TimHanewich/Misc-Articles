@@ -5,7 +5,19 @@ The past 12 months of my career have been challenging as I've been forced to rea
 
 
 ## HOW DID WE GET HERE? CULTURE
-Culture of western world puts onus on performance and productivity. Story of the fisherman
+```
+A New York businessman on vacation meets a Mexican fisherman.
+
+The fisherman explains that he fishes for only a few hours each day. He spends most of his time drinking wine in the sunshine and playing music with friends.
+
+The businessman suggests that he work harder and use the extra money to buy more boats. He could hire others to do the fishing, build a successful business, and make millions.
+
+Then, the businessman explains, he could retire early.
+
+The fisherman asks what he would do after retiring.
+
+The businessman answers that he could spend his days drinking wine in the sunshine and playing music with friends.
+```
 
 I have only done a small amount of world travels and have not immersed myself in various world cultures like many travel-hungry folks may have. But I am aware of the beast that is "Western Culture" that I have been raised in and how it may compare and contrast to other world cultures. Western culture's fixation on productivity has very deep roots that stems back many generation:
 - Religions like Protestantism viewed work as a "saving grace" that may enable the common man to reach salvation
@@ -47,7 +59,7 @@ Zoo animals unhappy with everything free and provided. Depressed. But when you p
 
 The very first zoo was in 3500 BCE, discovered by archaelogisits in Egypt found remains of animals that appear to have been kept in capacity. And in the 5,000+ years since then, the psychological wellbeing of animals in captivity has been a serious problem for zoo operators!
 
-[PICTURE OF DEPRESSED TIGER]
+[tiger](https://i.imgur.com/s8pxdiu.png)
 
 In a zoo environment, every possible need of an animal is provided to them with no required level of effort by the animal: food, shelter, healthcare, and protection. Captivity has entirely removed the challenges these animals face and must overcome by foraging, hunting, outrunning predators, etc. While it may seem this is a utopia perfect for any animal that would otherwise be facing the risks of the wild, it is truly far from it.
 
