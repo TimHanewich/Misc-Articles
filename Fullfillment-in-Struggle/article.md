@@ -1,4 +1,6 @@
 # Fullfillment in Struggle
+![img](https://i.imgur.com/NocjxgA.jpeg)
+
 ```
 A New York businessman on vacation meets a Mexican fisherman.
 
