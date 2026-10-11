@@ -65,6 +65,8 @@ It is such an interesting aspect of the animal psyche that a "utopia" in which e
 
 Something within these animals is wired to gain satisfaction and fulfillment from "the struggle" itself. And don't think this is limited to just animals - we as humans also have had this issue for decades on the physical side of our lives! The industrial revolution and years thereafter brought about the heavy use of machinery to perform the physical demands of the economy. As it has, our physical bodies have become weaker and weaker, atrophying. But we invented a solution! The gym: artificial physical work for the sake of satisfying our animalistic need of maintaining our physical bodies which also greatly influences our psychological happiness.
 
+The point isn't that we need suffering or insecurity. It's that we need opportunities to choose challenges, develop abilities, and exercise agency.
+
 The intellectual information economy we have developed is our modern day society is the equivalent of the hunting, foraging,  shelter building, and all the other important things that fulfills a wild animals life. This has become our way of remaining intellectually active, and a sense of purpose and meaning in our life.
 
 The invention of machinery removed the need for human physical labor. The invention of AI that reasons and thinks may reduce the economic demand for some forms of human intellectual work. We may be moving towards a future in which apply ourselves is going to become optional, with much of the rewards we have been working towards (money, housing, etc.) provided to us automatically in the form of universal basic income, produced by the gains of AI; a "zoo" of sorts.
