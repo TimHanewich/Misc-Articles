@@ -1,7 +1,9 @@
-## INTRO
-Turn a new decade soon. Evaluating what my life with being and the world my eventual children will be encountering.
+# Fullfillment in Struggle
+Later this year I will be turning a new decade. I, as with everyone, only get several "new decade" birthdays so I've used the past several months as an opportunity to both look back at how I've developed into the person and professional I am today, while also looking ahead at the very hazy outline of a future in which I will need to continue to reinvent myself to remain spiritually fulfilled.
 
-The past 12 months of my career have been challenging as I've been forced to reassess what skills to focus on developing that will serve me through the remainder of my career.
+I'm in my eigth year of my career in the technology space, at which point I can roughly bifurcate my career exactly into two segments: four years *before* the dawn of generative AI and four years *after* the dawn of generative AI. I look back quite often at how the years *before* looked so different than the years *after*. The areas in which I place my focus and energy in today look *nothing* like they did in the years prior to the dawn of generative AI.
+
+While I certainly still encounter challenges and opportunities for growth in my profession, I notice the technical skills I worked *very* hard to acquire for *many* years prior (that also were a source of employability) are now collecting dust on a shelf, only infrequenlty necessitated in the day-to-day needs of my work. This, of course, has been brought about from the advancements in Artificial Intelligence and the recent applications of AI in the form of modern coding agents and work-oriented agents, in which more and more can be delegated: no longer just simple knowledge based questions, but actual *reasoning* and *problem solving*.
 
 
 ## HOW DID WE GET HERE? CULTURE
