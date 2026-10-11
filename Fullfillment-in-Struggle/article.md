@@ -1,20 +1,6 @@
 # Fulfillment in Struggle
 ![img](https://i.imgur.com/NocjxgA.jpeg)
 
-```
-A New York businessman on vacation meets a Mexican fisherman.
-
-The fisherman explains that he fishes for only a few hours each day. He spends most of his time drinking wine in the sunshine and playing music with friends.
-
-The businessman suggests working harder and using the extra money to buy more boats. He could hire others to fish, build a successful business, and make millions.
-
-Then, the businessman explains, he could retire early.
-
-The fisherman asks what he would do after retiring.
-
-The businessman answers that he could spend his days drinking wine in the sunshine and playing music with friends.
-```
-
 I haven't traveled widely or immersed myself in other cultures as much as many travel-hungry folks have. But I recognize the beast that is "Western Culture," which raised me, and how it may compare with other cultures. Western culture's fixation on productivity has roots stretching back generations:
 - Religions like Protestantism viewed work as a "saving grace" that might lead the common person to salvation.
 - The Industrial Revolution introduced the time clock, making time a measured unit of production.
