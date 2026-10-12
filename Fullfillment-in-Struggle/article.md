@@ -15,7 +15,7 @@ As early as elementary school, children are taught to pursue good grades to qual
 This "hustle" mentality is rooted in the developed world's culture and reinforced across generations. While this mindset has produced one of the world's most prosperous nations, it has also tightly tied human identity and worth to the productivity and success that innate abilities and hard-earned skills make possible.
 
 ## THE DISRUPTION: AI
-Since the dawn of civilization, human effort, both labor and intellect, has driven economic development. Over time, capital (machinery) entered the mix and automated much of that labor. This has increasingly shifted human work toward information economy ("white collar") jobs, where intellectual output is the valuable contribution.
+Since the dawn of civilization, human effort, both labor and intellect, has driven economic development. Over time, capital (machinery) entered the mix and automated much of that labor. This has increasingly shifted human work toward information economy ("white-collar") jobs, where intellectual output is the valuable contribution.
 
 For decades, as machines took over physical labor, human workers moved toward "higher ground", where intellect was the product they delivered. True intelligence was always beyond a machine's reach, making intellectual pursuits a refuge of security and value.
 
@@ -26,7 +26,7 @@ For the first time in history, *critical thinking* can be delegated to a machine
 This will have massive implications for the economy and the future job market. Economists much smarter than me are forecasting what the coming decades might look like (probably with AI's assistance!). In this post, I don't want to pontificate about the economy's future, but about what this change might bring to the human spirit.
 
 ## THE PROBLEM
-As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks, first out of a desire for efficiency (profit) and later out of necessity. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
+As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks, first out of a desire for efficiency (profit) and later out of necessity. If this happens at scale, millions of white-collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
 
 According to Pew Research, a [2016 study](https://www.pewresearch.org/social-trends/2016/10/06/3-how-americans-view-their-jobs/) found that 51% of Americans derive a sense of identity from their jobs, rising to 66% in STEM fields. That identity may slowly be pried away as AI performs these roles' technical tasks more efficiently and cheaply.
 
@@ -35,7 +35,7 @@ Resistance to these changes is already appearing across many industries.
 As I write this, mathematicians are struggling to accept the changes brought by recent advances and discoveries from OpenAI's latest models:
 ![mathematics](https://i.imgur.com/kBBTVMe.png)
 
-In March 2026, the [Communication Workers of America argued that unions are necessary](https://cwa-union.org/sites/default/files/2026-03/cwanews-2026-spring.pdf) against AI to retain worker value.
+In March 2026, the [Communications Workers of America argued that unions are necessary](https://cwa-union.org/sites/default/files/2026-03/cwanews-2026-spring.pdf) against AI to retain worker value.
 ![cwa](https://i.imgur.com/wwJivNb.png)
 
 In April 2026, [ProPublica journalists staged a 24-hour walkout](https://www.thewrap.com/media-platforms/journalism/propublica-union-walkout-ai-contract-negotiations/) in light of management refusing to agree to not replace journalists with AI.
@@ -52,7 +52,7 @@ In a zoo, animals receive food, shelter, healthcare, and protection without havi
 
 Zoo animals are unhappy even with everything provided for free. They become depressed. Yet in the wild, where they struggle and face death around every corner, they thrive.
 
-[tiger](https://i.imgur.com/s8pxdiu.png)
+![tiger](https://i.imgur.com/s8pxdiu.png)
 
 The first zoo dates to 3500 BCE, based on animal remains archaeologists discovered in Egypt that appear to indicate captivity. In the more than 5,000 years since, captive animals' psychological well-being has been a serious problem for zoo operators!
 
