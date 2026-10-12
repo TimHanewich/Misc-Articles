@@ -28,8 +28,6 @@ This will have massive implications for the economy and the future job market. E
 ## THE PROBLEM
 As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks, first out of a desire for efficiency (profit) and later out of necessity. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
 
-As AI becomes more capable and widely applied, many skills workers spent decades developing and relying on for job and financial security will lose value. This sudden shift will be difficult to reckon with, and unlike anything previous generations have faced.
-
 According to Pew Research, a [2016 study](https://www.pewresearch.org/social-trends/2016/10/06/3-how-americans-view-their-jobs/) found that 51% of Americans derive a sense of identity from their jobs, rising to 66% in STEM fields. That identity may slowly be pried away as AI performs these roles' technical tasks more efficiently and cheaply.
 
 Resistance to these changes is already appearing across many industries.
