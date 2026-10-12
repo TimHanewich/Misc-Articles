@@ -46,7 +46,6 @@ NYC placed a moratorium on AI use in schools to preserve young people's critical
 These are just three recent examples of resistance to AI-driven changes. We are still in AI's early days, four years after ChatGPT brought the technology to the masses and sparked the wave of investment and discovery now called ["The AI Boom"](https://en.wikipedia.org/wiki/AI_boom). AI will continue rippling through the global economy, eventually reaching every area.
 
 ## THE RISK THIS POSES
-
 Many predict a future "utopia" in which AI drives > 95% of the economy and human work becomes optional. In this theoretical situation, humans may receive Universal Basic Income (UBI) checks simply for existing, funded by heavy taxation of AI-performed economic activity combined with proceeds from a "sovereign wealth fund" representing public ownership of AI infrastructure or capital.
 
 For many, getting paid to do nothing while endlessly watching a favorite show with a glass of red wine sounds appealing, but I believe the enjoyment would be short-lived.
