@@ -25,42 +25,13 @@ This will have massive implications for the economy and the future job market. E
 
 As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
 
-## THE RISK THIS POSES
-
-Many predict a future "utopia" in which AI drives > 95% of the economy and human work becomes optional. In this theoretical situation, humans may receive Universal Basic Income (UBI) checks simply for existing, funded by heavy taxation of AI-performed economic activity combined with proceeds from a "sovereign wealth fund" representing public ownership of AI infrastructure or capital.
-
-For many, getting paid to do nothing while endlessly watching a favorite show with a glass of red wine sounds appealing, but I believe the enjoyment would be short-lived.
-
-Zoo animals are unhappy even with everything provided for free. They become depressed. Yet in the wild, where they struggle and face death around every corner, they thrive.
-
-The first zoo dates to 3500 BCE, based on animal remains archaeologists discovered in Egypt that appear to indicate captivity. In the more than 5,000 years since, captive animals' psychological well-being has been a serious problem for zoo operators!
-
-[tiger](https://i.imgur.com/s8pxdiu.png)
-
-In a zoo, animals receive food, shelter, healthcare, and protection without having to earn them. Captivity removes the challenges of foraging, hunting, escaping predators, and similar activities. Although this may seem like a utopia for animals otherwise facing the risks of the wild, it is far from one.
-
-Many zoo animals in this "utopia" suffer from depression, boredom, and an inability to influence their surroundings through their own efforts. For centuries, veterinarians and animal behaviorists have studied this and introduced artificial challenges and threats: puzzle feeders, hidden food, new objects, varied terrain, and stimulating activities. These efforts have modestly improved captive animals' psychological well-being.
-
-It is striking that a "utopia" providing every need without effort can offer less fulfillment than an environment where every meal must be fought for, an injury may mean death, and a predator may be ready to pounce.
-
-Something in these animals is wired to find satisfaction and fulfillment in "the struggle" itself. This isn't limited to other animals; humans have faced a similar issue in our physical lives for decades! The Industrial Revolution and subsequent years brought widespread machinery to meet the economy's physical demands. As a result, our bodies have grown weaker and atrophied. But we invented a solution! The gym: artificial physical work that satisfies our animal need to maintain our bodies and supports our psychological happiness.
-
-The point isn't that we need suffering or insecurity. It's that we need opportunities to choose challenges, develop abilities, and exercise agency.
-
-Our modern information economy is the equivalent of hunting, foraging, building shelter, and other activities that fulfill a wild animal's life. It has become our way of staying intellectually active and finding purpose and meaning.
-
-Machinery removed the need for human *physical* labor. AI that reasons and thinks may reduce economic demand for some forms of human *intellectual* work. We may be moving toward a future where applying ourselves becomes optional, with rewards we once worked toward (money, housing, etc.) provided automatically through UBI funded by AI's gains: a "zoo" of sorts.
-
 ## THE PROBLEM
-Where will this leave us? In a Western world obsessed with productivity and an identity tied to intellectual output, entering "a zoo" where effort is no longer required will be shattering for many.
 
 As AI becomes more capable and widely applied, some skills workers spent decades developing and relying on for job and financial security may lose value. This sudden shift will be difficult to reckon with, and unlike anything previous generations have faced.
 
-Beyond "the what" described above, I've recently been pondering "the why." Why does the absence of challenges and struggle pose such an existential burden for humans? Two reasons come to mind:
-1. We are wired that way as animals. Evolution has "wired" our brains' chemical receptors to reward us when we "do a good job." We face a challenge and solve a problem. It feels good.
-2. Western culture, increasingly global, ties self-worth and identity to intellectual output. Our intelligence is a tool for accomplishment. With nothing left to accomplish through our own abilities, we lose our sense of self-value.
+According to Pew Research, a [2016 study](https://www.pewresearch.org/social-trends/2016/10/06/3-how-americans-view-their-jobs/) found that 51% of Americans derive a sense of identity from their jobs, rising to 66% in STEM fields. That identity may slowly be pried away as AI performs these roles' technical tasks more efficiently and cheaply.
 
-This is already happening across many industries.
+Resistance to these changes is already appearing across many industries.
 
 As I write this, mathematicians are struggling to accept the changes brought by recent advances and discoveries from OpenAI's latest models:
 ![mathematics](https://i.imgur.com/kBBTVMe.png)
@@ -73,7 +44,39 @@ NYC placed a moratorium on AI use in schools to preserve young people's critical
 
 These are just three recent examples of resistance to AI-driven changes. We are still in AI's early days, four years after ChatGPT brought the technology to the masses and sparked the wave of investment and discovery now called ["The AI Boom"](https://en.wikipedia.org/wiki/AI_boom). AI will continue rippling through the global economy, eventually reaching every area.
 
-According to Pew Research, a [2016 study](https://www.pewresearch.org/social-trends/2016/10/06/3-how-americans-view-their-jobs/) found that 51% of Americans derive a sense of identity from their jobs, rising to 66% in STEM fields. That identity may slowly be pried away as AI performs these roles' technical tasks more efficiently and cheaply.
+## THE RISK THIS POSES
+
+Many predict a future "utopia" in which AI drives > 95% of the economy and human work becomes optional. In this theoretical situation, humans may receive Universal Basic Income (UBI) checks simply for existing, funded by heavy taxation of AI-performed economic activity combined with proceeds from a "sovereign wealth fund" representing public ownership of AI infrastructure or capital.
+
+For many, getting paid to do nothing while endlessly watching a favorite show with a glass of red wine sounds appealing, but I believe the enjoyment would be short-lived.
+
+In a zoo, animals receive food, shelter, healthcare, and protection without having to earn them. Captivity removes the challenges of foraging, hunting, escaping predators, and similar activities. Although this may seem like a utopia for animals otherwise facing the risks of the wild, it is far from one.
+
+Zoo animals are unhappy even with everything provided for free. They become depressed. Yet in the wild, where they struggle and face death around every corner, they thrive.
+
+[tiger](https://i.imgur.com/s8pxdiu.png)
+
+The first zoo dates to 3500 BCE, based on animal remains archaeologists discovered in Egypt that appear to indicate captivity. In the more than 5,000 years since, captive animals' psychological well-being has been a serious problem for zoo operators!
+
+Many zoo animals in this "utopia" suffer from depression, boredom, and an inability to influence their surroundings through their own efforts. For centuries, veterinarians and animal behaviorists have studied this and introduced artificial challenges and threats: puzzle feeders, hidden food, new objects, varied terrain, and stimulating activities. These efforts have modestly improved captive animals' psychological well-being.
+
+It is striking that a "utopia" providing every need without effort can offer less fulfillment than an environment where every meal must be fought for, an injury may mean death, and a predator may be ready to pounce.
+
+Something in these animals is wired to find satisfaction and fulfillment in "the struggle" itself.
+
+This isn't limited to other animals; humans have faced a similar issue in our physical lives for decades! The Industrial Revolution and subsequent years brought widespread machinery to meet the economy's physical demands. As a result, our bodies have grown weaker and atrophied. But we invented a solution! The gym: artificial physical work that satisfies our animal need to maintain our bodies and supports our psychological happiness.
+
+The point isn't that we need suffering or insecurity. It's that we need opportunities to choose challenges, develop abilities, and exercise agency.
+
+Our modern information economy is the equivalent of hunting, foraging, building shelter, and other activities that fulfill a wild animal's life. It has become our way of staying intellectually active and finding purpose and meaning.
+
+Machinery removed the need for human *physical* labor. AI that reasons and thinks may reduce economic demand for some forms of human *intellectual* work. We may be moving toward a future where applying ourselves becomes optional, with rewards we once worked toward (money, housing, etc.) provided automatically through UBI funded by AI's gains: a "zoo" of sorts.
+
+Where will this leave us? In a Western world obsessed with productivity and an identity tied to intellectual output, entering "a zoo" where effort is no longer required will be shattering for many.
+
+Beyond "the what" described above, I've recently been pondering "the why." Why does the absence of challenges and struggle pose such an existential burden for humans? Two reasons come to mind:
+1. We are wired that way as animals. Evolution has "wired" our brains' chemical receptors to reward us when we "do a good job." We face a challenge and solve a problem. It feels good.
+2. Western culture, increasingly global, ties self-worth and identity to intellectual output. Our intelligence is a tool for accomplishment. With nothing left to accomplish through our own abilities, we lose our sense of self-value.
 
 ## THE PATH AHEAD
 As some technical skills potentially become less economically valuable, where does this leave human labor? Time will tell whether humans can turn to "higher ground" (e.g. greater emphasis on human-to-human interaction), but meanwhile, millions of workers employed for their technical prowess will need to reassess their investments in learning and effort. This may be a bitter pill to swallow.
