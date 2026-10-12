@@ -14,7 +14,7 @@ As early as elementary school, children are taught to pursue good grades to qual
 
 This "hustle" mentality is rooted in the developed world's culture and reinforced across generations. While this mindset has produced one of the world's most prosperous nations, it has also tightly tied human identity and worth to the productivity and success that innate abilities and hard-earned skills make possible.
 
-## THE DISRUPTION: AI
+## The Disruption
 Since the dawn of civilization, human effort, both labor and intellect, has driven economic development. Over time, capital (machinery) entered the mix and automated much of that labor. This has increasingly shifted human work toward information economy ("white-collar") jobs, where intellectual output is the valuable contribution.
 
 For decades, as machines took over physical labor, human workers moved toward "higher ground", where intellect was the product they delivered. True intelligence was always beyond a machine's reach, making intellectual pursuits a refuge of security and value.
@@ -25,7 +25,7 @@ For the first time in history, *critical thinking* can be delegated to a machine
 
 This will have massive implications for the economy and the future job market. Economists much smarter than me are forecasting what the coming decades might look like (probably with AI's assistance!). In this post, I don't want to pontificate about the economy's future, but about what this change might bring to the human spirit.
 
-## THE PROBLEM
+## The Problem
 As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks, first out of a desire for efficiency (profit) and later out of necessity. If this happens at scale, millions of white-collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
 
 According to Pew Research, a [2016 study](https://www.pewresearch.org/social-trends/2016/10/06/3-how-americans-view-their-jobs/) found that 51% of Americans derive a sense of identity from their jobs, rising to 66% in STEM fields. That identity may slowly be pried away as AI performs these roles' technical tasks more efficiently and cheaply.
@@ -43,7 +43,7 @@ In April 2026, [ProPublica journalists staged a 24-hour walkout](https://www.the
 
 These are just three recent examples of resistance to AI-driven changes. We are still in AI's early days, four years after ChatGPT brought the technology to the masses and sparked the wave of investment and discovery now called ["The AI Boom"](https://en.wikipedia.org/wiki/AI_boom). AI will continue rippling through the global economy, eventually reaching every area.
 
-## THE RISK THIS POSES
+## The Risk
 Many predict a future "utopia" in which AI drives much of the economy while human work becomes optional. In this theoretical situation, humans may receive Universal Basic Income (UBI) checks simply for existing, funded by heavy taxation of AI-performed economic activity combined with proceeds from a "sovereign wealth fund" representing public ownership of AI infrastructure or capital.
 
 For many, getting paid to do nothing while endlessly watching a favorite show with a glass of red wine sounds appealing, but I believe the enjoyment would be short-lived.
@@ -76,7 +76,7 @@ Beyond "the what" described above, I've recently been pondering "the why." Why d
 1. We are wired that way as animals. Evolution has "wired" our brains' chemical receptors to reward us when we "do a good job." We face a challenge and solve a problem. It feels good.
 2. Western culture, increasingly global, ties self-worth and identity to intellectual output. Our intelligence is a tool for accomplishment. With nothing left to accomplish through our own abilities, we lose our sense of self-value.
 
-## THE PATH AHEAD
+## The Path Ahead
 As some technical skills potentially become less economically valuable, where does this leave human labor? Time will tell whether humans can turn to "higher ground" (e.g. greater emphasis on human-to-human interaction), but meanwhile, millions of workers employed for their technical prowess will need to reassess their investments in learning and effort. This may be a bitter pill to swallow.
 
 **Detach identity from productivity**. As mentioned above, Western culture heavily ties worth to economic productivity, often rooted in specialized skills that took years to acquire. A first step is to undo this: to *decouple* identity from productivity. This adjustment will likely occur at both individual and generational levels, through personal emotional struggles and broader cultural changes. Three generations from now, writing code or analyzing data may be viewed like bragging today about how quickly one washes clothes with a washboard!
