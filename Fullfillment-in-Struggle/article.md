@@ -1,5 +1,5 @@
 # Fulfillment in Struggle
-![img](https://i.imgur.com/NocjxgA.jpeg)
+![img](https://i.imgur.com/bBdPC8E.jpeg)
 
 Growing up in Western culture, I've seen how heavily *productivity* and *hustle* can be instilled from such an early age. That emphasis has roots stretching back generations:
 - Religions like Protestantism viewed work as a "saving grace" that might lead the common person to salvation.
