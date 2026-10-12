@@ -8,13 +8,11 @@ I haven't traveled widely or immersed myself in other cultures as much as many t
 
 In terms of economic output, this has served the US well! This productivity-focused culture helped create one of the world's most prosperous economies, establishing the US as a superpower despite its relative youth compared with historical superpowers.
 
-A prosperous economy brings many benefits (better quality of life, healthcare, safety, abundant nutrition, etc.), but it also has side effects.
-
-Identity becomes tightly tied to economic output, occupation, and the importance of one's role.
+A prosperous economy brings many benefits (better quality of life, healthcare, safety, abundant nutrition, etc.), but it also has side effects. Identity becomes tightly tied to economic output, occupation, and professional success:
 
 As early as elementary school, children are taught to pursue good grades to qualify for advanced placement classes in high school. High school students are pushed to score well on placement exams to enter the best universities. University students are pushed to secure Fortune 500 internships to improve their chances of a lucrative career. New graduates are encouraged to work long hours to earn promotions. Those promoted are encouraged to take leadership positions for greater impact. Those in leadership are encouraged to climb further and lead entire organizations.
 
-While this mindset has produced one of the world's most prosperous nations, it has also tightly tied human identity and worth to the productivity and success achievable through innate abilities and hard-earned skills. For many, these become a source of self-worth.
+The driving force behind this "hustle" mentality is cultural, steeped in the culture of the developed world, spanning and reinforced through multiple generations. While this mindset has produced one of the world's most prosperous nations, it has also tightly tied human identity and worth to the productivity and success achievable through innate abilities and hard-earned skills.
 
 ## THE DISRUPTION: AI
 Since the dawn of civilization, human effort, both labor and intellect, has driven economic development. Over time, capital (machinery) entered the mix and automated much of that labor. This has increasingly shifted human work toward information economy ("white collar") jobs, where intellectual output is the valuable contribution.
@@ -28,8 +26,6 @@ This AI-delivered intellect is faster, deeper, cheaper, and more widely availabl
 This will have massive implications for the economy and the future job market. Economists much smarter than me are forecasting what the coming decades might look like (probably with AI's assistance!). In this post, I don't want to pontificate about the economy's future, but about what this change might bring to the human spirit.
 
 As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies may reduce their reliance on human intellect for some tasks. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
-
-
 
 ## THE RISK THIS POSES
 
