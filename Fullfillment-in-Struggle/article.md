@@ -35,11 +35,11 @@ Resistance to these changes is already appearing across many industries.
 As I write this, mathematicians are struggling to accept the changes brought by recent advances and discoveries from OpenAI's latest models:
 ![mathematics](https://i.imgur.com/kBBTVMe.png)
 
-A humorous meme depicts Claude Code users becoming numb to reviewing the coding agent's work and simply accepting it, delegating all cognition to AI:
-![devs](https://i.imgur.com/mPBrZVz.png)
-
 NYC placed a moratorium on AI use in schools to preserve young people's critical reasoning and development.
 ![ai](https://i.imgur.com/wPoEzsW.png)
+
+In April 2026, [ProPublica journalists staged a 24-hour walkout](https://www.thewrap.com/media-platforms/journalism/propublica-union-walkout-ai-contract-negotiations/) in light of management refusing to agree to not replace journalists with AI.
+![propublica](https://i.imgur.com/W0nIWsC.png)
 
 These are just three recent examples of resistance to AI-driven changes. We are still in AI's early days, four years after ChatGPT brought the technology to the masses and sparked the wave of investment and discovery now called ["The AI Boom"](https://en.wikipedia.org/wiki/AI_boom). AI will continue rippling through the global economy, eventually reaching every area.
 
