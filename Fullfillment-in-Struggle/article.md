@@ -1,14 +1,14 @@
 # Fulfillment in Struggle
 ![img](https://i.imgur.com/NocjxgA.jpeg)
 
-I haven't traveled widely or immersed myself in other cultures as much as many travel-hungry folks have. But I recognize the beast that is "Western Culture," which raised me, and how it may compare with other cultures. Western culture's fixation on productivity has roots stretching back generations:
+Growing up in Western culture, I've seen how heavily *producitivty* and *hustle* can be instilled from such an early age. That emphasis has roots stretching back generations:
 - Religions like Protestantism viewed work as a "saving grace" that might lead the common person to salvation.
 - The Industrial Revolution introduced the time clock, making time a measured unit of production.
 - Management science in the 90s began treating the labor force as a resource to optimize for maximum productivity.
 
 In terms of economic output, this has served the US well! This productivity-focused culture helped create one of the world's most prosperous economies, establishing the US as a superpower despite its relative youth compared with historical superpowers.
 
-A prosperous economy brings many benefits (better quality of life, healthcare, safety, abundant nutrition, etc.), but it also has side effects. Identity becomes tightly tied to economic output, occupation, and professional success:
+A prosperous economy brings many benefits (better quality of life, healthcare, safety, abundant nutrition, etc.), but it can also has side effects.
 
 As early as elementary school, children are taught to pursue good grades to qualify for advanced placement classes in high school. High school students are pushed to score well on placement exams to enter the best universities. University students are pushed to secure Fortune 500 internships to improve their chances of a lucrative career. New graduates are encouraged to work long hours to earn promotions. Those promoted are encouraged to take leadership positions for greater impact. Those in leadership are encouraged to climb further and lead entire organizations.
 
