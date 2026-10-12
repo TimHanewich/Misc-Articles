@@ -17,17 +17,18 @@ This "hustle" mentality is rooted in the developed world's culture and reinforce
 ## THE DISRUPTION: AI
 Since the dawn of civilization, human effort, both labor and intellect, has driven economic development. Over time, capital (machinery) entered the mix and automated much of that labor. This has increasingly shifted human work toward information economy ("white collar") jobs, where intellectual output is the valuable contribution.
 
-Human effort has always been the sole driving force of the world economy. That has now changed. Artificial Intelligence has proven capable of participating directly in the economy and serving in many roles humans hold today.
+For decades, as machines took over physical labor, human workers moved toward "higher ground", where intellect was the product they delivered. True intelligence was always beyond a machine's reach, making intellectual pursuits a refuge of security and value.
 
-For the first time in history, critical thinking can be delegated to a machine. Human cognition is no longer the only source of intellect. This AI-delivered intellect is faster, deeper, cheaper, and more widely available. In a capitalist economy, this will drive massive shifts as the cost and time required to deliver intelligence fall dramatically before our eyes.
+**That has now changed.** Artificial Intelligence has proven capable of participating directly in the information economy and serving in many roles humans hold today.
+
+For the first time in history, *critical thinking* can be delegated to a machine. Human cognition is no longer the *only* source of intellect. Moreover, this machine-delivered intelligence is faster, deeper, cheaper, and more widely available. In a capitalist economy, this will drive massive shifts as the cost and time required to deliver intelligence falls dramatically before our eyes.
 
 This will have massive implications for the economy and the future job market. Economists much smarter than me are forecasting what the coming decades might look like (probably with AI's assistance!). In this post, I don't want to pontificate about the economy's future, but about what this change might bring to the human spirit.
 
-As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
-
 ## THE PROBLEM
+As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks, first out of a desire for efficiency (profit) and latter out of necessity. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
 
-As AI becomes more capable and widely applied, some skills workers spent decades developing and relying on for job and financial security may lose value. This sudden shift will be difficult to reckon with, and unlike anything previous generations have faced.
+As AI becomes more capable and widely applied, many skills workers spent decades developing and relying on for job and financial security will lose value. This sudden shift will be difficult to reckon with, and unlike anything previous generations have faced.
 
 According to Pew Research, a [2016 study](https://www.pewresearch.org/social-trends/2016/10/06/3-how-americans-view-their-jobs/) found that 51% of Americans derive a sense of identity from their jobs, rising to 66% in STEM fields. That identity may slowly be pried away as AI performs these roles' technical tasks more efficiently and cheaply.
 
