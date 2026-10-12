@@ -12,24 +12,22 @@ A prosperous economy brings many benefits (better quality of life, healthcare, s
 
 As early as elementary school, children are taught to pursue good grades to qualify for advanced placement classes in high school. High school students are pushed to score well on placement exams to enter the best universities. University students are pushed to secure Fortune 500 internships to improve their chances of a lucrative career. New graduates are encouraged to work long hours to earn promotions. Those promoted are encouraged to take leadership positions for greater impact. Those in leadership are encouraged to climb further and lead entire organizations.
 
-The driving force behind this "hustle" mentality is cultural, steeped in the culture of the developed world, spanning and reinforced through multiple generations. While this mindset has produced one of the world's most prosperous nations, it has also tightly tied human identity and worth to the productivity and success achievable through innate abilities and hard-earned skills.
+This "hustle" mentality is rooted in the developed world's culture and reinforced across generations. While this mindset has produced one of the world's most prosperous nations, it has also tightly tied human identity and worth to the productivity and success that innate abilities and hard-earned skills make possible.
 
 ## THE DISRUPTION: AI
 Since the dawn of civilization, human effort, both labor and intellect, has driven economic development. Over time, capital (machinery) entered the mix and automated much of that labor. This has increasingly shifted human work toward information economy ("white collar") jobs, where intellectual output is the valuable contribution.
 
-Since the dawn of humanity, human effort was the sole primary force driving the world economy. That has now changed. Artificial Intelligence has proven capable of participating directly in the economy and serving in many roles humans hold today.
+Human effort has always been the sole driving force of the world economy. That has now changed. Artificial Intelligence has proven capable of participating directly in the economy and serving in many roles humans hold today.
 
-For the first time in history, critical thinking can be delegated to a machine. Human cognition is no longer the only source of intellect.
-
-This AI-delivered intellect is faster, deeper, cheaper, and more widely available. In a capitalist economy, this will drive massive shifts as the cost and time required to deliver intelligence fall dramatically before our eyes.
+For the first time in history, critical thinking can be delegated to a machine. Human cognition is no longer the only source of intellect. This AI-delivered intellect is faster, deeper, cheaper, and more widely available. In a capitalist economy, this will drive massive shifts as the cost and time required to deliver intelligence fall dramatically before our eyes.
 
 This will have massive implications for the economy and the future job market. Economists much smarter than me are forecasting what the coming decades might look like (probably with AI's assistance!). In this post, I don't want to pontificate about the economy's future, but about what this change might bring to the human spirit.
 
-As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies may reduce their reliance on human intellect for some tasks. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
+As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
 
 ## THE RISK THIS POSES
 
-Many predict a future "utopia" in which AI drives > 95% of the economy and human work becomes optional. Humans will receive Universal Basic Income (UBI) checks simply for existing, funded by heavy taxation of AI-performed economic transactions and proceeds from a "sovereign wealth fund" representing public ownership of AI infrastructure or capital.
+Many predict a future "utopia" in which AI drives > 95% of the economy and human work becomes optional. In this theoretical situation, humans may receive Universal Basic Income (UBI) checks simply for existing, funded by heavy taxation of AI-performed economic activity combined with proceeds from a "sovereign wealth fund" representing public ownership of AI infrastructure or capital.
 
 For many, getting paid to do nothing while endlessly watching a favorite show with a glass of red wine sounds appealing, but I believe the enjoyment would be short-lived.
 
@@ -51,7 +49,7 @@ The point isn't that we need suffering or insecurity. It's that we need opportun
 
 Our modern information economy is the equivalent of hunting, foraging, building shelter, and other activities that fulfill a wild animal's life. It has become our way of staying intellectually active and finding purpose and meaning.
 
-Machinery removed the need for human physical labor. AI that reasons and thinks may reduce economic demand for some forms of human intellectual work. We may be moving toward a future where applying ourselves becomes optional, with rewards we once worked toward (money, housing, etc.) provided automatically through UBI funded by AI's gains: a "zoo" of sorts.
+Machinery removed the need for human *physical* labor. AI that reasons and thinks may reduce economic demand for some forms of human *intellectual* work. We may be moving toward a future where applying ourselves becomes optional, with rewards we once worked toward (money, housing, etc.) provided automatically through UBI funded by AI's gains: a "zoo" of sorts.
 
 ## THE PROBLEM
 Where will this leave us? In a Western world obsessed with productivity and an identity tied to intellectual output, entering "a zoo" where effort is no longer required will be shattering for many.
