@@ -1,14 +1,14 @@
 # Fulfillment in Struggle
 ![img](https://i.imgur.com/NocjxgA.jpeg)
 
-Growing up in Western culture, I've seen how heavily *producitivty* and *hustle* can be instilled from such an early age. That emphasis has roots stretching back generations:
+Growing up in Western culture, I've seen how heavily *productivity* and *hustle* can be instilled from such an early age. That emphasis has roots stretching back generations:
 - Religions like Protestantism viewed work as a "saving grace" that might lead the common person to salvation.
 - The Industrial Revolution introduced the time clock, making time a measured unit of production.
 - Management science in the 90s began treating the labor force as a resource to optimize for maximum productivity.
 
 In terms of economic output, this has served the US well! This productivity-focused culture helped create one of the world's most prosperous economies, establishing the US as a superpower despite its relative youth compared with historical superpowers.
 
-A prosperous economy brings many benefits (better quality of life, healthcare, safety, abundant nutrition, etc.), but it can also has side effects.
+A prosperous economy brings many benefits (better quality of life, healthcare, safety, abundant nutrition, etc.), but it can also have side effects.
 
 As early as elementary school, children are taught to pursue good grades to qualify for advanced placement classes in high school. High school students are pushed to score well on placement exams to enter the best universities. University students are pushed to secure Fortune 500 internships to improve their chances of a lucrative career. New graduates are encouraged to work long hours to earn promotions. Those promoted are encouraged to take leadership positions for greater impact. Those in leadership are encouraged to climb further and lead entire organizations.
 
@@ -21,12 +21,12 @@ For decades, as machines took over physical labor, human workers moved toward "h
 
 **That has now changed.** Artificial Intelligence has proven capable of participating directly in the information economy and serving in many roles humans hold today.
 
-For the first time in history, *critical thinking* can be delegated to a machine. Human cognition is no longer the *only* source of intellect. Moreover, this machine-delivered intelligence is faster, deeper, cheaper, and more widely available. In a capitalist economy, this will drive massive shifts as the cost and time required to deliver intelligence falls dramatically before our eyes.
+For the first time in history, *critical thinking* can be delegated to a machine. Human cognition is no longer the *only* source of intellect. Moreover, this machine-delivered intelligence is faster, deeper, cheaper, and more widely available. In a capitalist economy, this will drive massive shifts as the cost and time required to deliver intelligence fall dramatically before our eyes.
 
 This will have massive implications for the economy and the future job market. Economists much smarter than me are forecasting what the coming decades might look like (probably with AI's assistance!). In this post, I don't want to pontificate about the economy's future, but about what this change might bring to the human spirit.
 
 ## THE PROBLEM
-As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks, first out of a desire for efficiency (profit) and latter out of necessity. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
+As mentioned earlier, Western culture emphasizes productivity and intellectual achievement so heavily that they often become tied to self-worth and purpose. With abundant intelligence available at a fraction of the cost and time required by humans, capitalist economies will begin to reduce their reliance on human intellect for many tasks, first out of a desire for efficiency (profit) and later out of necessity. If this happens at scale, millions of white collar workers worldwide could be separated from work they spent decades mastering and building an identity around. For most, this will be a rough wake-up call.
 
 As AI becomes more capable and widely applied, many skills workers spent decades developing and relying on for job and financial security will lose value. This sudden shift will be difficult to reckon with, and unlike anything previous generations have faced.
 
