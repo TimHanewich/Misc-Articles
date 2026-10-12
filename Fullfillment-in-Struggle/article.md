@@ -35,8 +35,8 @@ Resistance to these changes is already appearing across many industries.
 As I write this, mathematicians are struggling to accept the changes brought by recent advances and discoveries from OpenAI's latest models:
 ![mathematics](https://i.imgur.com/kBBTVMe.png)
 
-NYC placed a moratorium on AI use in schools to preserve young people's critical reasoning and development.
-![ai](https://i.imgur.com/wPoEzsW.png)
+In March 2026, the [Communication Workers of America argued that unions are necessary](https://cwa-union.org/sites/default/files/2026-03/cwanews-2026-spring.pdf) against AI to retain worker value.
+![cwa](https://i.imgur.com/wwJivNb.png)
 
 In April 2026, [ProPublica journalists staged a 24-hour walkout](https://www.thewrap.com/media-platforms/journalism/propublica-union-walkout-ai-contract-negotiations/) in light of management refusing to agree to not replace journalists with AI.
 ![propublica](https://i.imgur.com/W0nIWsC.png)
